@@ -1,0 +1,694 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//IGNITE UF//Event Coordinator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IGNITE · Gainesville Innovation Events
+X-WR-TIMEZONE:America/New_York
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ae45d2d5070697ff@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:Postdoc Appreciation: Beyond the Lab
+DTSTART:20260922T160000Z
+DTEND:20260922T173000Z
+LOCATION:Reitz Union Room 2330
+URL:https://startgnv.com/event/postdoc-appreciation-beyond-the-lab/
+DESCRIPTION:Connect with the innovation ecosystem and learn about entrepren
+ eurship and careers beyond academia. Attendees will also have a chance to 
+ meet with the UF Innovate licensing officers. Lunch is provided.\nHosted b
+ y: CIED | Santa Fe College\nstartGNV: https://startgnv.com/event/postdoc-a
+ ppreciation-beyond-the-lab/
+END:VEVENT
+BEGIN:VEVENT
+UID:e646feba134c1d0a@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:Funding Innovation (workshop)
+DTSTART:20260923T140000Z
+DTEND:20260923T150000Z
+LOCATION:UF Innovate | Sid Martin Biotech\, 12085 Research Dr.\, Alachua\, 
+ FL 32615
+URL:https://startgnv.com/event/funding-innovation-workshop/
+DESCRIPTION:The session combines an educational seminar on SBIR/STTR and ot
+ her federal funding opportunities with one-on-one office hours\, giving pa
+ rticipants both a broad understanding of the programs and personalized gui
+ dance tailored to their technology and funding goals.\nThe seminar provide
+ s a practical overview of the U.S. non-dilutive funding ecosystem\, includ
+ ing:\n• Introduction to SBIR/STTR and federal funding opportunities\n•
+  Understanding the differences between agencies (NSF\, NIH\, DoD and other
+ s)\n• Eligibility requirements and program structure\n• How to identif
+ y the right agency for your technology\n• Proposal writing best practice
+ s\n• Common pitfalls and how to avoid them\n• Funding strategy and com
+ mercialization considerations\nParticipants will also have three 20-minute
+  office hour time slots available after the seminar to discuss:\n• Techn
+ ology fit for SBIR/STTR\n• Agency selection\n• Funding strategy\n• P
+ roposal readiness\n• Next steps and commercialization pathway\nAfter reg
+ istering for the event\, you’ll find the available time slots listed in 
+ your confirmation email.About our speakers:Fernando Hernandez\nFernando He
+ rnandez serves as the Vice President of Sales & Operations at Inspiralia U
+ S\, where he leads business development and strategic partnerships. In thi
+ s role\, he collaborates closely with startups\, universities\, incubators
+ \, and innovation ecosystems to help organizations identify\, pursue\, and
+  secure federal funding opportunities that support research\, innovation\,
+  and growth.Berta Okenve\nBerta Okenve serves as the Head of Industry & He
+ alth Projects at Inspiralia US\, where she specializes in helping innovati
+ ve companies secure public funding for research and development. With expe
+ rience supporting more than 100 U.S. and European organizations\, Berta ha
+ s extensive expertise in Life Sciences\, Biotechnology\, Healthcare\, and 
+ navigating funding opportunities through the National Institutes of Health
+  (NIH)\, helping clients successfully access non-dilutive funding to advan
+ ce their innovations.About our sponsor:Inspiralia\nInspiralia is an innova
+ tion funding consultancy specializing in SBIR/STTR programs\, federal gran
+ ts\, innovation funding strategy\, and commercialization support. The firm
+  partners with startups\, universities\, and research organizations to ide
+ ntify funding opportunities\, develop competitive grant proposals\, and ma
+ nage the entire funding process—from opportunity identification through 
+ award management.Thank you to our sponsor:———————UF Innovate
+  | Accelerate\nUF Innovate | Accelerate is the University of Florida’s e
+ ntrepreneurship support program that includes Sid Martin Biotech\, the glo
+ bally recognized biotechnology incubator located in Progress Park in Alach
+ ua\, Florida\, and The Hub\, the globally recognized diversified tech incu
+ bator located in Gainesville’s Innovation District.\nHosted by: CIED | S
+ anta Fe College\nstartGNV: https://startgnv.com/event/funding-innovation-w
+ orkshop/
+END:VEVENT
+BEGIN:VEVENT
+UID:8f56be02fa90c887@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:Funding Innovation (workshop)
+DTSTART:20260923T170000Z
+DTEND:20260923T180000Z
+LOCATION:UF Innovate | The Hub\, 747 SW Second Avenue\, Gainesville\, FL 32
+ 607
+URL:https://calendar.ufl.edu/innovate/event/56135-funding-innovation-worksh
+ op
+DESCRIPTION:The session combines an educational seminar on SBIR/STTR and ot
+ her federal funding opportunities with one-on-one office hours\, giving pa
+ rticipants both a broad understanding of the programs and personalized gui
+ dance tailored to their technology and funding goals.\nThe seminar provide
+ s a practical overview of the U.S. non-dilutive funding ecosystem\, includ
+ ing:\n• Introduction to SBIR/STTR and federal funding opportunities\n•
+  Understanding the differences between agencies (NSF\, NIH\, DoD and other
+ s)\n• Eligibility requirements and program structure\n• How to identif
+ y the right agency for your technology\n• Proposal writing best practice
+ s\n• Common pitfalls and how to avoid them\n• Funding strategy and com
+ mercialization considerations\nParticipants will also have three 20-minute
+  office hour time slots available after the seminar to discuss:\n• Techn
+ ology fit for SBIR/STTR\n• Agency selection\n• Funding strategy\n• P
+ roposal readiness\n• Next steps and commercialization pathway\nAfter reg
+ istering for the event\, you’ll find the available time slots listed in 
+ your confirmation email.About our speakers:Fernando Hernandez\nFernando He
+ rnandez serves as the Vice President of Sales & Operations at Inspiralia U
+ S\, where he leads business development and strategic partnerships. In thi
+ s role\, he collaborates closely with startups\, universities\, incubators
+ \, and innovation ecosystems to help organizations identify\, pursue\, and
+  secure federal funding opportunities that support research\, innovation\,
+  and growth.Berta Okenve\nBerta Okenve serves as the Head of Industry & He
+ alth Projects at Inspiralia US\, where she specializes in helping innovati
+ ve companies secure public funding for research and development. With expe
+ rience supporting more than 100 U.S. and European organizations\, Berta ha
+ s extensive expertise in Life Sciences\, Biotechnology\, Healthcare\, and 
+ navigating funding opportunities through the National Institutes of Health
+  (NIH)\, helping clients successfully access non-dilutive funding to advan
+ ce their innovations.About our sponsor:Inspiralia\nInspiralia is an innova
+ tion funding consultancy specializing in SBIR/STTR programs\, federal gran
+ ts\, innovation funding strategy\, and commercialization support. The firm
+  partners with startups\, universities\, and research organizations to ide
+ ntify funding opportunities\, develop competitive grant proposals\, and ma
+ nage the entire funding process—from opportunity identification through 
+ award management.Thank you to our sponsor:\n This event is worth 15 Hub Ho
+ use points so don’t miss your chance to help your team climb the leaderb
+ oard. Select your Hub House when registering and rack up the points. If yo
+ u’re not in a Hub House or not an Accelerate client\, select “Unknown.
+ ”———————UF Innovate | Accelerate\nUF Innovate | Accelerate
+  is the University of Florida’s entrepreneurship support program that in
+ cludes Sid Martin Biotech\, the globally recognized biotechnology incubato
+ r located in Progress Park in Alachua\, Florida\, and The Hub\, the global
+ ly recognized diversified tech incubator located in Gainesville’s Innova
+ tion District.\nHosted by: UF Innovate\nUF Innovate: https://calendar.ufl.
+ edu/innovate/event/56135-funding-innovation-workshop\nstartGNV: https://st
+ artgnv.com/event/funding-innovation-workshop-3/
+END:VEVENT
+BEGIN:VEVENT
+UID:d8f35add987098f6@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:Funding Innovation (workshop)
+DTSTART:20260923T180000Z
+DTEND:20260923T190000Z
+LOCATION:UF Innovate | The Hub\, 747 SW Second Avenue\, Gainesville\, FL 32
+ 607
+URL:https://startgnv.com/event/funding-innovation-workshop-2/
+DESCRIPTION:The session combines an educational seminar on SBIR/STTR and ot
+ her federal funding opportunities with one-on-one office hours\, giving pa
+ rticipants both a broad understanding of the programs and personalized gui
+ dance tailored to their technology and funding goals.\nThe seminar provide
+ s a practical overview of the U.S. non-dilutive funding ecosystem\, includ
+ ing:\n• Introduction to SBIR/STTR and federal funding opportunities\n•
+  Understanding the differences between agencies (NSF\, NIH\, DoD and other
+ s)\n• Eligibility requirements and program structure\n• How to identif
+ y the right agency for your technology\n• Proposal writing best practice
+ s\n• Common pitfalls and how to avoid them\n• Funding strategy and com
+ mercialization considerations\nParticipants will also have three 20-minute
+  office hour time slots available after the seminar to discuss:\n• Techn
+ ology fit for SBIR/STTR\n• Agency selection\n• Funding strategy\n• P
+ roposal readiness\n• Next steps and commercialization pathway\nAfter reg
+ istering for the event\, you’ll find the available time slots listed in 
+ your confirmation email.About our speakers:Fernando Hernandez\nFernando He
+ rnandez serves as the Vice President of Sales & Operations at Inspiralia U
+ S\, where he leads business development and strategic partnerships. In thi
+ s role\, he collaborates closely with startups\, universities\, incubators
+ \, and innovation ecosystems to help organizations identify\, pursue\, and
+  secure federal funding opportunities that support research\, innovation\,
+  and growth.Berta Okenve\nBerta Okenve serves as the Head of Industry & He
+ alth Projects at Inspiralia US\, where she specializes in helping innovati
+ ve companies secure public funding for research and development. With expe
+ rience supporting more than 100 U.S. and European organizations\, Berta ha
+ s extensive expertise in Life Sciences\, Biotechnology\, Healthcare\, and 
+ navigating funding opportunities through the National Institutes of Health
+  (NIH)\, helping clients successfully access non-dilutive funding to advan
+ ce their innovations.About our sponsor:Inspiralia\nInspiralia is an innova
+ tion funding consultancy specializing in SBIR/STTR programs\, federal gran
+ ts\, innovation funding strategy\, and commercialization support. The firm
+  partners with startups\, universities\, and research organizations to ide
+ ntify funding opportunities\, develop competitive grant proposals\, and ma
+ nage the entire funding process—from opportunity identification through 
+ award management.Thank you to our sponsor:\n This event is worth 15 Hub Ho
+ use points so don’t miss your chance to help your team climb the leaderb
+ oard. Select your Hub House when registering and rack up the points. If yo
+ u’re not in a Hub House or not an Accelerate client\, select “Unknown.
+ ”———————UF Innovate | Accelerate\nUF Innovate | Accelerate
+  is the University of Florida’s entrepreneurship support program that in
+ cludes Sid Martin Biotech\, the globally recognized biotechnology incubato
+ r located in Progress Park in Alachua\, Florida\, and The Hub\, the global
+ ly recognized diversified tech incubator located in Gainesville’s Innova
+ tion District.\nHosted by: CIED | Santa Fe College\nstartGNV: https://star
+ tgnv.com/event/funding-innovation-workshop-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:20223bd908b5dd5c@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:Women in Tech and Entrepreneurship - Gainesville Voter Education Mi
+ xer
+DTSTART:20260923T213000Z
+DTEND:20260923T233000Z
+LOCATION:superette\, 1511 Northwest 2nd Street\, Gainesville
+URL:https://www.eventbrite.com/e/women-in-tech-and-entrepreneurship-gainesv
+ ille-voter-education-mixer-tickets-1997019427867
+DESCRIPTION:Mix\, mingle\, and make your voice count! Join the Gainesville 
+ WTE chapter for drinks\, connection\, and nonpartisan voter resources.\nHo
+ sted by: Women in Tech & Entrepreneurship\nWomen in Tech & Entrepreneurshi
+ p: https://www.eventbrite.com/e/women-in-tech-and-entrepreneurship-gainesv
+ ille-voter-education-mixer-tickets-1997019427867
+END:VEVENT
+BEGIN:VEVENT
+UID:acc21fc87e4ec023@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:September Eye Opener Discovery Breakfast
+DTSTART:20260924T113000Z
+DTEND:20260924T130000Z
+LOCATION:Hilton University of Florida Conference Center Gainesville\, 1714 
+ Southwest 34th Street\, Gainesville\, FL 32607
+URL:https://startgnv.com/event/september-eye-opener-discovery-breakfast/
+DESCRIPTION:Join us as we welcome President Stuart Bell to the September Ey
+ e Opener Discovery Breakfast .\n\nEye Opener Discovery Breakfast\n\nThursd
+ ay | September 24\n\n7:30 AM\n\nUF Hilton | Century Ballroom\n\nJoin us fo
+ r an exciting special Eye Opener Discovery Breakfast with the 14th preside
+ nt of the University of Florida\, Dr. Stuart R. Bell. In our community con
+ versation\, the president will share his vision and discuss the current st
+ ate of our campus. His extensive leadership experience and enthusiasm are 
+ sure to energize both our campus and the city! Dr. Bell took office on Jul
+ y 1\, 2026 and brings with him a wealth of leadership experience and excit
+ ement to UF and Gainesville. Space is limited\, so we encourage you to reg
+ ister early.\nHosted by: Karen Thomas\, UF Community Relations\nstartGNV: 
+ https://startgnv.com/event/september-eye-opener-discovery-breakfast/
+END:VEVENT
+BEGIN:VEVENT
+UID:6df8c8a4c9a437ee@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:Create Your 6 Month Marketing Roadmap: Stop Guessing\, Start Growin
+ g
+DTSTART:20260930T160000Z
+DTEND:20260930T173000Z
+LOCATION:Online
+URL:https://www.eventbrite.com/e/create-your-6-month-marketing-roadmap-stop
+ -guessing-start-growing-tickets-1999241861225
+DESCRIPTION:Stop guessing at marketing tactics. Work with our expert to bui
+ ld a strategic roadmap tied to your growth goals\, budget\, and business.\
+ nHosted by: Women in Tech & Entrepreneurship\nWomen in Tech & Entrepreneur
+ ship: https://www.eventbrite.com/e/create-your-6-month-marketing-roadmap-s
+ top-guessing-start-growing-tickets-1999241861225
+END:VEVENT
+BEGIN:VEVENT
+UID:21ba120e41f83a2a@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:CIED – Fall Financial Forum
+DTSTART:20261001T140000Z
+DTEND:20261001T190000Z
+LOCATION:530 W University Ave\, 530 West University Avenue\, Gainesville\, 
+ FL 32601
+URL:https://startgnv.com/event/cied-fall-financial-forum/
+DESCRIPTION:Empowering businesses and nonprofits with financial knowledge\,
+  practical resources\, and valuable connections.\n\nThe CIED Fall Financia
+ l Forum is designed to provide valuable financial knowledge\, resources\, 
+ and networking opportunities for small business owners\, nonprofit organiz
+ ations\, and for-profit businesses. The forum will bring together industry
+  professionals\, financial experts\, and community leaders to discuss topi
+ cs that help organizations strengthen their financial operations\, improve
+  decision-making\, and support long-term growth.\n\nAttendees will gain pr
+ actical insights through a keynote presentation\, interactive breakout ses
+ sions\, expert panel discussions\, and networking opportunities with fello
+ w business and community leaders.\nHosted by: CIED | Santa Fe College\nsta
+ rtGNV: https://startgnv.com/event/cied-fall-financial-forum/
+END:VEVENT
+BEGIN:VEVENT
+UID:d22745d7c572d642@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:GNV.AI Cowork Session
+DTSTART:20261003T160000Z
+DTEND:20261003T170000Z
+LOCATION:TBD ... Either Zoom or GTEC
+URL:https://gnv.ai/events/the-monthly-weekend-workshop
+DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
+ st Saturday of each month from 11:30 AM to 3:00 PM for a free\, hands-on w
+ orkshop exploring how to use "low-code" AI for creativity\, productivity\,
+  and everyday life. Open to the public and designed for low-intermediate e
+ xperience levels\, these sessions will help you learn practical tools and 
+ techniques for using AI to spark ideas\, automate tasks\, and simplify you
+ r work. Just bring your laptop and curiosity—everything else is provided
+ .\n\nSpecial THANKS to GTEC for hosting!\nHosted by: aiGNV / GNV.AI\naiGNV
+  / GNV.AI: https://gnv.ai/events/the-monthly-weekend-workshop
+END:VEVENT
+BEGIN:VEVENT
+UID:7c4a78870d13972d@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:aiGNV October 2026 Lunch Meetup: Trends\, Tools\, Real Use Cases
+DTSTART:20261014T153000Z
+DTEND:20261014T170000Z
+LOCATION:Las Carretas Mexican Restaurant Gainesville\, 3501 Southwest 2nd A
+ venue\, Gainesville\, FL 32607
+URL:https://startgnv.com/event/aignv-october-2026-lunch-meetup-trends-tools
+ -real-use-cases/
+DESCRIPTION:Join us for a casual lunch meetup to dive into the latest trend
+ s\, tools\, and real-world use cases in AI.\n\nWelcome to the monthly AI f
+ or Business Meetup!\n\nPresented by startGNV & GNV.AI\n\nJoin us for the f
+ irst AI for Business Lunch Meetup. It’ll be full of useful insight and r
+ eal talk about how local businesses are putting AI to work today. Whether 
+ you’re a founder\, freelancer\, manager\, marketer\, or just AI-curious\
+ , this meetup is a chance to connect with others in the Gainesville busine
+ ss and tech community who are testing\, building\, and learning in real-ti
+ me.\n\nWe’ll kick things off with an opportunity to order lunch during a
+ n informal meet and greet at 11:30 am\, followed by a few short\, no-fluff
+  presentations from local operators showing what they’re doing with AI t
+ ools and more—and how it’s affecting their workflows\, output\, and bo
+ ttom line. Co-hosted by startGNV and GNV.AI\, this is your front-row seat 
+ to how generative AI is being applied right here in Gainesville and around
+  North Central Florida.\n\nThere is plenty of parking. The meeting will be
+  in the third-floor meeting room.\nHosted by: startGNV\nstartGNV: https://
+ startgnv.com/event/aignv-october-2026-lunch-meetup-trends-tools-real-use-c
+ ases/\naiGNV / GNV.AI: https://gnv.ai/events/ai-for-business-lunch-and-lea
+ rn\nstartGNV (Eventbrite): https://www.eventbrite.com/e/aignv-october-2026
+ -lunch-meetup-trends-tools-real-use-cases-tickets-1990800743615
+END:VEVENT
+BEGIN:VEVENT
+UID:f3041a7512b43b4d@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:The Florida Way Forward
+DTSTART:20261021T180000Z
+DTEND:20261021T193000Z
+LOCATION:University of Florida\, 655 Reitz Union Drive\, Gainesville\, FL 3
+ 2603
+URL:https://calendar.ufl.edu/innovate/event/57608-the-florida-way-forward
+DESCRIPTION:Standing InnOvation is UF Innovate | Tech Licensing’s annual 
+ celebration recognizing University of Florida researchers who have disclos
+ ed\, optioned\, or licensed technologies or received issued patents during
+  FY26. This is an invite-only event that honors the outstanding contributi
+ ons of UF innovators across disciplines.\nWhile Standing InnOvation is inv
+ ite-only\, the keynote is free and open to the public. The program begins 
+ with a keynote from Patric Young\, former Florida Gator standout\, profess
+ ional basketball player\, and current ESPN SEC Network analyst.\nThrough h
+ is story of resilience and perseverance\, he demonstrates how setbacks can
+  create opportunities for growth and how progress is not always linear. Hi
+ s journey reflects what it means to embrace the Florida Way Forward and ke
+ ep moving ahead\, no matter the challenge.Click here to register for the k
+ eynote session. (https://luma.com/m00jg6q6)\nAbout the speaker: Patric You
+ ng\nPatric Young is a former Florida Gator basketball player\, professiona
+ l basketball player\, ESPN SEC Network analyst\, author\, motivational spe
+ aker\, and founder of the Patric Young Foundation (https://www.py4foundati
+ on.org/). Patric played for the Florida Gators from 2010 to 2014 before be
+ ginning his professional basketball career.\nAfter an accident left him pa
+ ralyzed from the waist down\, he began a new chapter focused on resilience
+ \, perseverance\, and purpose. Today\, Patric shares his story through spe
+ aking\, writing\, and his work with the Patric Young Foundation. His exper
+ ience shows that setbacks can change your path without defining your futur
+ e.\nHosted by: UF Innovate\nUF Innovate: https://calendar.ufl.edu/innovate
+ /event/57608-the-florida-way-forward\nstartGNV: https://startgnv.com/event
+ /the-florida-way-forward/
+END:VEVENT
+BEGIN:VEVENT
+UID:8baccdee1854f66b@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:Project "Show & Tell" Evening
+DTSTART:20261021T210000Z
+DTEND:20261021T220000Z
+LOCATION:https://us06web.zoom.us/j/82993071959?pwd=nktfFGgoUMduLMvBiwwkkzuR
+ CUJyZM.1
+URL:https://gnv.ai/events/project-show-and-tell-evening
+DESCRIPTION:Come on by to share what you've been working on\, get feedback 
+ and support... And celebrate others :)\n\nJoin GNV.ai on the third Wednesd
+ ay of each month from 5PM to 6pmPM for an evening of community\, creativit
+ y\, and collaboration. This public event highlights projects built by loca
+ l innovators using AI for art\, business\, and everyday problem-solving. C
+ ome share your work\, get inspired by others\, and connect with like-minde
+ d creators shaping the future of AI in Gainesville.\n\nWhoever is on the c
+ all by 5:05pm gets a slot to present.\nHosted by: aiGNV / GNV.AI\naiGNV / 
+ GNV.AI: https://gnv.ai/events/project-show-and-tell-evening
+END:VEVENT
+BEGIN:VEVENT
+UID:d30d7707530fedce@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:Women in Tech and Entrepreneurship - Gainesville October Happy Hour
+DTSTART:20261028T213000Z
+DTEND:20261028T233000Z
+LOCATION:Bazaar 47\, 60 Southwest 2nd Street\, Gainesville
+URL:https://www.eventbrite.com/e/women-in-tech-and-entrepreneurship-gainesv
+ ille-october-happy-hour-tickets-2000322950793
+DESCRIPTION:A casual gathering of high-performing\, non-conforming women fo
+ unders\, tech workers\, VCs\, and hype girls\nHosted by: Women in Tech & E
+ ntrepreneurship\nWomen in Tech & Entrepreneurship: https://www.eventbrite.
+ com/e/women-in-tech-and-entrepreneurship-gainesville-october-happy-hour-ti
+ ckets-2000322950793
+END:VEVENT
+BEGIN:VEVENT
+UID:33f04de8611eec2e@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:From Bench To Automation (Lunch & Learn)
+DTSTART:20261105T160000Z
+DTEND:20261105T183000Z
+LOCATION:UF Innovate | Sid Martin Biotech\, 12085 Research Dr.\, Alachua\, 
+ FL 32615
+URL:https://calendar.ufl.edu/innovate/event/57594-from-bench-to-automation-
+ lunch-learn
+DESCRIPTION:From 11 AM – 1 PM in the Sid Martin main lobby\, attendees ar
+ e invited to stop by for lunch\, refreshments\, and conversation with our 
+ laboratory automation specialists. Rather than focusing on a single applic
+ ation or product\, the session is designed around the work being done by c
+ ompanies within the Sid Martin community.\nBring us your workflow. Whether
+  you are working with PCR and qPCR\, NGS\, genomics\, cell-based assays\, 
+ sample preparation\, assay development\, plate-based workflows\, reagent d
+ ispensing\, normalization\, dilution series\, or another application\, we 
+ can discuss how automation could potentially fit into your process.\nThe g
+ oal is to help answer questions such as:\n– What parts of my current wor
+ kflow can realistically be automated?\n– When does automation make sense
+  and when does it not?\n– How can automation improve reproducibility and
+  consistency?\n– Can automation help reduce hands-on time or increase th
+ roughput?\n– How do you translate an existing manual protocol into an au
+ tomated workflow?\n– What should a lab consider before implementing liqu
+ id handling automation?\nAn Eppendorf automated liquid handling platform w
+ ill be available so attendees can see the technology and discuss specific 
+ applications with the team.\nFollowing the Lunch & Learn\, from approximat
+ ely 1 – 1:30 PM\, Eppendorf will host a more focused 20-30 minute educat
+ ional presentation in the conference room covering the fundamentals of lab
+ oratory automation\, common applications\, workflow development\, and cons
+ iderations when transitioning from manual pipetting to automated liquid ha
+ ndling. Meet with Phillip Tender and Taylor Smith of Eppendorf.\nTerrie Gu
+ nter of USA Scientific will also be onsite during the event to meet with a
+ ttendees and support discussions around laboratory workflows\, consumables
+ \, and automation applications.About our speakers:Philip Tendler\nPhilip T
+ endler supports laboratory automation and floor model centrifugation techn
+ ologies throughout the Southeastern United States for Eppendorf North Amer
+ ica. With a graduate background in molecular genetics from the University 
+ of Georgia and experience working with academic\, biotechnology\, pharmace
+ utical\, and research laboratories\, Philip focuses on helping scientists 
+ evaluate technologies that can improve workflow efficiency\, reproducibili
+ ty\, throughput\, and overall laboratory productivity.Taylor Smith\nTaylor
+  Smith is an Application Integration Specialist with Eppendorf North Ameri
+ ca\, specializing in automated liquid handling applications and workflow d
+ evelopment. Taylor works directly with scientists to understand existing l
+ aboratory protocols\, identify opportunities for automation\, and translat
+ e manual processes into reliable automated workflows. During the event\, T
+ aylor will be available to discuss individual applications and the practic
+ al considerations involved in developing automated methods. Thank you to o
+ ur sponsors:\n\n ———————UF Innovate | Accelerate\nUF Innovat
+ e | Accelerate is the University of Florida’s entrepreneurship support p
+ rogram that includes Sid Martin Biotech\, the globally recognized biotechn
+ ology incubator located in Progress Park in Alachua\, Florida\, and The Hu
+ b\, the globally recognized diversified tech incubator located in Gainesvi
+ lle’s Innovation District.\nHosted by: UF Innovate\nUF Innovate: https:/
+ /calendar.ufl.edu/innovate/event/57594-from-bench-to-automation-lunch-lear
+ n\nstartGNV: https://startgnv.com/event/from-bench-to-automation-lunch-lea
+ rn/
+END:VEVENT
+BEGIN:VEVENT
+UID:7c6132ad9435028f@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:celebrateGNV 2026
+DTSTART:20261105T230000Z
+DTEND:20261106T020000Z
+LOCATION:Cade Museum for Creativity and Invention\, 811 S Main Street\, Gai
+ nesville\, FL 32601
+URL:https://startgnv.com/event/celebrategnv-2026/
+DESCRIPTION:The premier annual celebration of North Central Florida's thriv
+ ing innovation ecosystem\, organized by startGNV.\n\ncelebrateGNV: Honorin
+ g Innovation in North Central Florida\n\nJoin us for an evening of celebra
+ tion of the individuals and companies that are driving North Central Flori
+ da’s thriving startup and innovation ecosystem. celebrateGNV brings toge
+ ther entrepreneurs\, mentors\, business leaders\, and community builders f
+ or an inspiring dinner event recognizing those who are making a real diffe
+ rence in our region.\n\nWhat to Expect\n\n• Dinner experience with wine 
+ and beer service\n\n• Award presentations honoring outstanding contribut
+ ors to our innovation community\n\n• Networking opportunities with fello
+ w entrepreneurs\, mentors\, and business leaders\n\n• Inspiring stories 
+ from those building the future of North Central Florida’s startup scene\
+ n\nAwards Categories\n\n• Professional Mentor of the Year – Recognizin
+ g exceptional guidance and support\n\n• Community Builder – Celebratin
+ g those who strengthen our entrepreneurial ecosystem\n\n• Employer of th
+ e Year – Honoring companies creating opportunities and fostering innovat
+ ion\n\n• Community Impact Company of the Year – Recognizing establishe
+ d companies making a meaningful difference in our region\n\n• Rising Sta
+ r Startup – Celebrating a pre-seed startup with exceptional potential fo
+ r success (includes $5\,000 prize)\n\nWhether you’re a startup founder\,
+  seasoned entrepreneur\, mentor\, or simply passionate about innovation in
+  North Central Florida\, this is your opportunity to celebrate achievement
+ s\, connect with like-minded professionals\, and be inspired by the incred
+ ible work happening in our community.\n\nCome raise a glass to the people 
+ and organizations making North Central Florida a premier destination for s
+ tartups and innovation!\nHosted by: startGNV\nstartGNV: https://startgnv.c
+ om/event/celebrategnv-2026/\nstartGNV (Eventbrite): https://www.eventbrite
+ .com/e/celebrategnv-2026-tickets-1743805381839
+END:VEVENT
+BEGIN:VEVENT
+UID:042123cc61e3a52d@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:GNV.AI Cowork Session
+DTSTART:20261107T170000Z
+DTEND:20261107T180000Z
+LOCATION:TBD ... Either Zoom or GTEC
+URL:https://gnv.ai/events/the-monthly-weekend-workshop
+DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
+ st Saturday of each month from 11:30 AM to 3:00 PM for a free\, hands-on w
+ orkshop exploring how to use "low-code" AI for creativity\, productivity\,
+  and everyday life. Open to the public and designed for low-intermediate e
+ xperience levels\, these sessions will help you learn practical tools and 
+ techniques for using AI to spark ideas\, automate tasks\, and simplify you
+ r work. Just bring your laptop and curiosity—everything else is provided
+ .\n\nSpecial THANKS to GTEC for hosting!\nHosted by: aiGNV / GNV.AI\naiGNV
+  / GNV.AI: https://gnv.ai/events/the-monthly-weekend-workshop
+END:VEVENT
+BEGIN:VEVENT
+UID:0e7fe438d3305f56@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:Off The Couch Book Tour + Fireside Chat
+DTSTART:20261109T180000Z
+DTEND:20261109T193000Z
+LOCATION:UF Innovate | The Hub\, 747 SW Second Avenue\, Gainesville\, FL 32
+ 607
+URL:https://calendar.ufl.edu/innovate/event/57413-off-the-couch-book-tour-f
+ ireside-chat
+DESCRIPTION:About the book:\nOff The Couch is the story of what happens whe
+ n service becomes a habit instead of an assignment. It traces a path from 
+ the discipline of the United States Air Force to the messy\, hopeful work 
+ of building startup ecosystems in places that were told they’d never hav
+ e one.\nAlong the way\, Robert unpacks the practical machinery of resilien
+ ce: how to keep moving when the plan collapses\, how to turn data and hard
+  truths into better decisions\, and how to build the kind of network that 
+ catches founders before they fall.\nPart memoir\, part playbook\, this boo
+ k (https://robertblacklidge.com/off-the-couch) is written for the person s
+ till sitting on the couch — the veteran in transition\, the founder wait
+ ing for permission\, the community leader wondering whether one person can
+  move an entire ecosystem forward. The answer\, gathered across hundreds o
+ f pitches\, mentors\, and midnight launches\, is yes.About our speaker:Rob
+ ert Blacklidge\nRobert Blacklidge is an educator\, technology strategist\,
+  and veteran with over twenty years of experience spanning military servic
+ e\, enterprise data architecture\, and academic leadership. As a startup m
+ entor and ecosystem builder\, he has guided over 100 founders through vent
+ ure validation and scaling. Read more here. (https://robertblacklidge.com/
+ off-the-couch)———————This event is worth 15 Hub House points
+  so don’t miss your chance to help your team climb the leaderboard. Sele
+ ct your Hub House when registering and rack up the points. If you’re not
+  in a Hub House or not an Accelerate client\, select “Unknown.”——
+ —————UF Innovate | Accelerate\nUF Innovate | Accelerate is the U
+ niversity of Florida’s entrepreneurship support program that includes Si
+ d Martin Biotech\, the globally recognized biotechnology incubator located
+  in Progress Park in Alachua\, Florida\, and The Hub\, the globally recogn
+ ized diversified tech incubator located in Gainesville’s Innovation Dist
+ rict.\nHosted by: UF Innovate\nUF Innovate: https://calendar.ufl.edu/innov
+ ate/event/57413-off-the-couch-book-tour-fireside-chat\nstartGNV: https://s
+ tartgnv.com/event/off-the-couch-book-tour-fireside-chat/
+END:VEVENT
+BEGIN:VEVENT
+UID:0d543d9488e09a92@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:aiGNV November 2026 Lunch Meetup: Trends\, Tools\, Real Use Cases
+DTSTART:20261111T163000Z
+DTEND:20261111T180000Z
+LOCATION:Las Carretas Mexican Restaurant Gainesville\, 3501 Southwest 2nd A
+ venue\, Gainesville\, FL 32607
+URL:https://startgnv.com/event/aignv-november-2026-lunch-meetup-trends-tool
+ s-real-use-cases/
+DESCRIPTION:Join us for a casual lunch meetup to dive into the latest trend
+ s\, tools\, and real-world use cases in AI.\n\nWelcome to the monthly AI f
+ or Business Meetup!\n\nPresented by startGNV & GNV.AI\n\nJoin us for the f
+ irst AI for Business Lunch Meetup. It’ll be full of useful insight and r
+ eal talk about how local businesses are putting AI to work today. Whether 
+ you’re a founder\, freelancer\, manager\, marketer\, or just AI-curious\
+ , this meetup is a chance to connect with others in the Gainesville busine
+ ss and tech community who are testing\, building\, and learning in real-ti
+ me.\n\nWe’ll kick things off with an opportunity to order lunch during a
+ n informal meet and greet at 11:30 am\, followed by a few short\, no-fluff
+  presentations from local operators showing what they’re doing with AI t
+ ools and more—and how it’s affecting their workflows\, output\, and bo
+ ttom line. Co-hosted by startGNV and GNV.AI\, this is your front-row seat 
+ to how generative AI is being applied right here in Gainesville and around
+  North Central Florida.\n\nThere is plenty of parking. The meeting will be
+  in the third-floor meeting room.\nHosted by: startGNV\nstartGNV: https://
+ startgnv.com/event/aignv-november-2026-lunch-meetup-trends-tools-real-use-
+ cases/\naiGNV / GNV.AI: https://gnv.ai/events/ai-for-business-lunch-and-le
+ arn
+END:VEVENT
+BEGIN:VEVENT
+UID:d947ee917cafd426@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:Project "Show & Tell" Evening
+DTSTART:20261118T220000Z
+DTEND:20261118T230000Z
+LOCATION:https://us06web.zoom.us/j/82993071959?pwd=nktfFGgoUMduLMvBiwwkkzuR
+ CUJyZM.1
+URL:https://gnv.ai/events/project-show-and-tell-evening
+DESCRIPTION:Come on by to share what you've been working on\, get feedback 
+ and support... And celebrate others :)\n\nJoin GNV.ai on the third Wednesd
+ ay of each month from 5PM to 6pmPM for an evening of community\, creativit
+ y\, and collaboration. This public event highlights projects built by loca
+ l innovators using AI for art\, business\, and everyday problem-solving. C
+ ome share your work\, get inspired by others\, and connect with like-minde
+ d creators shaping the future of AI in Gainesville.\n\nWhoever is on the c
+ all by 5:05pm gets a slot to present.\nHosted by: aiGNV / GNV.AI\naiGNV / 
+ GNV.AI: https://gnv.ai/events/project-show-and-tell-evening
+END:VEVENT
+BEGIN:VEVENT
+UID:e94735e4189e8a5a@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:GNV.AI Cowork Session
+DTSTART:20261205T170000Z
+DTEND:20261205T180000Z
+LOCATION:TBD ... Either Zoom or GTEC
+URL:https://gnv.ai/events/the-monthly-weekend-workshop
+DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
+ st Saturday of each month from 11:30 AM to 3:00 PM for a free\, hands-on w
+ orkshop exploring how to use "low-code" AI for creativity\, productivity\,
+  and everyday life. Open to the public and designed for low-intermediate e
+ xperience levels\, these sessions will help you learn practical tools and 
+ techniques for using AI to spark ideas\, automate tasks\, and simplify you
+ r work. Just bring your laptop and curiosity—everything else is provided
+ .\n\nSpecial THANKS to GTEC for hosting!\nHosted by: aiGNV / GNV.AI\naiGNV
+  / GNV.AI: https://gnv.ai/events/the-monthly-weekend-workshop
+END:VEVENT
+BEGIN:VEVENT
+UID:9d9ff73c51317832@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:StartGNV's AI for Business Lunch & Learn
+DTSTART:20261209T170000Z
+DTEND:20261209T183000Z
+LOCATION:Las Carretas Mexican Restaurant 3501 SW 2nd Ave\, Gainesville\, FL
+  32607
+URL:https://gnv.ai/events/ai-for-business-lunch-and-learn
+DESCRIPTION:BYO Lunch and Learn some cool AI tips and tricks for your busin
+ ess.\n\nEach month our partner StartGNV hosts and a lunch time event at La
+ s Carretas\, full of AI updates and tips and tricks for how you can implem
+ ent AI into your business. \n\nRSVP for the taco bar and if you'd like to 
+ sponsor the event get get in touch!\nHosted by: aiGNV / GNV.AI\naiGNV / GN
+ V.AI: https://gnv.ai/events/ai-for-business-lunch-and-learn
+END:VEVENT
+BEGIN:VEVENT
+UID:aa05c66a6da7cb02@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:Project "Show & Tell" Evening
+DTSTART:20261216T220000Z
+DTEND:20261216T230000Z
+LOCATION:https://us06web.zoom.us/j/82993071959?pwd=nktfFGgoUMduLMvBiwwkkzuR
+ CUJyZM.1
+URL:https://gnv.ai/events/project-show-and-tell-evening
+DESCRIPTION:Come on by to share what you've been working on\, get feedback 
+ and support... And celebrate others :)\n\nJoin GNV.ai on the third Wednesd
+ ay of each month from 5PM to 6pmPM for an evening of community\, creativit
+ y\, and collaboration. This public event highlights projects built by loca
+ l innovators using AI for art\, business\, and everyday problem-solving. C
+ ome share your work\, get inspired by others\, and connect with like-minde
+ d creators shaping the future of AI in Gainesville.\n\nWhoever is on the c
+ all by 5:05pm gets a slot to present.\nHosted by: aiGNV / GNV.AI\naiGNV / 
+ GNV.AI: https://gnv.ai/events/project-show-and-tell-evening
+END:VEVENT
+BEGIN:VEVENT
+UID:0d8be3490aef14cf@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:GNV.AI Cowork Session
+DTSTART:20270102T170000Z
+DTEND:20270102T180000Z
+LOCATION:TBD ... Either Zoom or GTEC
+URL:https://gnv.ai/events/the-monthly-weekend-workshop
+DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
+ st Saturday of each month from 11:30 AM to 3:00 PM for a free\, hands-on w
+ orkshop exploring how to use "low-code" AI for creativity\, productivity\,
+  and everyday life. Open to the public and designed for low-intermediate e
+ xperience levels\, these sessions will help you learn practical tools and 
+ techniques for using AI to spark ideas\, automate tasks\, and simplify you
+ r work. Just bring your laptop and curiosity—everything else is provided
+ .\n\nSpecial THANKS to GTEC for hosting!\nHosted by: aiGNV / GNV.AI\naiGNV
+  / GNV.AI: https://gnv.ai/events/the-monthly-weekend-workshop
+END:VEVENT
+BEGIN:VEVENT
+UID:e9fb0e20891a4eb4@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:StartGNV's AI for Business Lunch & Learn
+DTSTART:20270113T170000Z
+DTEND:20270113T183000Z
+LOCATION:Las Carretas Mexican Restaurant 3501 SW 2nd Ave\, Gainesville\, FL
+  32607
+URL:https://gnv.ai/events/ai-for-business-lunch-and-learn
+DESCRIPTION:BYO Lunch and Learn some cool AI tips and tricks for your busin
+ ess.\n\nEach month our partner StartGNV hosts and a lunch time event at La
+ s Carretas\, full of AI updates and tips and tricks for how you can implem
+ ent AI into your business. \n\nRSVP for the taco bar and if you'd like to 
+ sponsor the event get get in touch!\nHosted by: aiGNV / GNV.AI\naiGNV / GN
+ V.AI: https://gnv.ai/events/ai-for-business-lunch-and-learn
+END:VEVENT
+BEGIN:VEVENT
+UID:6e6d6f3659e43347@ignite-gnv-events
+DTSTAMP:20260925T210739Z
+SUMMARY:Project "Show & Tell" Evening
+DTSTART:20270120T220000Z
+DTEND:20270120T230000Z
+LOCATION:https://us06web.zoom.us/j/82993071959?pwd=nktfFGgoUMduLMvBiwwkkzuR
+ CUJyZM.1
+URL:https://gnv.ai/events/project-show-and-tell-evening
+DESCRIPTION:Come on by to share what you've been working on\, get feedback 
+ and support... And celebrate others :)\n\nJoin GNV.ai on the third Wednesd
+ ay of each month from 5PM to 6pmPM for an evening of community\, creativit
+ y\, and collaboration. This public event highlights projects built by loca
+ l innovators using AI for art\, business\, and everyday problem-solving. C
+ ome share your work\, get inspired by others\, and connect with like-minde
+ d creators shaping the future of AI in Gainesville.\n\nWhoever is on the c
+ all by 5:05pm gets a slot to present.\nHosted by: aiGNV / GNV.AI\naiGNV / 
+ GNV.AI: https://gnv.ai/events/project-show-and-tell-evening
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,12 @@
+# Events you find by hand (Instagram flyers, group chats, emails…).
+# Copy the example block, fill it in, and hit Update. Times are Gainesville local time.
+# Duplicates of events the tool already found are merged automatically.
+
+# [[event]]
+# title = "FES Pitch Night"
+# org = "FES"
+# start = "2026-10-08 18:30"
+# end = "2026-10-08 20:00"          # optional
+# location = "Warrington, Heavener Hall 130"
+# url = "https://www.instagram.com/p/..."
+# description = "Student founders pitch to a panel of local investors. Free pizza."

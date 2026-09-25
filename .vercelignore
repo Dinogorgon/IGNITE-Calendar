@@ -1,0 +1,10 @@
+# Vercel only needs the static site (docs/) and the api/ functions.
+# The Python collector runs in GitHub Actions, not on Vercel.
+ignite/
+data/
+*.py
+requirements.txt
+start.bat
+manual_events.toml
+config.toml
+__pycache__/

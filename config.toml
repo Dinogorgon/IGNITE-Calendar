@@ -1,0 +1,75 @@
+# IGNITE Event Coordinator — settings
+# Edit this file to add/remove sources. Changes take effect on the next update.
+
+[settings]
+calendar_name = "IGNITE · Gainesville Innovation Events"
+timezone = "America/New_York"
+days_back = 30        # keep past events on the calendar this long
+days_ahead = 120      # how far into the future to collect
+
+# Optional: once this is on GitHub, paste your Actions workflow URL here so the
+# web page's "Update" button links to it, e.g.
+# "https://github.com/<you>/<repo>/actions/workflows/update.yml"
+github_actions_url = "https://github.com/Dinogorgon/IGNITE-Calendar/actions/workflows/update.yml"
+
+[blurbs]
+# Slack blurbs are written by Gemini. Put GEMINI_API_KEY in a .env file.
+enabled = true
+model = "gemini-2.5-flash"
+voice = """
+We are IGNITE, a UF student club for entrepreneurship and innovation. Write like an
+upbeat student officer posting in the club Slack: friendly, concise, a little
+energetic, no corporate buzzwords, at most one emoji. Emphasize why a student
+would want to go (networking, free food, founders, learning, pitching, etc.)
+when the details support it. Never invent facts that aren't in the event info.
+"""
+
+# ---------------------------------------------------------------------------
+# Sources. Earlier sources win when the same event appears in several places.
+# type = startgnv | uf_calendar | eventbrite | gatorconnect
+# ---------------------------------------------------------------------------
+
+[[sources]]
+name = "UF Innovate"
+type = "uf_calendar"
+group = "UF Innovate"             # group name on calendar.ufl.edu
+
+[[sources]]
+name = "Women in Tech & Entrepreneurship"
+type = "eventbrite"
+url = "https://www.eventbrite.com/cc/women-in-tech-entrepreneurship-gainesville-3849013"
+
+[[sources]]
+name = "startGNV"
+type = "startgnv"                 # community calendar: also lists CIED, UF Innovate, aiGNV…
+url = "https://startgnv.com"
+
+[[sources]]
+name = "aiGNV / GNV.AI"
+type = "gnvai"                    # gnv.ai community calendar (monthly AI lunch, show & tell, cowork)
+url = "https://gnv.ai/events"
+
+[[sources]]
+name = "startGNV (Eventbrite)"
+org = "startGNV"
+type = "eventbrite"
+url = "https://www.eventbrite.com/o/startgnv-17872698213"
+
+[[sources]]
+name = "GatorConnect"
+type = "gatorconnect"
+url = "https://gatorconnect.ufl.edu"
+# Always include every public event from these clubs (matches part of the name):
+organizations = [
+  "Entrepreneurship Collective",
+  "Entrepreneurship Through Acquisition",
+  "Sports Entrepreneurship",
+  "Entrepreneurship and AI Law",
+  "TAMID",
+  "Enactus",
+]
+# …plus any other club's event whose title/description mentions one of these:
+keywords = [
+  "entrepreneur", "startup", "start-up", "founder", "pitch competition",
+  "pitch night", "venture capital", "hackathon", "shark tank",
+]

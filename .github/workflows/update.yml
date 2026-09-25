@@ -1,0 +1,35 @@
+name: Update event calendar
+
+on:
+  schedule:
+    - cron: "0 12 1,15 * *"   # 8am Gainesville time on the 1st and 15th (~every two weeks)
+  workflow_dispatch:          # the "Run workflow" button = Update now
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-calendar
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python update.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Save results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs data
+          git diff --cached --quiet && exit 0
+          git commit -m "Update events $(date +%F)"
+          git pull --rebase origin main
+          git push

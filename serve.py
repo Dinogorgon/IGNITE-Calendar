@@ -23,6 +23,8 @@ class Handler(SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path == "/api/status":
             return self._json({"mode": "local"})
+        if self.path == "/api/session":  # your own computer = officer tools on
+            return self._json({"admin": True, "email": "local"})
         super().do_GET()
 
     def do_POST(self):

@@ -21,6 +21,7 @@
     }
   }
   * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
   body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 Inter, system-ui, sans-serif; }
   .wrap { max-width: 1200px; margin: 0 auto; padding: 24px 16px 48px; }
 
@@ -68,6 +69,7 @@
   .meta a { color: var(--accent); }
   .desc { font-size: 14px; color: var(--muted); white-space: pre-wrap; max-height: 160px; overflow: auto; border-left: 3px solid var(--line); padding-left: 12px; margin: 12px 0; }
   label.small { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+  input[type=email] { width: 100%; font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px; margin: 6px 0; }
   textarea { width: 100%; font: 14px/1.5 inherit; font-family: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px; resize: vertical; margin: 6px 0 10px; }
   .row { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
   .hint { font-size: 13px; color: var(--muted); }
@@ -87,9 +89,11 @@
       </div>
     </div>
     <div class="actions">
-      <button id="digestBtn" title="Copy a Slack post covering the next two weeks">Copy 2‑week Slack digest</button>
+      <button id="digestBtn" class="admin-only" hidden title="Copy a Slack post covering the next two weeks">Copy 2‑week Slack digest</button>
       <button id="subscribeBtn">Add to Google Calendar</button>
-      <button id="updateBtn" class="primary">Update now</button>
+      <button id="updateBtn" class="primary admin-only" hidden>Update now</button>
+      <button id="loginBtn" hidden>Officer login</button>
+      <button id="logoutBtn" hidden>Log out</button>
     </div>
   </header>
 
@@ -101,12 +105,21 @@
 
 <dialog id="eventDlg"><div class="dlg" id="eventBody"></div></dialog>
 <dialog id="subDlg"><div class="dlg" id="subBody"></div></dialog>
+<dialog id="loginDlg"><form class="dlg" id="loginForm" method="dialog">
+  <h2>Officer login</h2>
+  <p class="hint">Enter your UF email. If it's on the officer list, we'll email you a login link.</p>
+  <input id="loginEmail" type="email" required placeholder="you@ufl.edu" autocomplete="email">
+  <p class="hint" id="loginMsg"></p>
+  <div class="row"><button type="button" onclick="$('loginDlg').close()">Cancel</button>
+    <button class="primary" id="loginSend" type="submit">Email me a link</button></div>
+</form></dialog>
 <div class="toast" id="toast"></div>
 
 <script>
 const COLORS = ["#e8590c", "#1c7ed6", "#2f9e44", "#ae3ec9", "#b08900", "#0c8599", "#e03131", "#5c7cfa", "#66a80f", "#d6336c"];
 let DATA = { meta: {}, events: [] };
 let LOCAL = false;
+let ADMIN = false;  // officer tools (Slack posts, updates) only after login
 const hidden = new Set();
 const orgColor = {};
 
@@ -136,7 +149,7 @@ function fmtWhen(e) {
 
 function slackText(e) {
   const pitch = e.blurb || (e.description || "").split("\n")[0].slice(0, 240);
-  const lines = [`*${e.title}*  ·  ${e.org}`];
+  const lines = [`${e.title}  ·  ${e.org}`];
   if (pitch) lines.push(pitch);
   lines.push(`📅 ${fmtWhen(e)}`);
   if (e.location) lines.push(`📍 ${e.location}`);
@@ -165,14 +178,14 @@ function openEvent(uid) {
       <div class="hint">Found on: ${sources}</div>
     </div>
     ${e.description ? `<div class="desc">${esc(e.description)}</div>` : ""}
-    <label class="small" for="slackBox">Slack post ${e.blurb ? "" : "(no AI blurb yet, add a Gemini key)"}</label>
-    <textarea id="slackBox" rows="7">${esc(slackText(e))}</textarea>
+    ${ADMIN ? `<label class="small" for="slackBox">Slack post ${e.blurb ? "" : "(no AI blurb yet, add a Gemini key)"}</label>
+    <textarea id="slackBox" rows="7">${esc(slackText(e))}</textarea>` : ""}
     <div class="row">
       <a class="btn" href="${gcalLink(e)}" target="_blank" rel="noopener">Add this event to Google Calendar</a>
       <button onclick="$('eventDlg').close()">Close</button>
-      <button class="primary" id="copyOne">Copy Slack post</button>
+      ${ADMIN ? '<button class="primary" id="copyOne">Copy Slack post</button>' : ""}
     </div>`;
-  $("copyOne").onclick = () => copy($("slackBox").value);
+  if (ADMIN) $("copyOne").onclick = () => copy($("slackBox").value);
   $("eventDlg").showModal();
 }
 
@@ -180,8 +193,8 @@ function digest() {
   const now = new Date(), until = new Date(now.getTime() + 14 * 864e5);
   const upcoming = DATA.events.filter(e => !hidden.has(e.org) && new Date(e.start) >= now && new Date(e.start) <= until);
   if (!upcoming.length) return toast("No events in the next two weeks");
-  const range = `${now.toLocaleDateString("en-US", { month: "short", day: "numeric" })} – ${until.toLocaleDateString("en-US", { month: "short", day: "numeric" })}`;
-  copy(`🔥 *Gainesville innovation events: ${range}*\n\n` + upcoming.map(slackText).join("\n\n"));
+  const day = (d) => d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  copy(`Gainesville Events for ${day(now)} - ${day(until)}\n\n` + upcoming.map(slackText).join("\n\n"));
 }
 
 function renderChips() {
@@ -227,16 +240,11 @@ async function load() {
 }
 
 async function hostedUpdate(btn) {
-  let code = null;
-  try { code = localStorage.getItem("ignite-passcode"); } catch {}
-  if (!code) code = prompt("Officer passcode to run an update:");
-  if (!code) return;
   btn.disabled = true; btn.textContent = "Starting update…";
   try {
-    const r = await fetch("api/update", { method: "POST", headers: { "x-passcode": code } });
-    if (r.status === 401) { try { localStorage.removeItem("ignite-passcode"); } catch {} throw new Error("wrong passcode"); }
+    const r = await fetch("api/update", { method: "POST" });
+    if (r.status === 401) { await setupAuth(); throw new Error("please log in again"); }
     if (!r.ok) throw new Error((await r.json()).error || r.status);
-    try { localStorage.setItem("ignite-passcode", code); } catch {}
     // GitHub runs update.py and commits, then Vercel redeploys. Watch for the new data.
     const before = DATA.meta.updated;
     btn.textContent = "Updating… (≈2–3 min)";
@@ -250,10 +258,41 @@ async function hostedUpdate(btn) {
   btn.disabled = false; btn.textContent = "Update now";
 }
 
-async function setupUpdate() {
-  let mode = null;
-  try { const r = await fetch("api/status"); if (r.ok) mode = (await r.json()).mode; } catch {}
+async function getJSON(url) {
+  try { const r = await fetch(url, { cache: "no-store" }); return r.ok ? await r.json() : null; } catch { return null; }
+}
+
+// Viewers get a read-only calendar. Officer tools appear only when /api/session
+// says you're logged in, and the server re-checks the login on every update.
+async function setupAuth() {
+  const mode = (await getJSON("api/status") || {}).mode;
+  const session = mode ? await getJSON("api/session") : null;
   LOCAL = mode === "local";
+  ADMIN = Boolean(session && session.admin);
+  document.querySelectorAll(".admin-only").forEach(el => el.hidden = !ADMIN);
+  $("loginBtn").hidden = ADMIN || mode !== "hosted";
+  $("logoutBtn").hidden = !ADMIN || LOCAL;
+  if (ADMIN) setupUpdate(mode);
+}
+
+$("loginBtn").onclick = () => { $("loginMsg").textContent = ""; $("loginDlg").showModal(); $("loginEmail").focus(); };
+$("loginForm").addEventListener("submit", async (ev) => {
+  ev.preventDefault();
+  const btn = $("loginSend"); btn.disabled = true;
+  try {
+    const r = await fetch("api/login", { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email: $("loginEmail").value }) });
+    const data = await r.json();
+    $("loginMsg").textContent = data.message || data.error;
+  } catch { $("loginMsg").textContent = "Couldn't reach the server. Try again."; }
+  btn.disabled = false;
+});
+$("logoutBtn").onclick = async () => {
+  await fetch("api/logout", { method: "POST" });
+  await setupAuth(); toast("Logged out");
+};
+
+function setupUpdate(mode) {
   const btn = $("updateBtn");
   if (mode === "hosted") {
     btn.onclick = () => hostedUpdate(btn);
@@ -276,7 +315,7 @@ async function setupUpdate() {
   }
 }
 
-$("digestBtn").onclick = digest;
+$("digestBtn").onclick = () => ADMIN && digest();
 $("subscribeBtn").onclick = () => {
   const url = new URL("events.ics", location.href).href;
   $("subBody").innerHTML = LOCAL ? `
@@ -295,10 +334,16 @@ $("subscribeBtn").onclick = () => {
   const c = $("copyIcs"); if (c) c.onclick = () => { navigator.clipboard.writeText(url); toast("Link copied"); };
   $("subDlg").showModal();
 };
-for (const d of ["eventDlg", "subDlg"]) $(d).addEventListener("click", ev => { if (ev.target === $(d)) $(d).close(); });
+for (const d of ["eventDlg", "subDlg", "loginDlg"]) $(d).addEventListener("click", ev => { if (ev.target === $(d)) $(d).close(); });
+
+const loginResult = new URLSearchParams(location.search).get("login");
+if (loginResult) {
+  history.replaceState(null, "", location.pathname);
+  setTimeout(() => toast(loginResult === "ok" ? "Logged in" : "That login link expired. Request a new one."), 300);
+}
 
 calendar.render();
-load().then(setupUpdate);
+load().then(setupAuth);
 </script>
 </body>
 </html>

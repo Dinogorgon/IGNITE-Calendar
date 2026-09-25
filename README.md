@@ -53,8 +53,12 @@ On the page:
 
 How it works: Vercel serves `docs/` as the website. A GitHub Action runs `update.py`
 on the 1st and 15th of each month and commits the new calendar, and Vercel redeploys
-automatically. The site's **Update now** button calls `api/update.js`, which asks for
-an officer passcode and then starts that same GitHub Action.
+automatically.
+
+Visitors get a view-only calendar. **Officer login** emails a one-time link to allowed
+`@ufl.edu` addresses. Once logged in (for 30 days), officers see the Slack posts, the
+2-week digest, and **Update now**, which starts that same GitHub Action. The server
+re-checks the login on every update.
 
 1. Push this folder to a GitHub repo. `.env` is git-ignored, so your key stays private.
 2. GitHub repo → **Settings → Secrets and variables → Actions** → add `GEMINI_API_KEY`.
@@ -62,9 +66,18 @@ an officer passcode and then starts that same GitHub Action.
    tokens) with access to only this repo and **Actions: Read and write**.
 4. On vercel.com: **Add New → Project** → import the repo (settings come from `vercel.json`).
    Under **Environment Variables**, add:
-   - `UPDATE_PASSCODE`: a passcode for officers
    - `GITHUB_TOKEN`: the token from step 3
    - `GITHUB_REPO`: `Dinogorgon/IGNITE-Calendar` (or wherever the repo lives now)
+   - `ADMIN_EMAILS`: who can log in, comma-separated, `@ufl.edu` only (e.g. `peyton.decker@ufl.edu`)
+   - `SESSION_SECRET`: a long random string. In PowerShell:
+     `[Convert]::ToBase64String((1..48 | % { Get-Random -Max 256 }))`
+   - `RESEND_API_KEY`: from [resend.com](https://resend.com) (free), which sends the login emails
+   - `MAIL_FROM`: `IGNITE Events <login@peytondecker.me>` after verifying your domain in
+     Resend. Without it, emails come from `onboarding@resend.dev`, which only delivers to
+     the email you signed up to Resend with.
+   - `SITE_URL`: `https://gnvevents.peytondecker.me`
+
+   Redeploy after changing environment variables (Deployments → ⋯ → Redeploy).
 5. Vercel → Project → **Settings → Domains** to add your domain.
 6. Google Calendar → *Other calendars → From URL* → `https://your-domain/events.ics`.
    Anyone in the club can subscribe, and it stays in sync.
@@ -74,8 +87,10 @@ an officer passcode and then starts that same GitHub Action.
 Welcome! Most of this runs by itself. Here's what you need to know.
 
 **Normal use (no code):**
-- Open the site and click an event for its ready-to-paste Slack post, or use **Copy 2-week Slack digest**.
-- **Update now** asks for the officer passcode (ask the previous officer or check the Vercel settings).
+- Click **Officer login**, enter your UF email, and click the link that arrives in your inbox
+  (check Quarantine/Junk the first time). You stay logged in for 30 days.
+- Once logged in: click an event for its ready-to-paste Slack post, use **Copy 2-week Slack
+  digest**, or **Update now**.
 - The calendar also refreshes automatically on the 1st and 15th of every month.
 
 **Common changes:**
@@ -88,9 +103,11 @@ Welcome! Most of this runs by itself. Here's what you need to know.
 **Handing over access:**
 - GitHub: add the new officer as a collaborator, or better, keep the repo in an IGNITE GitHub organization.
 - Vercel: invite them to the project or team.
-- Rotate the secrets whenever officers change: a new `UPDATE_PASSCODE` (Vercel),
-  a new `GITHUB_TOKEN` owned by a current officer (Vercel), and a new `GEMINI_API_KEY`
-  (GitHub → Settings → Secrets → Actions).
+- Put the new officer's `@ufl.edu` address in `ADMIN_EMAILS` (Vercel) and remove old
+  officers. Removed addresses are locked out right away.
+- Rotate the secrets whenever officers change: a new `SESSION_SECRET` (logs everyone out),
+  a new `GITHUB_TOKEN` owned by a current officer, a `RESEND_API_KEY` from an account the
+  club controls (all in Vercel), and a new `GEMINI_API_KEY` (GitHub → Settings → Secrets → Actions).
 
 **If something breaks:**
 - A yellow "Couldn't reach …" banner means one source changed or is down. Other sources

@@ -26,8 +26,13 @@ module.exports = async (req, res) => {
         to: [email],
         subject: "Your IGNITE Events login link",
         text: `Log in to the IGNITE events calendar (link works for ${LINK_MINUTES} minutes):\n\n${link}\n\nIf you didn't ask for this, ignore this email.`,
-        html: `<p>Log in to the IGNITE events calendar:</p><p><a href="${link}">Log in</a></p>` +
-              `<p style="color:#666">This link works for ${LINK_MINUTES} minutes. If you didn't ask for it, ignore this email.</p>`,
+        html: `<div style="font-family:Arial,sans-serif;max-width:420px;margin:auto;text-align:center;color:#18202f">
+  <img src="${site}/logo.png" alt="IGNITE" width="72" height="72" style="margin:16px auto 8px">
+  <h2 style="color:#2f4a7d;margin:0 0 8px">IGNITE Events</h2>
+  <p>Click below to log in to the officer view.</p>
+  <p><a href="${link}" style="display:inline-block;background:#2f4a7d;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:bold;border-bottom:3px solid #e7aa35">Log in</a></p>
+  <p style="color:#5d677a;font-size:13px">This link works for ${LINK_MINUTES} minutes. If you didn't ask for it, ignore this email.</p>
+</div>`,
       }),
     });
     if (!r.ok) throw new Error(`Resend ${r.status}: ${await r.text()}`);

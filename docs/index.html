@@ -3,39 +3,74 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>IGNITE Event Calendar</title>
+<title>IGNITE Events</title>
+<meta name="description" content="Gainesville entrepreneurship and innovation events, collected in one calendar by IGNITE at UF.">
+<meta name="theme-color" content="#2f4a7d">
+<meta property="og:title" content="IGNITE · Gainesville Innovation Events">
+<meta property="og:description" content="Every startup, entrepreneurship and innovation event in Gainesville, in one calendar.">
+<meta property="og:image" content="https://gnvevents.peytondecker.me/logo.png">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
 <style>
+  /* Brand colors from logo.png: navy star, orange star points, gold flame */
   :root {
-    --bg: #f7f5f2; --panel: #ffffff; --ink: #1c1917; --muted: #6b645d; --line: #e7e2dc;
-    --accent: #e8590c; --accent-ink: #ffffff; --accent-soft: #fff0e6; --warn: #fff4d6; --warn-ink: #7a5300;
-    --shadow: 0 1px 2px rgb(0 0 0 / .05), 0 8px 24px rgb(0 0 0 / .06);
+    --navy: #2f4a7d; --navy-deep: #22375f; --orange: #e27c4b; --gold: #e7aa35;
+    --bg: #f5f6f9; --panel: #ffffff; --ink: #18202f; --muted: #5d677a; --line: #e2e6ee;
+    --accent: #d9692f; --accent-ink: #ffffff; --accent-soft: #fdf1e3;
+    --primary: var(--navy); --primary-ink: #ffffff;
+    --warn: #fff4d6; --warn-ink: #7a5300;
+    --shadow: 0 1px 2px rgb(24 32 47 / .05), 0 8px 24px rgb(24 32 47 / .07);
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #141210; --panel: #1f1c19; --ink: #f2eee9; --muted: #a39b92; --line: #332e29;
-      --accent: #ff7a33; --accent-ink: #1a0d05; --accent-soft: #3a2415; --warn: #3a2f12; --warn-ink: #f5d27a;
+      --bg: #0d1320; --panel: #151d2e; --ink: #edf0f6; --muted: #9aa5ba; --line: #263149;
+      --accent: #ec8a55; --accent-ink: #1a0d05; --accent-soft: #2c2418;
+      --primary: #ec8a55; --primary-ink: #1a0d05;
+      --warn: #3a2f12; --warn-ink: #f5d27a;
       --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 8px 24px rgb(0 0 0 / .3);
     }
   }
   * { box-sizing: border-box; }
   [hidden] { display: none !important; }
   body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 Inter, system-ui, sans-serif; }
-  .wrap { max-width: 1200px; margin: 0 auto; padding: 24px 16px 48px; }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+  main.wrap { padding-top: 20px; padding-bottom: 48px; }
 
-  header { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; justify-content: space-between; margin-bottom: 16px; }
-  .brand { display: flex; align-items: center; gap: 12px; }
-  .logo { width: 40px; height: 40px; border-radius: 10px; background: var(--accent); display: grid; place-items: center; color: var(--accent-ink); font-weight: 700; font-size: 20px; }
-  h1 { font-size: 20px; margin: 0; line-height: 1.2; }
-  .sub { color: var(--muted); font-size: 13px; }
+  /* Navy brand band with a flame-colored rule underneath */
+  .topbar { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-deep) 100%); color: #fff;
+    border-bottom: 4px solid transparent; border-image: linear-gradient(90deg, var(--orange), var(--gold)) 1; }
+  header { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; justify-content: space-between; padding: 18px 0; }
+  .brand { display: flex; align-items: center; gap: 14px; min-width: 0; }
+  .logo { width: 56px; height: 56px; flex: none; border-radius: 50%; background: #fff; padding: 5px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / .25); }
+  .logo img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .kicker { font-size: 12px; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); }
+  h1 { font-size: 22px; margin: 0; line-height: 1.2; font-weight: 700; }
+  .sub { color: rgb(255 255 255 / .72); font-size: 13px; margin-top: 2px; }
   .actions { display: flex; flex-wrap: wrap; gap: 8px; }
   button, .btn { font: inherit; font-size: 14px; font-weight: 500; border: 1px solid var(--line); background: var(--panel); color: var(--ink);
     padding: 8px 14px; border-radius: 8px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
   button:hover, .btn:hover { border-color: var(--muted); }
-  button.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  button.primary { background: var(--primary); border-color: var(--primary); color: var(--primary-ink); }
   button:disabled { opacity: .55; cursor: default; }
+  .topbar button { background: rgb(255 255 255 / .1); border-color: rgb(255 255 255 / .25); color: #fff; }
+  .topbar button:hover { background: rgb(255 255 255 / .18); border-color: rgb(255 255 255 / .5); }
+  .topbar button.primary { background: var(--orange); border-color: var(--orange); color: #1a0d05; font-weight: 600; }
+  .topbar button.primary:hover { background: #ec8a55; }
+
+  @media (max-width: 600px) {
+    .logo { width: 48px; height: 48px; }
+    h1 { font-size: 19px; }
+    .actions button { font-size: 13px; padding: 7px 11px; }
+    .card { padding: 10px; }
+    .fc .fc-toolbar { flex-wrap: wrap; gap: 8px; }
+    .fc .fc-toolbar-title { font-size: 16px; }
+    .fc .fc-list-table td { padding: 8px 8px; }
+    .fc .fc-list-event-time { white-space: normal; width: 5.5em; }
+  }
 
   .banner { background: var(--warn); color: var(--warn-ink); border-radius: 8px; padding: 10px 14px; margin-bottom: 12px; font-size: 14px; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
@@ -48,11 +83,11 @@
 
   /* FullCalendar theming */
   .fc { --fc-border-color: var(--line); --fc-page-bg-color: var(--panel); --fc-neutral-bg-color: var(--bg);
-    --fc-list-event-hover-bg-color: var(--accent-soft); --fc-today-bg-color: var(--accent-soft);
+    --fc-list-event-hover-bg-color: var(--accent-soft); --fc-today-bg-color: color-mix(in srgb, var(--gold) 14%, transparent);
     --fc-button-bg-color: var(--panel); --fc-button-border-color: var(--line); --fc-button-text-color: var(--ink);
     --fc-button-hover-bg-color: var(--bg); --fc-button-hover-border-color: var(--muted);
-    --fc-button-active-bg-color: var(--accent); --fc-button-active-border-color: var(--accent); }
-  .fc .fc-button-primary:not(:disabled).fc-button-active { color: var(--accent-ink); }
+    --fc-button-active-bg-color: var(--primary); --fc-button-active-border-color: var(--primary); }
+  .fc .fc-button-primary:not(:disabled).fc-button-active { color: var(--primary-ink); }
   .fc .fc-toolbar-title { font-size: 18px; }
   .fc .fc-button { font-size: 13px; text-transform: none; box-shadow: none !important; }
   .fc-event { cursor: pointer; }
@@ -79,11 +114,12 @@
 </style>
 </head>
 <body>
-<div class="wrap">
+<div class="topbar"><div class="wrap">
   <header>
     <div class="brand">
-      <div class="logo">i</div>
+      <div class="logo"><img src="logo.png" alt="IGNITE logo"></div>
       <div>
+        <div class="kicker" id="kicker">IGNITE</div>
         <h1 id="calName">Gainesville Innovation Events</h1>
         <div class="sub" id="updated">Loading…</div>
       </div>
@@ -96,12 +132,14 @@
       <button id="logoutBtn" hidden>Log out</button>
     </div>
   </header>
+</div></div>
 
+<main class="wrap">
   <div id="banner" class="banner" hidden></div>
   <pre id="log"></pre>
   <div class="chips" id="chips"></div>
   <div class="card"><div id="calendar"></div></div>
-</div>
+</main>
 
 <dialog id="eventDlg"><div class="dlg" id="eventBody"></div></dialog>
 <dialog id="subDlg"><div class="dlg" id="subBody"></div></dialog>
@@ -116,7 +154,7 @@
 <div class="toast" id="toast"></div>
 
 <script>
-const COLORS = ["#e8590c", "#1c7ed6", "#2f9e44", "#ae3ec9", "#b08900", "#0c8599", "#e03131", "#5c7cfa", "#66a80f", "#d6336c"];
+const COLORS = ["#d0612b", "#3d63a8", "#b7861a", "#2f9e44", "#8e44ad", "#0c8599", "#c92a2a", "#a61e4d", "#5c940d", "#5f3dc4"];
 let DATA = { meta: {}, events: [] };
 let LOCAL = false;
 let ADMIN = false;  // officer tools (Slack posts, updates) only after login
@@ -230,7 +268,9 @@ const calendar = new FullCalendar.Calendar($("calendar"), {
 async function load() {
   DATA = await (await fetch("events.json?" + Date.now())).json();
   const m = DATA.meta;
-  $("calName").textContent = m.calendar_name || "Events";
+  const [kicker, title] = (m.calendar_name || "Events").includes(" · ")
+    ? m.calendar_name.split(" · ") : ["IGNITE", m.calendar_name || "Events"];
+  $("kicker").textContent = kicker; $("calName").textContent = title;
   const upcoming = DATA.events.filter(e => new Date(e.start) >= new Date()).length;
   $("updated").textContent = `${upcoming} upcoming events · updated ${new Date(m.updated).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })}`;
   const b = $("banner");

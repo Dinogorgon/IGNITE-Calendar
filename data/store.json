@@ -226,6 +226,27 @@
    "first_seen": "2026-09-23T11:06:28.616018-04:00"
   },
   {
+   "title": "Hiring A+ Players: Building High-Performance Teams in a Fast-Changing World",
+   "org": "Women in Tech & Entrepreneurship",
+   "start": "2026-10-21T12:30:00-04:00",
+   "end": "2026-10-21T14:00:00-04:00",
+   "all_day": false,
+   "location": "Online",
+   "url": "https://www.eventbrite.com/e/hiring-a-players-building-high-performance-teams-in-a-fast-changing-world-tickets-2002649844595",
+   "description": "Learn how to identify the talent you need, hire beyond the résumé, and build a high-performing team ready for what comes next.",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194755939%2F1204725284803%2F1%2Foriginal.20260930-193009?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.987&fp-y=0.502&s=0792f7d4cb26de3004a3105f151dd967",
+   "sources": [
+    {
+     "name": "Women in Tech & Entrepreneurship",
+     "key": "eventbrite:2002649844595",
+     "url": "https://www.eventbrite.com/e/hiring-a-players-building-high-performance-teams-in-a-fast-changing-world-tickets-2002649844595"
+    }
+   ],
+   "uid": "58d973444a726773",
+   "rank": 1,
+   "first_seen": "2026-10-01T13:46:39.421094-04:00"
+  },
+  {
    "title": "The Florida Way Forward",
    "org": "UF Innovate",
    "start": "2026-10-21T14:00:00-04:00",
@@ -237,14 +258,14 @@
    "image": "",
    "sources": [
     {
-     "name": "UF Innovate",
-     "key": "ufcal:57608",
-     "url": "https://calendar.ufl.edu/innovate/event/57608-the-florida-way-forward"
-    },
-    {
      "name": "startGNV",
      "key": "startgnv:4072",
      "url": "https://startgnv.com/event/the-florida-way-forward/"
+    },
+    {
+     "name": "UF Innovate",
+     "key": "ufcal:57608",
+     "url": "https://calendar.ufl.edu/innovate/event/57608-the-florida-way-forward"
     }
    ],
    "uid": "f3041a7512b43b4d",
@@ -305,19 +326,40 @@
    "image": "",
    "sources": [
     {
-     "name": "UF Innovate",
-     "key": "ufcal:57594",
-     "url": "https://calendar.ufl.edu/innovate/event/57594-from-bench-to-automation-lunch-learn"
-    },
-    {
      "name": "startGNV",
      "key": "startgnv:4074",
      "url": "https://startgnv.com/event/from-bench-to-automation-lunch-learn/"
+    },
+    {
+     "name": "UF Innovate",
+     "key": "ufcal:57594",
+     "url": "https://calendar.ufl.edu/innovate/event/57594-from-bench-to-automation-lunch-learn"
     }
    ],
    "uid": "33f04de8611eec2e",
    "rank": 0,
    "first_seen": "2026-09-23T11:06:28.616018-04:00"
+  },
+  {
+   "title": "From Frat House To Franchising (Seminar)",
+   "org": "UF Innovate",
+   "start": "2026-11-05T14:00:00-05:00",
+   "end": "2026-11-05T15:00:00-05:00",
+   "all_day": false,
+   "location": "UF Innovate | The Hub, 747 SW Second Avenue, Gainesville, FL 32607",
+   "url": "https://calendar.ufl.edu/innovate/event/58247-from-frat-house-to-franchising-seminar",
+   "description": "Join Matt Friedman at UF Innovate | The Hub as he shares the story of turning a $500 investment and a fraternity-house kitchen in Gainesville into the global WING ZONE franchise.\n\n Please register by noon on November 4th.",
+   "image": "",
+   "sources": [
+    {
+     "name": "UF Innovate",
+     "key": "ufcal:58247",
+     "url": "https://calendar.ufl.edu/innovate/event/58247-from-frat-house-to-franchising-seminar"
+    }
+   ],
+   "uid": "df16aac6436e2957",
+   "rank": 0,
+   "first_seen": "2026-10-01T13:46:39.421094-04:00"
   },
   {
    "title": "celebrateGNV 2026",
@@ -378,14 +420,14 @@
    "image": "",
    "sources": [
     {
-     "name": "UF Innovate",
-     "key": "ufcal:57413",
-     "url": "https://calendar.ufl.edu/innovate/event/57413-off-the-couch-book-tour-fireside-chat"
-    },
-    {
      "name": "startGNV",
      "key": "startgnv:4053",
      "url": "https://startgnv.com/event/off-the-couch-book-tour-fireside-chat/"
+    },
+    {
+     "name": "UF Innovate",
+     "key": "ufcal:57413",
+     "url": "https://calendar.ufl.edu/innovate/event/57413-off-the-couch-book-tour-fireside-chat"
     }
    ],
    "uid": "0e7fe438d3305f56",
@@ -567,5 +609,5 @@
   }
  ],
  "first_run": "2026-09-23T11:06:28.616018-04:00",
- "last_run": "2026-09-25T17:07:22.570978-04:00"
+ "last_run": "2026-10-01T13:46:39.421094-04:00"
 }

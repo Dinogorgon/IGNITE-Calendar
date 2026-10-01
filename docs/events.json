@@ -1,9 +1,11 @@
 {
  "meta": {
   "calendar_name": "IGNITE · Gainesville Innovation Events",
-  "updated": "2026-09-25T17:07:22.570978-04:00",
+  "updated": "2026-10-01T13:46:39.421094-04:00",
   "first_run": "2026-09-23T11:06:28.616018-04:00",
-  "failed_sources": [],
+  "failed_sources": [
+   "startGNV"
+  ],
   "github_actions_url": "https://github.com/Dinogorgon/IGNITE-Calendar/actions/workflows/update.yml"
  },
  "events": [
@@ -220,6 +222,26 @@
    "blurb": null
   },
   {
+   "uid": "58d973444a726773",
+   "title": "Hiring A+ Players: Building High-Performance Teams in a Fast-Changing World",
+   "org": "Women in Tech & Entrepreneurship",
+   "start": "2026-10-21T12:30:00-04:00",
+   "end": "2026-10-21T14:00:00-04:00",
+   "all_day": false,
+   "location": "Online",
+   "url": "https://www.eventbrite.com/e/hiring-a-players-building-high-performance-teams-in-a-fast-changing-world-tickets-2002649844595",
+   "description": "Learn how to identify the talent you need, hire beyond the résumé, and build a high-performing team ready for what comes next.",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194755939%2F1204725284803%2F1%2Foriginal.20260930-193009?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.987&fp-y=0.502&s=0792f7d4cb26de3004a3105f151dd967",
+   "sources": [
+    {
+     "name": "Women in Tech & Entrepreneurship",
+     "url": "https://www.eventbrite.com/e/hiring-a-players-building-high-performance-teams-in-a-fast-changing-world-tickets-2002649844595"
+    }
+   ],
+   "first_seen": "2026-10-01T13:46:39.421094-04:00",
+   "blurb": null
+  },
+  {
    "uid": "f3041a7512b43b4d",
    "title": "The Florida Way Forward",
    "org": "UF Innovate",
@@ -232,12 +254,12 @@
    "image": "",
    "sources": [
     {
-     "name": "UF Innovate",
-     "url": "https://calendar.ufl.edu/innovate/event/57608-the-florida-way-forward"
-    },
-    {
      "name": "startGNV",
      "url": "https://startgnv.com/event/the-florida-way-forward/"
+    },
+    {
+     "name": "UF Innovate",
+     "url": "https://calendar.ufl.edu/innovate/event/57608-the-florida-way-forward"
     }
    ],
    "first_seen": "2026-09-23T11:06:28.616018-04:00",
@@ -296,15 +318,35 @@
    "image": "",
    "sources": [
     {
-     "name": "UF Innovate",
-     "url": "https://calendar.ufl.edu/innovate/event/57594-from-bench-to-automation-lunch-learn"
-    },
-    {
      "name": "startGNV",
      "url": "https://startgnv.com/event/from-bench-to-automation-lunch-learn/"
+    },
+    {
+     "name": "UF Innovate",
+     "url": "https://calendar.ufl.edu/innovate/event/57594-from-bench-to-automation-lunch-learn"
     }
    ],
    "first_seen": "2026-09-23T11:06:28.616018-04:00",
+   "blurb": null
+  },
+  {
+   "uid": "df16aac6436e2957",
+   "title": "From Frat House To Franchising (Seminar)",
+   "org": "UF Innovate",
+   "start": "2026-11-05T14:00:00-05:00",
+   "end": "2026-11-05T15:00:00-05:00",
+   "all_day": false,
+   "location": "UF Innovate | The Hub, 747 SW Second Avenue, Gainesville, FL 32607",
+   "url": "https://calendar.ufl.edu/innovate/event/58247-from-frat-house-to-franchising-seminar",
+   "description": "Join Matt Friedman at UF Innovate | The Hub as he shares the story of turning a $500 investment and a fraternity-house kitchen in Gainesville into the global WING ZONE franchise.\n\n Please register by noon on November 4th.",
+   "image": "",
+   "sources": [
+    {
+     "name": "UF Innovate",
+     "url": "https://calendar.ufl.edu/innovate/event/58247-from-frat-house-to-franchising-seminar"
+    }
+   ],
+   "first_seen": "2026-10-01T13:46:39.421094-04:00",
    "blurb": null
   },
   {
@@ -364,12 +406,12 @@
    "image": "",
    "sources": [
     {
-     "name": "UF Innovate",
-     "url": "https://calendar.ufl.edu/innovate/event/57413-off-the-couch-book-tour-fireside-chat"
-    },
-    {
      "name": "startGNV",
      "url": "https://startgnv.com/event/off-the-couch-book-tour-fireside-chat/"
+    },
+    {
+     "name": "UF Innovate",
+     "url": "https://calendar.ufl.edu/innovate/event/57413-off-the-couch-book-tour-fireside-chat"
     }
    ],
    "first_seen": "2026-09-23T11:06:28.616018-04:00",

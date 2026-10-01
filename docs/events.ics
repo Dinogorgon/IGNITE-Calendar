@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ae45d2d5070697ff@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:Postdoc Appreciation: Beyond the Lab
 DTSTART:20260922T160000Z
 DTEND:20260922T173000Z
@@ -23,7 +23,7 @@ DESCRIPTION:Connect with the innovation ecosystem and learn about entrepren
 END:VEVENT
 BEGIN:VEVENT
 UID:e646feba134c1d0a@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:Funding Innovation (workshop)
 DTSTART:20260923T140000Z
 DTEND:20260923T150000Z
@@ -75,7 +75,7 @@ DESCRIPTION:The session combines an educational seminar on SBIR/STTR and ot
 END:VEVENT
 BEGIN:VEVENT
 UID:8f56be02fa90c887@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:Funding Innovation (workshop)
 DTSTART:20260923T170000Z
 DTEND:20260923T180000Z
@@ -132,7 +132,7 @@ DESCRIPTION:The session combines an educational seminar on SBIR/STTR and ot
 END:VEVENT
 BEGIN:VEVENT
 UID:d8f35add987098f6@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:Funding Innovation (workshop)
 DTSTART:20260923T180000Z
 DTEND:20260923T190000Z
@@ -187,7 +187,7 @@ DESCRIPTION:The session combines an educational seminar on SBIR/STTR and ot
 END:VEVENT
 BEGIN:VEVENT
 UID:20223bd908b5dd5c@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:Women in Tech and Entrepreneurship - Gainesville Voter Education Mi
  xer
 DTSTART:20260923T213000Z
@@ -203,7 +203,7 @@ DESCRIPTION:Mix\, mingle\, and make your voice count! Join the Gainesville
 END:VEVENT
 BEGIN:VEVENT
 UID:acc21fc87e4ec023@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:September Eye Opener Discovery Breakfast
 DTSTART:20260924T113000Z
 DTEND:20260924T130000Z
@@ -225,7 +225,7 @@ DESCRIPTION:Join us as we welcome President Stuart Bell to the September Ey
 END:VEVENT
 BEGIN:VEVENT
 UID:6df8c8a4c9a437ee@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:Create Your 6 Month Marketing Roadmap: Stop Guessing\, Start Growin
  g
 DTSTART:20260930T160000Z
@@ -241,7 +241,7 @@ DESCRIPTION:Stop guessing at marketing tactics. Work with our expert to bui
 END:VEVENT
 BEGIN:VEVENT
 UID:21ba120e41f83a2a@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:CIED – Fall Financial Forum
 DTSTART:20261001T140000Z
 DTEND:20261001T190000Z
@@ -263,7 +263,7 @@ DESCRIPTION:Empowering businesses and nonprofits with financial knowledge\,
 END:VEVENT
 BEGIN:VEVENT
 UID:d22745d7c572d642@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:GNV.AI Cowork Session
 DTSTART:20261003T160000Z
 DTEND:20261003T170000Z
@@ -281,7 +281,7 @@ DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
 END:VEVENT
 BEGIN:VEVENT
 UID:7c4a78870d13972d@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:aiGNV October 2026 Lunch Meetup: Trends\, Tools\, Real Use Cases
 DTSTART:20261014T153000Z
 DTEND:20261014T170000Z
@@ -311,8 +311,24 @@ DESCRIPTION:Join us for a casual lunch meetup to dive into the latest trend
  -lunch-meetup-trends-tools-real-use-cases-tickets-1990800743615
 END:VEVENT
 BEGIN:VEVENT
+UID:58d973444a726773@ignite-gnv-events
+DTSTAMP:20261001T174646Z
+SUMMARY:Hiring A+ Players: Building High-Performance Teams in a Fast-Changi
+ ng World
+DTSTART:20261021T163000Z
+DTEND:20261021T180000Z
+LOCATION:Online
+URL:https://www.eventbrite.com/e/hiring-a-players-building-high-performance
+ -teams-in-a-fast-changing-world-tickets-2002649844595
+DESCRIPTION:Learn how to identify the talent you need\, hire beyond the ré
+ sumé\, and build a high-performing team ready for what comes next.\nHoste
+ d by: Women in Tech & Entrepreneurship\nWomen in Tech & Entrepreneurship: 
+ https://www.eventbrite.com/e/hiring-a-players-building-high-performance-te
+ ams-in-a-fast-changing-world-tickets-2002649844595
+END:VEVENT
+BEGIN:VEVENT
 UID:f3041a7512b43b4d@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:The Florida Way Forward
 DTSTART:20261021T180000Z
 DTEND:20261021T193000Z
@@ -341,13 +357,13 @@ DESCRIPTION:Standing InnOvation is UF Innovate | Tech Licensing’s annual
  \, perseverance\, and purpose. Today\, Patric shares his story through spe
  aking\, writing\, and his work with the Patric Young Foundation. His exper
  ience shows that setbacks can change your path without defining your futur
- e.\nHosted by: UF Innovate\nUF Innovate: https://calendar.ufl.edu/innovate
- /event/57608-the-florida-way-forward\nstartGNV: https://startgnv.com/event
- /the-florida-way-forward/
+ e.\nHosted by: UF Innovate\nstartGNV: https://startgnv.com/event/the-flori
+ da-way-forward/\nUF Innovate: https://calendar.ufl.edu/innovate/event/5760
+ 8-the-florida-way-forward
 END:VEVENT
 BEGIN:VEVENT
 UID:8baccdee1854f66b@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:Project "Show & Tell" Evening
 DTSTART:20261021T210000Z
 DTEND:20261021T220000Z
@@ -366,7 +382,7 @@ DESCRIPTION:Come on by to share what you've been working on\, get feedback
 END:VEVENT
 BEGIN:VEVENT
 UID:d30d7707530fedce@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:Women in Tech and Entrepreneurship - Gainesville October Happy Hour
 DTSTART:20261028T213000Z
 DTEND:20261028T233000Z
@@ -381,7 +397,7 @@ DESCRIPTION:A casual gathering of high-performing\, non-conforming women fo
 END:VEVENT
 BEGIN:VEVENT
 UID:33f04de8611eec2e@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:From Bench To Automation (Lunch & Learn)
 DTSTART:20261105T160000Z
 DTEND:20261105T183000Z
@@ -434,14 +450,30 @@ DESCRIPTION:From 11 AM – 1 PM in the Sid Martin main lobby\, attendees ar
  rogram that includes Sid Martin Biotech\, the globally recognized biotechn
  ology incubator located in Progress Park in Alachua\, Florida\, and The Hu
  b\, the globally recognized diversified tech incubator located in Gainesvi
- lle’s Innovation District.\nHosted by: UF Innovate\nUF Innovate: https:/
- /calendar.ufl.edu/innovate/event/57594-from-bench-to-automation-lunch-lear
- n\nstartGNV: https://startgnv.com/event/from-bench-to-automation-lunch-lea
- rn/
+ lle’s Innovation District.\nHosted by: UF Innovate\nstartGNV: https://st
+ artgnv.com/event/from-bench-to-automation-lunch-learn/\nUF Innovate: https
+ ://calendar.ufl.edu/innovate/event/57594-from-bench-to-automation-lunch-le
+ arn
+END:VEVENT
+BEGIN:VEVENT
+UID:df16aac6436e2957@ignite-gnv-events
+DTSTAMP:20261001T174646Z
+SUMMARY:From Frat House To Franchising (Seminar)
+DTSTART:20261105T190000Z
+DTEND:20261105T200000Z
+LOCATION:UF Innovate | The Hub\, 747 SW Second Avenue\, Gainesville\, FL 32
+ 607
+URL:https://calendar.ufl.edu/innovate/event/58247-from-frat-house-to-franch
+ ising-seminar
+DESCRIPTION:Join Matt Friedman at UF Innovate | The Hub as he shares the st
+ ory of turning a $500 investment and a fraternity-house kitchen in Gainesv
+ ille into the global WING ZONE franchise.\n\n Please register by noon on N
+ ovember 4th.\nHosted by: UF Innovate\nUF Innovate: https://calendar.ufl.ed
+ u/innovate/event/58247-from-frat-house-to-franchising-seminar
 END:VEVENT
 BEGIN:VEVENT
 UID:7c6132ad9435028f@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:celebrateGNV 2026
 DTSTART:20261105T230000Z
 DTEND:20261106T020000Z
@@ -479,7 +511,7 @@ DESCRIPTION:The premier annual celebration of North Central Florida's thriv
 END:VEVENT
 BEGIN:VEVENT
 UID:042123cc61e3a52d@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:GNV.AI Cowork Session
 DTSTART:20261107T170000Z
 DTEND:20261107T180000Z
@@ -497,7 +529,7 @@ DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
 END:VEVENT
 BEGIN:VEVENT
 UID:0e7fe438d3305f56@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:Off The Couch Book Tour + Fireside Chat
 DTSTART:20261109T180000Z
 DTEND:20261109T193000Z
@@ -532,13 +564,13 @@ DESCRIPTION:About the book:\nOff The Couch is the story of what happens whe
  d Martin Biotech\, the globally recognized biotechnology incubator located
   in Progress Park in Alachua\, Florida\, and The Hub\, the globally recogn
  ized diversified tech incubator located in Gainesville’s Innovation Dist
- rict.\nHosted by: UF Innovate\nUF Innovate: https://calendar.ufl.edu/innov
- ate/event/57413-off-the-couch-book-tour-fireside-chat\nstartGNV: https://s
- tartgnv.com/event/off-the-couch-book-tour-fireside-chat/
+ rict.\nHosted by: UF Innovate\nstartGNV: https://startgnv.com/event/off-th
+ e-couch-book-tour-fireside-chat/\nUF Innovate: https://calendar.ufl.edu/in
+ novate/event/57413-off-the-couch-book-tour-fireside-chat
 END:VEVENT
 BEGIN:VEVENT
 UID:0d543d9488e09a92@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:aiGNV November 2026 Lunch Meetup: Trends\, Tools\, Real Use Cases
 DTSTART:20261111T163000Z
 DTEND:20261111T180000Z
@@ -568,7 +600,7 @@ DESCRIPTION:Join us for a casual lunch meetup to dive into the latest trend
 END:VEVENT
 BEGIN:VEVENT
 UID:d947ee917cafd426@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:Project "Show & Tell" Evening
 DTSTART:20261118T220000Z
 DTEND:20261118T230000Z
@@ -587,7 +619,7 @@ DESCRIPTION:Come on by to share what you've been working on\, get feedback
 END:VEVENT
 BEGIN:VEVENT
 UID:e94735e4189e8a5a@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:GNV.AI Cowork Session
 DTSTART:20261205T170000Z
 DTEND:20261205T180000Z
@@ -605,7 +637,7 @@ DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
 END:VEVENT
 BEGIN:VEVENT
 UID:9d9ff73c51317832@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:StartGNV's AI for Business Lunch & Learn
 DTSTART:20261209T170000Z
 DTEND:20261209T183000Z
@@ -621,7 +653,7 @@ DESCRIPTION:BYO Lunch and Learn some cool AI tips and tricks for your busin
 END:VEVENT
 BEGIN:VEVENT
 UID:aa05c66a6da7cb02@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:Project "Show & Tell" Evening
 DTSTART:20261216T220000Z
 DTEND:20261216T230000Z
@@ -640,7 +672,7 @@ DESCRIPTION:Come on by to share what you've been working on\, get feedback
 END:VEVENT
 BEGIN:VEVENT
 UID:0d8be3490aef14cf@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:GNV.AI Cowork Session
 DTSTART:20270102T170000Z
 DTEND:20270102T180000Z
@@ -658,7 +690,7 @@ DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
 END:VEVENT
 BEGIN:VEVENT
 UID:e9fb0e20891a4eb4@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:StartGNV's AI for Business Lunch & Learn
 DTSTART:20270113T170000Z
 DTEND:20270113T183000Z
@@ -674,7 +706,7 @@ DESCRIPTION:BYO Lunch and Learn some cool AI tips and tricks for your busin
 END:VEVENT
 BEGIN:VEVENT
 UID:6e6d6f3659e43347@ignite-gnv-events
-DTSTAMP:20260925T210739Z
+DTSTAMP:20261001T174646Z
 SUMMARY:Project "Show & Tell" Evening
 DTSTART:20270120T220000Z
 DTEND:20270120T230000Z

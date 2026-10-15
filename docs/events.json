@@ -1,7 +1,7 @@
 {
  "meta": {
   "calendar_name": "IGNITE · Gainesville Innovation Events",
-  "updated": "2026-10-01T13:46:39.421094-04:00",
+  "updated": "2026-10-15T12:01:22.877536-04:00",
   "first_run": "2026-09-23T11:06:28.616018-04:00",
   "failed_sources": [
    "startGNV"
@@ -222,6 +222,46 @@
    "blurb": null
   },
   {
+   "uid": "10a7e882ad94de4c",
+   "title": "GBM 4",
+   "org": "Florida Women in Business",
+   "start": "2026-10-14T18:15:00-04:00",
+   "end": "2026-10-14T19:30:00-04:00",
+   "all_day": false,
+   "location": "HVNR 150",
+   "url": "https://gatorconnect.ufl.edu/event/12887908",
+   "description": "Join us at 6:30pm to hear organizational updates, a workshop, and from a female entrepreneur!",
+   "image": "",
+   "sources": [
+    {
+     "name": "GatorConnect",
+     "url": "https://gatorconnect.ufl.edu/event/12887908"
+    }
+   ],
+   "first_seen": "2026-10-15T12:01:22.877536-04:00",
+   "blurb": null
+  },
+  {
+   "uid": "d4587ce71c14b451",
+   "title": "Accelerate Your Research (Seminar)",
+   "org": "UF Innovate",
+   "start": "2026-10-20T14:00:00-04:00",
+   "end": "2026-10-20T15:00:00-04:00",
+   "all_day": false,
+   "location": "UF Innovate | Sid Martin Biotech, 12085 Research Dr., Alachua, FL 32615",
+   "url": "https://calendar.ufl.edu/innovate/event/58308-accelerate-your-research-seminar",
+   "description": "Join us for a seminar to explore human-relevant NAMs, including stem cell, organoid, and immune cell models, and learn how to implement them in your lab with guidance from STEMCELL Technologies.\n\n Please register by noon on October 19th.",
+   "image": "",
+   "sources": [
+    {
+     "name": "UF Innovate",
+     "url": "https://calendar.ufl.edu/innovate/event/58308-accelerate-your-research-seminar"
+    }
+   ],
+   "first_seen": "2026-10-15T12:01:22.877536-04:00",
+   "blurb": null
+  },
+  {
    "uid": "58d973444a726773",
    "title": "Hiring A+ Players: Building High-Performance Teams in a Fast-Changing World",
    "org": "Women in Tech & Entrepreneurship",
@@ -303,6 +343,26 @@
     }
    ],
    "first_seen": "2026-09-25T16:55:27.045623-04:00",
+   "blurb": null
+  },
+  {
+   "uid": "75743f549d8af097",
+   "title": "A Practical Guide To HealthTech Fundraising (Lunch & Learn)",
+   "org": "UF Innovate",
+   "start": "2026-10-29T12:00:00-04:00",
+   "end": "2026-10-29T13:00:00-04:00",
+   "all_day": false,
+   "location": "UF Innovate | Sid Martin Biotech, 12085 Research Dr., Alachua, FL 32615",
+   "url": "https://calendar.ufl.edu/innovate/event/58515-a-practical-guide-to-healthtech-fundraising-lunch-lear",
+   "description": "Join Alberto Chan, co-founder of RaiseHealth, for a Lunch & Learn on translating your science into a story investors love. If you are a health tech company looking to raise funds, you won’t want to miss this!\n\n Please register by noon on October 28th.",
+   "image": "",
+   "sources": [
+    {
+     "name": "UF Innovate",
+     "url": "https://calendar.ufl.edu/innovate/event/58515-a-practical-guide-to-healthtech-fundraising-lunch-lear"
+    }
+   ],
+   "first_seen": "2026-10-15T12:01:22.877536-04:00",
    "blurb": null
   },
   {
@@ -442,6 +502,46 @@
    "blurb": null
   },
   {
+   "uid": "8eec1f2a511d0486",
+   "title": "Women in Tech and Entrepreneurship - Gainesville Chapter 2026 Holiday Party",
+   "org": "Women in Tech & Entrepreneurship",
+   "start": "2026-11-11T17:30:00-05:00",
+   "end": "2026-11-11T19:30:00-05:00",
+   "all_day": false,
+   "location": "Satchel's Pizza, 1800 Northeast 23rd Avenue, Gainesville",
+   "url": "https://www.eventbrite.com/e/women-in-tech-and-entrepreneurship-gainesville-chapter-2026-holiday-party-tickets-2002458863365",
+   "description": "Celebrate the season with Gainesville's most ambitious women in tech and entrepreneurship. Good vibes, great connections, and holiday cheer.",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194540580%2F2543482355201%2F1%2Foriginal.20260928-171138?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.138&fp-y=0.544&s=86eafc7c1e5bfd113478d875216844ca",
+   "sources": [
+    {
+     "name": "Women in Tech & Entrepreneurship",
+     "url": "https://www.eventbrite.com/e/women-in-tech-and-entrepreneurship-gainesville-chapter-2026-holiday-party-tickets-2002458863365"
+    }
+   ],
+   "first_seen": "2026-10-15T12:01:22.877536-04:00",
+   "blurb": null
+  },
+  {
+   "uid": "2eb1988ed3228a29",
+   "title": "Sartorius Table Show",
+   "org": "UF Innovate",
+   "start": "2026-11-12T10:00:00-05:00",
+   "end": "2026-11-12T12:00:00-05:00",
+   "all_day": false,
+   "location": "UF Innovate | Sid Martin Biotech, 12085 Research Dr., Alachua, FL 32615",
+   "url": "https://calendar.ufl.edu/innovate/event/58453-sartorius-table-show",
+   "description": "Stop by and learn about the latest scientific offerings from Sartorius!\n\n Please register by noon on November 11th.",
+   "image": "",
+   "sources": [
+    {
+     "name": "UF Innovate",
+     "url": "https://calendar.ufl.edu/innovate/event/58453-sartorius-table-show"
+    }
+   ],
+   "first_seen": "2026-10-15T12:01:22.877536-04:00",
+   "blurb": null
+  },
+  {
    "uid": "d947ee917cafd426",
    "title": "Project \"Show & Tell\" Evening",
    "org": "aiGNV / GNV.AI",
@@ -459,6 +559,26 @@
     }
    ],
    "first_seen": "2026-09-23T11:06:28.616018-04:00",
+   "blurb": null
+  },
+  {
+   "uid": "8fb6be3b5397a18f",
+   "title": "Less Artificial, More Iconic: Competing & Leading in an AI Driven World",
+   "org": "Women in Tech & Entrepreneurship",
+   "start": "2026-12-04T10:00:00-05:00",
+   "end": "2026-12-04T17:00:00-05:00",
+   "all_day": false,
+   "location": "Embarc Collective, 802 East Whiting Street, Tampa",
+   "url": "https://www.eventbrite.com/e/less-artificial-more-iconic-competing-leading-in-an-ai-driven-world-tickets-2003016835274",
+   "description": "AI is rewriting the rules of power, work and business. In this hands-on AI summit, you'll learn to govern, differentiate, and build with AI.",
+   "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195360931%2F1204725284803%2F1%2Foriginal.20261008-122656?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=1.0&fp-y=0.473&s=5f1fa362a886f66a9e2834f9a7d4af6a",
+   "sources": [
+    {
+     "name": "Women in Tech & Entrepreneurship",
+     "url": "https://www.eventbrite.com/e/less-artificial-more-iconic-competing-leading-in-an-ai-driven-world-tickets-2003016835274"
+    }
+   ],
+   "first_seen": "2026-10-15T12:01:22.877536-04:00",
    "blurb": null
   },
   {
@@ -488,7 +608,7 @@
    "start": "2026-12-09T12:00:00-05:00",
    "end": "2026-12-09T13:30:00-05:00",
    "all_day": false,
-   "location": "Las Carretas Mexican Restaurant 3501 SW 2nd Ave, Gainesville, FL 32607",
+   "location": "RSVP for info!",
    "url": "https://gnv.ai/events/ai-for-business-lunch-and-learn",
    "description": "BYO Lunch and Learn some cool AI tips and tricks for your business.\n\nEach month our partner StartGNV hosts and a lunch time event at Las Carretas, full of AI updates and tips and tricks for how you can implement AI into your business. \n\nRSVP for the taco bar and if you'd like to sponsor the event get get in touch!",
    "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1785090515/gnv-community/events/tw4lc9bmdw7hfpkjfjbf.jpg",
@@ -548,7 +668,7 @@
    "start": "2027-01-13T12:00:00-05:00",
    "end": "2027-01-13T13:30:00-05:00",
    "all_day": false,
-   "location": "Las Carretas Mexican Restaurant 3501 SW 2nd Ave, Gainesville, FL 32607",
+   "location": "RSVP for info!",
    "url": "https://gnv.ai/events/ai-for-business-lunch-and-learn",
    "description": "BYO Lunch and Learn some cool AI tips and tricks for your business.\n\nEach month our partner StartGNV hosts and a lunch time event at Las Carretas, full of AI updates and tips and tricks for how you can implement AI into your business. \n\nRSVP for the taco bar and if you'd like to sponsor the event get get in touch!",
    "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1785090515/gnv-community/events/tw4lc9bmdw7hfpkjfjbf.jpg",
@@ -579,6 +699,46 @@
     }
    ],
    "first_seen": "2026-09-23T11:06:28.616018-04:00",
+   "blurb": null
+  },
+  {
+   "uid": "818926a2273e8e14",
+   "title": "GNV.AI Cowork Session",
+   "org": "aiGNV / GNV.AI",
+   "start": "2027-02-06T12:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "location": "TBD ... Either Zoom or GTEC",
+   "url": "https://gnv.ai/events/the-monthly-weekend-workshop",
+   "description": "Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the first Saturday of each month from 11:30 AM to 3:00 PM for a free, hands-on workshop exploring how to use \"low-code\" AI for creativity, productivity, and everyday life. Open to the public and designed for low-intermediate experience levels, these sessions will help you learn practical tools and techniques for using AI to spark ideas, automate tasks, and simplify your work. Just bring your laptop and curiosity—everything else is provided.\n\nSpecial THANKS to GTEC for hosting!",
+   "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1764259567/gnv-community/events/pnmx1qp9vlrcwbqr3qjo.jpg",
+   "sources": [
+    {
+     "name": "aiGNV / GNV.AI",
+     "url": "https://gnv.ai/events/the-monthly-weekend-workshop"
+    }
+   ],
+   "first_seen": "2026-10-15T12:01:22.877536-04:00",
+   "blurb": null
+  },
+  {
+   "uid": "191e3747c795b99b",
+   "title": "StartGNV's AI for Business Lunch & Learn",
+   "org": "aiGNV / GNV.AI",
+   "start": "2027-02-10T12:00:00-05:00",
+   "end": "2027-02-10T13:30:00-05:00",
+   "all_day": false,
+   "location": "RSVP for info!",
+   "url": "https://gnv.ai/events/ai-for-business-lunch-and-learn",
+   "description": "BYO Lunch and Learn some cool AI tips and tricks for your business.\n\nEach month our partner StartGNV hosts and a lunch time event full of AI updates and tips and tricks for how you can implement AI into your business.",
+   "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1785090515/gnv-community/events/tw4lc9bmdw7hfpkjfjbf.jpg",
+   "sources": [
+    {
+     "name": "aiGNV / GNV.AI",
+     "url": "https://gnv.ai/events/ai-for-business-lunch-and-learn"
+    }
+   ],
+   "first_seen": "2026-10-15T12:01:22.877536-04:00",
    "blurb": null
   }
  ]

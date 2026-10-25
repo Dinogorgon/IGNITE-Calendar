@@ -4,10 +4,12 @@
 //     node dev-server.js          then open http://localhost:3000
 //
 // Settings come from .env (same names as the Vercel environment variables).
-// Login links in the email point back to localhost while this is running.
+// Login links in the email point back to localhost while this is running, and
+// "Update now" runs update.py here rather than on GitHub.
 const fs = require("fs");
 const http = require("http");
 const path = require("path");
+const { spawn } = require("child_process");
 
 const PORT = Number(process.env.PORT) || 3000;
 const ROOT = __dirname;
@@ -53,8 +55,28 @@ async function runApi(name, req, res, url) {
   console.log(`${req.method} /api/${name} -> ${res.statusCode}`);
 }
 
+// "Update now" runs update.py on this computer instead of starting the GitHub
+// workflow, so local tests never touch the live site. Login is still required.
+let updating = false;
+function runLocalUpdate(req, res) {
+  delete require.cache[require.resolve(path.join(ROOT, "api", "_auth.js"))];
+  const { currentUser } = require("./api/_auth");
+  res = withHelpers(res);
+  if (req.method !== "POST") return res.status(405).json({ error: "POST only" });
+  if (!currentUser(req)) return res.status(401).json({ error: "Log in first" });
+  if (updating) return res.status(202).json({ started: true });
+  updating = true;
+  const py = process.platform === "win32" ? "python" : "python3";
+  const child = spawn(py, ["update.py"], { cwd: ROOT, stdio: "inherit" });
+  child.on("error", (err) => { updating = false; console.error(`Couldn't run ${py}: ${err.message}`); });
+  child.on("exit", (code) => { updating = false; console.log(`update.py finished (exit ${code})`); });
+  console.log("POST /api/update -> 202 (running update.py)");
+  res.status(202).json({ started: true });
+}
+
 http.createServer(async (req, res) => {
   const url = new URL(req.url, `http://localhost:${PORT}`);
+  if (url.pathname.replace(/\/$/, "") === "/api/update") return runLocalUpdate(req, res);
   if (url.pathname.startsWith("/api/")) return runApi(url.pathname.slice(5).replace(/\/$/, ""), req, res, url);
   let file = path.normalize(path.join(DOCS, decodeURIComponent(url.pathname)));
   if (!file.startsWith(DOCS)) { res.statusCode = 403; return res.end(); }

@@ -26,8 +26,10 @@ when the details support it. Never invent facts that aren't in the event info.
 
 # ---------------------------------------------------------------------------
 # Sources. Earlier sources win when the same event appears in several places.
-# type = startgnv | uf_calendar | eventbrite | gatorconnect
+# type = startgnv | uf_calendar | eventbrite | gatorconnect | gnvai | ical
 # ---------------------------------------------------------------------------
+# Instagram-only clubs (e.g. Entrepreneurship Collective / ECO) can't be read
+# automatically: add their events to manual_events.toml.
 
 [[sources]]
 name = "UF Innovate"
@@ -54,6 +56,13 @@ name = "startGNV (Eventbrite)"
 org = "startGNV"
 type = "eventbrite"
 url = "https://www.eventbrite.com/o/startgnv-17872698213"
+
+[[sources]]
+name = "FES"
+type = "ical"                     # any public .ics / Google Calendar feed
+# The Google Calendar embedded on https://www.gatorfes.org/events
+url = "https://calendar.google.com/calendar/ical/79e1d216d7756f07512a2d10cc227afbf71d4f98fe698c4841714cac6101bece%40group.calendar.google.com/public/basic.ics"
+link = "https://www.gatorfes.org/events"   # shown when an event has no link of its own
 
 [[sources]]
 name = "GatorConnect"

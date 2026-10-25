@@ -1,5 +1,6 @@
 # Events you find by hand (Instagram flyers, group chats, emails…).
 # Copy the example block, fill it in, and hit Update. Times are Gainesville local time.
+# For an all-day event, give just the date: start = "2026-10-26"
 # Duplicates of events the tool already found are merged automatically.
 
 # [[event]]
@@ -10,3 +11,37 @@
 # location = "Warrington, Heavener Hall 130"
 # url = "https://www.instagram.com/p/..."
 # description = "Student founders pitch to a panel of local investors. Free pizza."
+
+# --- UF AI Days 2026 (from calendar.ufl.edu, group "UF Artificial Intelligence") ---
+
+[[event]]
+title = "AI Days: Student Competitions Day"
+org = "UF AI Days"
+start = "2026-10-26"
+location = "Reitz Union Grand Ballroom"
+url = "https://calendar.ufl.edu/ai/event/55256-ai-days-student-competitions-day"
+description = "Student Competitions Day: Gator Tank, Gator Hack and Gator Create."
+
+[[event]]
+title = "AI Days: Research and Teaching Discussions"
+org = "UF AI Days"
+start = "2026-10-27"
+location = "Reitz Union Grand Ballroom"
+url = "https://calendar.ufl.edu/ai/event/58026-ai-days-research-and-teaching-discussions"
+description = "Research and Teaching Discussions. Keynote speaker: C. Edward Watson."
+
+[[event]]
+title = "AI Days: Student Workforce Readiness"
+org = "UF AI Days"
+start = "2026-10-28"
+location = "Reitz Union Grand Ballroom/Auditorium"
+url = "https://calendar.ufl.edu/ai/event/58028-ai-days-student-workforce-readiness"
+description = "Student Workforce Readiness."
+
+[[event]]
+title = "AI Days: Compute to Discovery – Large-Scale Computing & AI Research Symposium"
+org = "UF AI Days"
+start = "2026-10-29"
+location = "Reitz Union Auditorium"
+url = "https://calendar.ufl.edu/ai/event/58030-uf-ai-days-compute-to-discovery-large-scale-computing-"
+description = "Compute to Discovery: Large-Scale Computing & AI Research Symposium."

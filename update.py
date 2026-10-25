@@ -31,7 +31,7 @@ def run(log=print):
     settings = cfg.get("settings", {})
     t = now()
     start = t - timedelta(days=1)
-    end = t + timedelta(days=settings.get("days_ahead", 120))
+    end = t + timedelta(days=settings.get("days_ahead", 60))
 
     fresh, ok, failed = [], {"Added manually"}, []
     for rank, src in enumerate(cfg.get("sources", [])):

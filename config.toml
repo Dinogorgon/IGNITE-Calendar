@@ -5,7 +5,7 @@
 calendar_name = "IGNITE · Gainesville Innovation Events"
 timezone = "America/New_York"
 days_back = 30        # keep past events on the calendar this long
-days_ahead = 120      # how far into the future to collect
+days_ahead = 60       # how far into the future to collect (about 2 months)
 
 # Optional: once this is on GitHub, paste your Actions workflow URL here so the
 # web page's "Update" button links to it, e.g.
@@ -76,6 +76,10 @@ organizations = [
   "Entrepreneurship and AI Law",
   "TAMID",
   "Enactus",
+  "Product Space",
+  "AI Strategy & Business Society",
+  "GatorAI",
+  "Florida Women in Business",
 ]
 # …plus any other club's event whose title/description mentions one of these:
 keywords = [

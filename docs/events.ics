@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:6df8c8a4c9a437ee@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:Create Your 6 Month Marketing Roadmap: Stop Guessing\, Start Growin
  g
 DTSTART:20260930T160000Z
@@ -25,7 +25,7 @@ DESCRIPTION:Stop guessing at marketing tactics. Work with our expert to bui
 END:VEVENT
 BEGIN:VEVENT
 UID:21ba120e41f83a2a@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:CIED – Fall Financial Forum
 DTSTART:20261001T140000Z
 DTEND:20261001T190000Z
@@ -47,7 +47,7 @@ DESCRIPTION:Empowering businesses and nonprofits with financial knowledge\,
 END:VEVENT
 BEGIN:VEVENT
 UID:d22745d7c572d642@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:GNV.AI Cowork Session
 DTSTART:20261003T160000Z
 DTEND:20261003T170000Z
@@ -65,7 +65,7 @@ DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
 END:VEVENT
 BEGIN:VEVENT
 UID:7c4a78870d13972d@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:aiGNV October 2026 Lunch Meetup: Trends\, Tools\, Real Use Cases
 DTSTART:20261014T153000Z
 DTEND:20261014T170000Z
@@ -96,7 +96,7 @@ DESCRIPTION:Join us for a casual lunch meetup to dive into the latest trend
 END:VEVENT
 BEGIN:VEVENT
 UID:10a7e882ad94de4c@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:GBM 4
 DTSTART:20261014T221500Z
 DTEND:20261014T233000Z
@@ -108,7 +108,7 @@ DESCRIPTION:Join us at 6:30pm to hear organizational updates\, a workshop\,
 END:VEVENT
 BEGIN:VEVENT
 UID:d4587ce71c14b451@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:Accelerate Your Research (Seminar)
 DTSTART:20261020T180000Z
 DTEND:20261020T190000Z
@@ -124,7 +124,7 @@ DESCRIPTION:Join us for a seminar to explore human-relevant NAMs\, includin
 END:VEVENT
 BEGIN:VEVENT
 UID:58d973444a726773@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:Hiring A+ Players: Building High-Performance Teams in a Fast-Changi
  ng World
 DTSTART:20261021T163000Z
@@ -140,7 +140,7 @@ DESCRIPTION:Learn how to identify the talent you need\, hire beyond the ré
 END:VEVENT
 BEGIN:VEVENT
 UID:f3041a7512b43b4d@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:The Florida Way Forward
 DTSTART:20261021T180000Z
 DTEND:20261021T193000Z
@@ -175,7 +175,7 @@ DESCRIPTION:Standing InnOvation is UF Innovate | Tech Licensing’s annual
 END:VEVENT
 BEGIN:VEVENT
 UID:8baccdee1854f66b@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:Project "Show & Tell" Evening
 DTSTART:20261021T210000Z
 DTEND:20261021T220000Z
@@ -193,8 +193,76 @@ DESCRIPTION:Come on by to share what you've been working on\, get feedback
  GNV.AI: https://gnv.ai/events/project-show-and-tell-evening
 END:VEVENT
 BEGIN:VEVENT
+UID:e0068555625f332b@ignite-gnv-events
+DTSTAMP:20261025T041905Z
+SUMMARY:DevFest by Google Developer Group on Campus
+DTSTART:20261024T120000Z
+DTEND:20261025T020000Z
+LOCATION:Turlington Hall L005
+URL:https://gatorconnect.ufl.edu/event/12903391
+DESCRIPTION:Join engaging technical workshops\, hear from a Google Develope
+ r Expert\, and build in a mini-hackathon at UF's GDG on Campus DevFest!\nH
+ osted by: Google Developer Group on Campus\nGatorConnect: https://gatorcon
+ nect.ufl.edu/event/12903391
+END:VEVENT
+BEGIN:VEVENT
+UID:1057685bbbf736d2@ignite-gnv-events
+DTSTAMP:20261025T041905Z
+SUMMARY:AI Days: Student Competitions Day
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+LOCATION:Reitz Union Grand Ballroom
+URL:https://calendar.ufl.edu/ai/event/55256-ai-days-student-competitions-da
+ y
+DESCRIPTION:Student Competitions Day: Gator Tank\, Gator Hack and Gator Cre
+ ate.\nHosted by: UF AI Days\nAdded manually: https://calendar.ufl.edu/ai/e
+ vent/55256-ai-days-student-competitions-day
+END:VEVENT
+BEGIN:VEVENT
+UID:e98b1a8c4d15655b@ignite-gnv-events
+DTSTAMP:20261025T041905Z
+SUMMARY:AI Days: Research and Teaching Discussions
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+LOCATION:Reitz Union Grand Ballroom
+URL:https://calendar.ufl.edu/ai/event/58026-ai-days-research-and-teaching-d
+ iscussions
+DESCRIPTION:Research and Teaching Discussions. Keynote speaker: C. Edward W
+ atson.\nHosted by: UF AI Days\nAdded manually: https://calendar.ufl.edu/ai
+ /event/58026-ai-days-research-and-teaching-discussions
+END:VEVENT
+BEGIN:VEVENT
+UID:6927a2d1357b2d87@ignite-gnv-events
+DTSTAMP:20261025T041905Z
+SUMMARY:Marketing Workshop with Professor Norton
+DTSTART:20261027T230000Z
+DTEND:20261028T000000Z
+LOCATION:HVNR 220
+URL:https://gatorconnect.ufl.edu/event/12911021
+DESCRIPTION:Come hear from our distinguished guest speaker\, Dr.Norton\, a 
+ UF marketing and retail professor who has worked in amazing. She will be d
+ iscussing topics like leadership competencies and how to professionally ma
+ rket yourself to others. This is a great opportunity to learn\, network\, 
+ and have a discussion with a fantastic and successful woman in business.\n
+ Hosted by: Florida Women in Business\nGatorConnect: https://gatorconnect.u
+ fl.edu/event/12911021
+END:VEVENT
+BEGIN:VEVENT
+UID:775223758bdf1f1a@ignite-gnv-events
+DTSTAMP:20261025T041905Z
+SUMMARY:AI Days: Student Workforce Readiness
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+LOCATION:Reitz Union Grand Ballroom/Auditorium
+URL:https://calendar.ufl.edu/ai/event/58028-ai-days-student-workforce-readi
+ ness
+DESCRIPTION:Student Workforce Readiness.\nHosted by: UF AI Days\nAdded manu
+ ally: https://calendar.ufl.edu/ai/event/58028-ai-days-student-workforce-re
+ adiness
+END:VEVENT
+BEGIN:VEVENT
 UID:d30d7707530fedce@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:Women in Tech and Entrepreneurship - Gainesville October Happy Hour
 DTSTART:20261028T213000Z
 DTEND:20261028T233000Z
@@ -208,8 +276,22 @@ DESCRIPTION:A casual gathering of high-performing\, non-conforming women fo
  ckets-2000322950793
 END:VEVENT
 BEGIN:VEVENT
+UID:effe129dd233e20b@ignite-gnv-events
+DTSTAMP:20261025T041905Z
+SUMMARY:AI Days: Compute to Discovery – Large-Scale Computing & AI Resear
+ ch Symposium
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+LOCATION:Reitz Union Auditorium
+URL:https://calendar.ufl.edu/ai/event/58030-uf-ai-days-compute-to-discovery
+ -large-scale-computing-
+DESCRIPTION:Compute to Discovery: Large-Scale Computing & AI Research Sympo
+ sium.\nHosted by: UF AI Days\nAdded manually: https://calendar.ufl.edu/ai/
+ event/58030-uf-ai-days-compute-to-discovery-large-scale-computing-
+END:VEVENT
+BEGIN:VEVENT
 UID:75743f549d8af097@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:A Practical Guide To HealthTech Fundraising (Lunch & Learn)
 DTSTART:20261029T160000Z
 DTEND:20261029T170000Z
@@ -217,16 +299,34 @@ LOCATION:UF Innovate | The Hub\, 747 SW Second Avenue\, Gainesville\, FL 32
  607
 URL:https://calendar.ufl.edu/innovate/event/58515-a-practical-guide-to-heal
  thtech-fundraising-lunch-lear
-DESCRIPTION:Join Alberto Chan\, co-founder of RaiseHealth\, for a Lunch & L
- earn on translating your science into a story investors love. If you are a
-  health tech company looking to raise funds\, you won’t want to miss thi
- s!\n\n Please register by noon on October 28th.\nHosted by: UF Innovate\nU
- F Innovate: https://calendar.ufl.edu/innovate/event/58515-a-practical-guid
- e-to-healthtech-fundraising-lunch-lear
+DESCRIPTION:About our speaker:Alberto Chan\nAlberto Chan is co-founder of R
+ aiseHealth.co (https://raisehealth.co/)\, an AI chief of staff for healtht
+ ech + medtech fundraising. He has held executive roles across venture capi
+ tal\, healthcare\, medtech\, hospitality\, and entrepreneurship\, supporti
+ ng fundraising efforts exceeding eight figures while in C-level positions.
+  Alberto is also a former entrepreneur-in-residence and entrepreneurship i
+ nstructor at UTSA\, focusing on healthcare commercialization\, payer dynam
+ ics\, and go-to-market strategy. He holds a master’s degree from Carnegi
+ e Mellon University.About RaiseHealth:\nHealthcare capital rarely fails be
+ cause the science is wrong—it fails because the fundraising process is b
+ roken. At RaiseHealth\, the team runs the operational engine behind health
+ care fundraises\, taking the administrative heavy lifting off founders. Th
+ rough high-fit investor matching\, pre-meeting intelligence dossiers\, pip
+ eline tracking\, follow-ups\, and more\, RaiseHealth enables founders to f
+ ocus on pitch execution and clinical scale.Thank you to our sponsors:\n\n 
+ ———————UF Innovate | Accelerate\nUF Innovate | Accelerate is
+  the University of Florida’s entrepreneurship support program that inclu
+ des Sid Martin Biotech\, the globally recognized biotechnology incubator l
+ ocated in Progress Park in Alachua\, Florida\, and The Hub\, the globally 
+ recognized diversified tech incubator located in Gainesville’s Innovatio
+ n District.\nHosted by: UF Innovate\nUF Innovate: https://calendar.ufl.edu
+ /innovate/event/58515-a-practical-guide-to-healthtech-fundraising-lunch-le
+ ar\nstartGNV: https://startgnv.com/event/a-practical-guide-to-healthtech-f
+ undraising-lunch-learn/
 END:VEVENT
 BEGIN:VEVENT
 UID:afa0ef37c99b8e8d@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:FES GBM 6: Jones Edmunds
 DTSTART:20261103T230000Z
 DTEND:20261104T000000Z
@@ -239,7 +339,7 @@ DESCRIPTION:Join us at GBM 6 in WERT 370 (not WEIL) to learn about building
 END:VEVENT
 BEGIN:VEVENT
 UID:31ec44a2e910bc42@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:The Art of the Possible: Social Innovation\, AI & Technology for Im
  pact
 DTSTART:20261104T170000Z
@@ -255,7 +355,7 @@ DESCRIPTION:Explore how AI\, social innovation\, and powerful partnerships
 END:VEVENT
 BEGIN:VEVENT
 UID:33f04de8611eec2e@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:From Bench To Automation (Lunch & Learn)
 DTSTART:20261105T160000Z
 DTEND:20261105T183000Z
@@ -308,14 +408,14 @@ DESCRIPTION:From 11 AM – 1 PM in the Sid Martin main lobby\, attendees ar
  rogram that includes Sid Martin Biotech\, the globally recognized biotechn
  ology incubator located in Progress Park in Alachua\, Florida\, and The Hu
  b\, the globally recognized diversified tech incubator located in Gainesvi
- lle’s Innovation District.\nHosted by: UF Innovate\nstartGNV: https://st
- artgnv.com/event/from-bench-to-automation-lunch-learn/\nUF Innovate: https
- ://calendar.ufl.edu/innovate/event/57594-from-bench-to-automation-lunch-le
- arn
+ lle’s Innovation District.\nHosted by: UF Innovate\nUF Innovate: https:/
+ /calendar.ufl.edu/innovate/event/57594-from-bench-to-automation-lunch-lear
+ n\nstartGNV: https://startgnv.com/event/from-bench-to-automation-lunch-lea
+ rn/
 END:VEVENT
 BEGIN:VEVENT
 UID:df16aac6436e2957@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:From Frat House To Franchising (Seminar)
 DTSTART:20261105T190000Z
 DTEND:20261105T200000Z
@@ -323,15 +423,48 @@ LOCATION:UF Innovate | The Hub\, 747 SW Second Avenue\, Gainesville\, FL 32
  607
 URL:https://calendar.ufl.edu/innovate/event/58247-from-frat-house-to-franch
  ising-seminar
-DESCRIPTION:Join Matt Friedman at UF Innovate | The Hub as he shares the st
- ory of turning a $500 investment and a fraternity-house kitchen in Gainesv
- ille into the global WING ZONE franchise.\n\n Please register by noon on N
- ovember 4th.\nHosted by: UF Innovate\nUF Innovate: https://calendar.ufl.ed
- u/innovate/event/58247-from-frat-house-to-franchising-seminar
+DESCRIPTION:During this event\, Matt will share the challenges\, setbacks\,
+  and lessons from his journey\, offering an inside look at what it took to
+  grow WING ZONE from a two-man operation into a global franchise system.\n
+ His story began in 1992\, when Matt Friedman was a college student operati
+ ng an illicit “ghost kitchen” out of his fraternity house at the Unive
+ rsity of Florida. He didn’t have a business plan\, investors\, or even a
+  license to operate\, just a passion for authentic buffalo wings and a ref
+ usal to accept “no” for an answer. What began as a rogue delivery expe
+ riment evolved into an international powerhouse with over 140 locations ac
+ ross the U.S. and six countries.\nInterested in reading the book before th
+ e event? Find it here! (http://%20https://www.amazon.com/Frat-House-Franch
+ ising-WING-Story-ebook/dp/B0H31JF549/)About our speaker:Matt Friedman\nMat
+ t Friedman founded Wing Zone in his fraternity house kitchen in 1992 with 
+ a $500 investment. In 1993\, Wing Zone opened its first storefront\, just 
+ steps from the University of Florida campus. Upon graduating\, Matt and hi
+ s partner successfully opened six additional Wing Zone restaurants in majo
+ r college markets from 1995–2000.\nAs the visionary of Wing Zone and bui
+ lding a global brand\, Matt launched the Wing Zone Franchise System in 200
+ 1. As CEO of Wing Zone\, Matt led a talented team to successfully open ove
+ r 140 Wing Zone restaurants throughout the U.S. and six countries. In late
+  2020\, Matt and his partner sold a majority interest in Wing Zone.\nStart
+ ing in 2021\, Matt has served as the managing partner at Friedman Consulti
+ ng\, a franchise incubator that helps support and scale emerging franchiso
+ rs and provides strategic planning for entrepreneurs. Their Platform Suppo
+ rt Services includes Franchise Recruitment\, Branding\, Marketing\, Real E
+ state and Construction\, Operations\, and IT Business intelligence.——
+ —————This event is worth 15 Hub House points so don’t miss you
+ r chance to help your team climb the leaderboard. Select your Hub House wh
+ en registering and rack up the points. If you’re not in a Hub House or n
+ ot an Accelerate client\, select “Unknown.”———————UF Inn
+ ovate | Accelerate\nUF Innovate | Accelerate is the University of Florida
+ ’s entrepreneurship support program that includes Sid Martin Biotech\, t
+ he globally recognized biotechnology incubator located in Progress Park in
+  Alachua\, Florida\, and The Hub\, the globally recognized diversified tec
+ h incubator located in Gainesville’s Innovation District.\nHosted by: UF
+  Innovate\nUF Innovate: https://calendar.ufl.edu/innovate/event/58247-from
+ -frat-house-to-franchising-seminar\nstartGNV: https://startgnv.com/event/f
+ rom-frat-house-to-franchising-seminar/
 END:VEVENT
 BEGIN:VEVENT
 UID:7c6132ad9435028f@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:celebrateGNV 2026
 DTSTART:20261105T230000Z
 DTEND:20261106T020000Z
@@ -369,7 +502,7 @@ DESCRIPTION:The premier annual celebration of North Central Florida's thriv
 END:VEVENT
 BEGIN:VEVENT
 UID:042123cc61e3a52d@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:GNV.AI Cowork Session
 DTSTART:20261107T170000Z
 DTEND:20261107T180000Z
@@ -387,7 +520,7 @@ DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
 END:VEVENT
 BEGIN:VEVENT
 UID:0e7fe438d3305f56@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:Off The Couch Book Tour + Fireside Chat
 DTSTART:20261109T180000Z
 DTEND:20261109T193000Z
@@ -422,29 +555,67 @@ DESCRIPTION:About the book:\nOff The Couch is the story of what happens whe
  d Martin Biotech\, the globally recognized biotechnology incubator located
   in Progress Park in Alachua\, Florida\, and The Hub\, the globally recogn
  ized diversified tech incubator located in Gainesville’s Innovation Dist
- rict.\nHosted by: UF Innovate\nstartGNV: https://startgnv.com/event/off-th
- e-couch-book-tour-fireside-chat/\nUF Innovate: https://calendar.ufl.edu/in
- novate/event/57413-off-the-couch-book-tour-fireside-chat
+ rict.\nHosted by: UF Innovate\nUF Innovate: https://calendar.ufl.edu/innov
+ ate/event/57413-off-the-couch-book-tour-fireside-chat\nstartGNV: https://s
+ tartgnv.com/event/off-the-couch-book-tour-fireside-chat/
+END:VEVENT
+BEGIN:VEVENT
+UID:6e2e38465765b5ec@ignite-gnv-events
+DTSTAMP:20261025T041905Z
+SUMMARY:November Eye Opener Discovery Breakfast
+DTSTART:20261110T123000Z
+DTEND:20261110T140000Z
+LOCATION:Hilton University of Florida Conference Center Gainesville\, 1714 
+ Southwest 34th Street\, Gainesville\, FL 32607
+URL:https://startgnv.com/event/november-eye-opener-discovery-breakfast/
+DESCRIPTION:Join us as we welcome Michael Holmes to the November Eye Opener
+  Discovery Breakfast .\n\nEye Opener Discovery Breakfast\n\nWednesday | No
+ vember 10\n\n7:30 AM\n\nUF Hilton | Shula’s Private Dining Room\n\nJoin 
+ us for an engaging look at how UF Health is expanding access to world clas
+ s health care across North Central Florida. Michael Holmes\, Senior Vice P
+ resident and Greater Gainesville Regional President for UF Health\, will d
+ iscuss how patients across the region are gaining greater access to advanc
+ ed\, specialized care close to home. Hear how UF Health’s physicians\, s
+ ervices and continued investment are helping meet the health care needs of
+  a growing community and bringing the resources of a leading academic heal
+ th system to more people.\nHosted by: Karen Thomas\, UF Community Relation
+ s\nstartGNV: https://startgnv.com/event/november-eye-opener-discovery-brea
+ kfast/
 END:VEVENT
 BEGIN:VEVENT
 UID:45064d1806a792b7@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:Beyond The SAFE In Private Financing (Webinar)
 DTSTART:20261110T170000Z
 DTEND:20261110T180000Z
 LOCATION:Zoom
 URL:https://calendar.ufl.edu/innovate/event/58722-beyond-the-safe-in-privat
  e-financing-webinar
-DESCRIPTION:Join UF Innovate | Accelerate for a webinar with Noah Levin of 
- Founders Law LLP for a virtual deep dive on SAFEs\, warrants\, and notes u
- sed in private financings!\n\n This event is open to the public.\n\n Pleas
- e register by noon on November 9.\nHosted by: UF Innovate\nUF Innovate: ht
- tps://calendar.ufl.edu/innovate/event/58722-beyond-the-safe-in-private-fin
- ancing-webinar
+DESCRIPTION:About our speaker:Noah Levin\n\nNoah is a corporate and startup
+  attorney in Founders Law’s Startup & Venture Capital group. He drafts a
+ nd negotiates the agreements early-stage and growth companies rely on\, fr
+ om formations and founder equity to venture financings (pre-seed through S
+ eries D)\, B2B SaaS contracts\, and M&A\, pairing practical\, business-fir
+ st counsel with fast\, organized execution.\nAbout Founders Law LLP:\n\nFo
+ unders Law is the law firm built from the ground up to serve founders\, bu
+ ilders\, and dreamers. From incorporation to exit\, Founders Law guides fo
+ unders with genuine and practical advice.\nThank you to our sponsors:\n\n
+ ———————This event is worth 10 Hub House points so don’t mi
+ ss your chance to help your team climb the leaderboard. Select your Hub Ho
+ use when registering and rack up the points. If you’re not in a Hub Hous
+ e or not an Accelerate client\, select “Unknown.”———————
+ UF Innovate | Accelerate\n\nUF Innovate | Accelerate is the University of 
+ Florida’s entrepreneurship support program that includes Sid Martin Biot
+ ech\, the globally recognized biotechnology incubator located in Progress 
+ Park in Alachua\, Florida\, and The Hub\, the globally recognized diversif
+ ied tech incubator located in Gainesville’s Innovation District.\nHosted
+  by: UF Innovate\nUF Innovate: https://calendar.ufl.edu/innovate/event/587
+ 22-beyond-the-safe-in-private-financing-webinar\nstartGNV: https://startgn
+ v.com/event/beyond-the-safe-in-private-financing-webinar/
 END:VEVENT
 BEGIN:VEVENT
 UID:0d543d9488e09a92@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:aiGNV November 2026 Lunch Meetup: Trends\, Tools\, Real Use Cases
 DTSTART:20261111T163000Z
 DTEND:20261111T180000Z
@@ -474,7 +645,7 @@ DESCRIPTION:Join us for a casual lunch meetup to dive into the latest trend
 END:VEVENT
 BEGIN:VEVENT
 UID:8eec1f2a511d0486@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:Women in Tech and Entrepreneurship - Gainesville Chapter 2026 Holid
  ay Party
 DTSTART:20261111T223000Z
@@ -490,21 +661,46 @@ DESCRIPTION:Celebrate the season with Gainesville's most ambitious women in
 END:VEVENT
 BEGIN:VEVENT
 UID:2eb1988ed3228a29@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:Sartorius Table Show
 DTSTART:20261112T150000Z
 DTEND:20261112T170000Z
 LOCATION:UF Innovate | Sid Martin Biotech\, 12085 Research Dr.\, Alachua\, 
  FL 32615
 URL:https://calendar.ufl.edu/innovate/event/58453-sartorius-table-show
-DESCRIPTION:Stop by and learn about the latest scientific offerings from Sa
- rtorius!\n\n Please register by noon on November 11th.\nHosted by: UF Inno
- vate\nUF Innovate: https://calendar.ufl.edu/innovate/event/58453-sartorius
- -table-show
+DESCRIPTION:Sartorius is pleased to connect with the Sid Martin community t
+ o discuss how their expertise\, technologies\, and application support can
+  help advance stem cell\, immune cell\, and other advanced-therapy workflo
+ ws.\nSartorius supports academic innovators and early-stage biotechnology 
+ companies as they move promising research toward scalable\, reproducible p
+ rocesses. Their portfolio includes solutions for cell culture\, cell and g
+ ene therapy development\, bioprocessing\, analytical workflows\, and labor
+ atory applications. They work collaboratively with researchers and emergin
+ g biotech teams to help address evolving needs from early research and pro
+ cess development through scale-up and manufacturing readiness.About our sp
+ eaker:Sean Griffin\nSean Griffin is a Technical Sales Specialist in Cell T
+ herapy within the Advanced Therapies Solutions division at Sartorius\, sup
+ porting innovative technologies and solutions that advance cell therapy de
+ velopment and manufacturing.About Sartorius:\nWe are living in the bio-cen
+ tury\, where global medical knowledge is expanding at a rapid pace. Howeve
+ r\, despite significant breakthroughs\, many diseases\, including cancer\,
+  rheumatism\, and Alzheimer’s\, remain incurable.\nSartorius is part of 
+ the solution\, helping ensure that new scientific discoveries can be trans
+ lated more quickly into effective patient care. Through innovative technol
+ ogies\, platforms\, and partnerships\, Sartorius works toward a common goa
+ l: better health for more people.\n Thank you to our sponsors:\n\n ——
+ —————UF Innovate | Accelerate\nUF Innovate | Accelerate is the U
+ niversity of Florida’s entrepreneurship support program that includes Si
+ d Martin Biotech\, the globally recognized biotechnology incubator located
+  in Progress Park in Alachua\, Florida\, and The Hub\, the globally recogn
+ ized diversified tech incubator located in Gainesville’s Innovation Dist
+ rict.\nHosted by: UF Innovate\nUF Innovate: https://calendar.ufl.edu/innov
+ ate/event/58453-sartorius-table-show\nstartGNV: https://startgnv.com/event
+ /sartorius-table-show/
 END:VEVENT
 BEGIN:VEVENT
 UID:4cad14dabafd8c16@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:GBM 7
 DTSTART:20261117T230000Z
 DTEND:20261118T000000Z
@@ -513,7 +709,7 @@ DESCRIPTION:Hosted by: FES\nFES: https://www.gatorfes.org/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d947ee917cafd426@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:Project "Show & Tell" Evening
 DTSTART:20261118T220000Z
 DTEND:20261118T230000Z
@@ -532,7 +728,7 @@ DESCRIPTION:Come on by to share what you've been working on\, get feedback
 END:VEVENT
 BEGIN:VEVENT
 UID:8fb6be3b5397a18f@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:Less Artificial\, More Iconic: Competing & Leading in an AI Driven 
  World
 DTSTART:20261204T150000Z
@@ -548,7 +744,7 @@ DESCRIPTION:AI is rewriting the rules of power\, work and business. In this
 END:VEVENT
 BEGIN:VEVENT
 UID:e94735e4189e8a5a@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:GNV.AI Cowork Session
 DTSTART:20261205T170000Z
 DTEND:20261205T180000Z
@@ -566,7 +762,7 @@ DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
 END:VEVENT
 BEGIN:VEVENT
 UID:9d9ff73c51317832@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:StartGNV's AI for Business Lunch & Learn
 DTSTART:20261209T170000Z
 DTEND:20261209T183000Z
@@ -581,113 +777,10 @@ DESCRIPTION:BYO Lunch and Learn some cool AI tips and tricks for your busin
 END:VEVENT
 BEGIN:VEVENT
 UID:aa05c66a6da7cb02@ignite-gnv-events
-DTSTAMP:20261025T040405Z
+DTSTAMP:20261025T041905Z
 SUMMARY:Project "Show & Tell" Evening
 DTSTART:20261216T220000Z
 DTEND:20261216T230000Z
-LOCATION:https://us06web.zoom.us/j/82993071959?pwd=nktfFGgoUMduLMvBiwwkkzuR
- CUJyZM.1
-URL:https://gnv.ai/events/project-show-and-tell-evening
-DESCRIPTION:Come on by to share what you've been working on\, get feedback 
- and support... And celebrate others :)\n\nJoin GNV.ai on the third Wednesd
- ay of each month from 5PM to 6pmPM for an evening of community\, creativit
- y\, and collaboration. This public event highlights projects built by loca
- l innovators using AI for art\, business\, and everyday problem-solving. C
- ome share your work\, get inspired by others\, and connect with like-minde
- d creators shaping the future of AI in Gainesville.\n\nWhoever is on the c
- all by 5:05pm gets a slot to present.\nHosted by: aiGNV / GNV.AI\naiGNV / 
- GNV.AI: https://gnv.ai/events/project-show-and-tell-evening
-END:VEVENT
-BEGIN:VEVENT
-UID:0d8be3490aef14cf@ignite-gnv-events
-DTSTAMP:20261025T040405Z
-SUMMARY:GNV.AI Cowork Session
-DTSTART:20270102T170000Z
-DTEND:20270102T180000Z
-LOCATION:TBD ... Either Zoom or GTEC
-URL:https://gnv.ai/events/the-monthly-weekend-workshop
-DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
- st Saturday of each month from 11:30 AM to 3:00 PM for a free\, hands-on w
- orkshop exploring how to use "low-code" AI for creativity\, productivity\,
-  and everyday life. Open to the public and designed for low-intermediate e
- xperience levels\, these sessions will help you learn practical tools and 
- techniques for using AI to spark ideas\, automate tasks\, and simplify you
- r work. Just bring your laptop and curiosity—everything else is provided
- .\n\nSpecial THANKS to GTEC for hosting!\nHosted by: aiGNV / GNV.AI\naiGNV
-  / GNV.AI: https://gnv.ai/events/the-monthly-weekend-workshop
-END:VEVENT
-BEGIN:VEVENT
-UID:e9fb0e20891a4eb4@ignite-gnv-events
-DTSTAMP:20261025T040405Z
-SUMMARY:StartGNV's AI for Business Lunch & Learn
-DTSTART:20270113T170000Z
-DTEND:20270113T183000Z
-LOCATION:RSVP for info!
-URL:https://gnv.ai/events/ai-for-business-lunch-and-learn
-DESCRIPTION:BYO Lunch and Learn some cool AI tips and tricks for your busin
- ess.\n\nEach month our partner StartGNV hosts and a lunch time event at La
- s Carretas\, full of AI updates and tips and tricks for how you can implem
- ent AI into your business. \n\nRSVP for the taco bar and if you'd like to 
- sponsor the event get get in touch!\nHosted by: aiGNV / GNV.AI\naiGNV / GN
- V.AI: https://gnv.ai/events/ai-for-business-lunch-and-learn
-END:VEVENT
-BEGIN:VEVENT
-UID:6e6d6f3659e43347@ignite-gnv-events
-DTSTAMP:20261025T040405Z
-SUMMARY:Project "Show & Tell" Evening
-DTSTART:20270120T220000Z
-DTEND:20270120T230000Z
-LOCATION:https://us06web.zoom.us/j/82993071959?pwd=nktfFGgoUMduLMvBiwwkkzuR
- CUJyZM.1
-URL:https://gnv.ai/events/project-show-and-tell-evening
-DESCRIPTION:Come on by to share what you've been working on\, get feedback 
- and support... And celebrate others :)\n\nJoin GNV.ai on the third Wednesd
- ay of each month from 5PM to 6pmPM for an evening of community\, creativit
- y\, and collaboration. This public event highlights projects built by loca
- l innovators using AI for art\, business\, and everyday problem-solving. C
- ome share your work\, get inspired by others\, and connect with like-minde
- d creators shaping the future of AI in Gainesville.\n\nWhoever is on the c
- all by 5:05pm gets a slot to present.\nHosted by: aiGNV / GNV.AI\naiGNV / 
- GNV.AI: https://gnv.ai/events/project-show-and-tell-evening
-END:VEVENT
-BEGIN:VEVENT
-UID:818926a2273e8e14@ignite-gnv-events
-DTSTAMP:20261025T040405Z
-SUMMARY:GNV.AI Cowork Session
-DTSTART:20270206T170000Z
-DTEND:20270206T180000Z
-LOCATION:TBD ... Either Zoom or GTEC
-URL:https://gnv.ai/events/the-monthly-weekend-workshop
-DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
- st Saturday of each month from 11:30 AM to 3:00 PM for a free\, hands-on w
- orkshop exploring how to use "low-code" AI for creativity\, productivity\,
-  and everyday life. Open to the public and designed for low-intermediate e
- xperience levels\, these sessions will help you learn practical tools and 
- techniques for using AI to spark ideas\, automate tasks\, and simplify you
- r work. Just bring your laptop and curiosity—everything else is provided
- .\n\nSpecial THANKS to GTEC for hosting!\nHosted by: aiGNV / GNV.AI\naiGNV
-  / GNV.AI: https://gnv.ai/events/the-monthly-weekend-workshop
-END:VEVENT
-BEGIN:VEVENT
-UID:191e3747c795b99b@ignite-gnv-events
-DTSTAMP:20261025T040405Z
-SUMMARY:StartGNV's AI for Business Lunch & Learn
-DTSTART:20270210T170000Z
-DTEND:20270210T183000Z
-LOCATION:RSVP for info!
-URL:https://gnv.ai/events/ai-for-business-lunch-and-learn
-DESCRIPTION:BYO Lunch and Learn some cool AI tips and tricks for your busin
- ess.\n\nEach month our partner StartGNV hosts and a lunch time event full 
- of AI updates and tips and tricks for how you can implement AI into your b
- usiness.\nHosted by: aiGNV / GNV.AI\naiGNV / GNV.AI: https://gnv.ai/events
- /ai-for-business-lunch-and-learn
-END:VEVENT
-BEGIN:VEVENT
-UID:3fb053839cdd0687@ignite-gnv-events
-DTSTAMP:20261025T040405Z
-SUMMARY:Project "Show & Tell" Evening
-DTSTART:20270217T220000Z
-DTEND:20270217T230000Z
 LOCATION:https://us06web.zoom.us/j/82993071959?pwd=nktfFGgoUMduLMvBiwwkkzuR
  CUJyZM.1
 URL:https://gnv.ai/events/project-show-and-tell-evening

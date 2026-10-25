@@ -1,5 +1,6 @@
 import html
 import re
+import time
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
@@ -13,10 +14,21 @@ HEADERS = {
 }
 
 
-def get(url, **kwargs):
-    r = requests.get(url, headers=HEADERS, timeout=30, **kwargs)
-    r.raise_for_status()
-    return r
+RETRY_STATUS = {429, 500, 502, 503, 504}
+
+
+def get(url, tries=3, headers=None, **kwargs):
+    """GET with a couple of retries for temporary server errors (503s, timeouts)."""
+    for attempt in range(tries):
+        try:
+            r = requests.get(url, headers={**HEADERS, **(headers or {})}, timeout=60, **kwargs)
+            if r.status_code not in RETRY_STATUS or attempt == tries - 1:
+                r.raise_for_status()
+                return r
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt == tries - 1:
+                raise
+        time.sleep(3 * (attempt + 1))
 
 
 def clean_html(text):

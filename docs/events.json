@@ -1,12 +1,9 @@
 {
  "meta": {
   "calendar_name": "IGNITE · Gainesville Innovation Events",
-  "updated": "2026-10-25T00:03:15.411686-04:00",
+  "updated": "2026-10-25T00:18:50.831296-04:00",
   "first_run": "2026-09-23T11:06:28.616018-04:00",
-  "failed_sources": [
-   "startGNV",
-   "GatorConnect"
-  ],
+  "failed_sources": [],
   "github_actions_url": "https://github.com/Dinogorgon/IGNITE-Calendar/actions/workflows/update.yml"
  },
  "events": [
@@ -203,6 +200,106 @@
    "blurb": null
   },
   {
+   "uid": "e0068555625f332b",
+   "title": "DevFest by Google Developer Group on Campus",
+   "org": "Google Developer Group on Campus",
+   "start": "2026-10-24T08:00:00-04:00",
+   "end": "2026-10-24T22:00:00-04:00",
+   "all_day": false,
+   "location": "Turlington Hall L005",
+   "url": "https://gatorconnect.ufl.edu/event/12903391",
+   "description": "Join engaging technical workshops, hear from a Google Developer Expert, and build in a mini-hackathon at UF's GDG on Campus DevFest!",
+   "image": "https://se-images.campuslabs.com/clink/images/f60c8228-feac-4799-adb2-d23b6b0803607cca5d00-9731-4f99-a1c3-cdca23fdb6dc.png",
+   "sources": [
+    {
+     "name": "GatorConnect",
+     "url": "https://gatorconnect.ufl.edu/event/12903391"
+    }
+   ],
+   "first_seen": "2026-10-24T23:34:00.070716-04:00",
+   "blurb": null
+  },
+  {
+   "uid": "1057685bbbf736d2",
+   "title": "AI Days: Student Competitions Day",
+   "org": "UF AI Days",
+   "start": "2026-10-26T00:00:00-04:00",
+   "end": null,
+   "all_day": true,
+   "location": "Reitz Union Grand Ballroom",
+   "url": "https://calendar.ufl.edu/ai/event/55256-ai-days-student-competitions-day",
+   "description": "Student Competitions Day: Gator Tank, Gator Hack and Gator Create.",
+   "image": "",
+   "sources": [
+    {
+     "name": "Added manually",
+     "url": "https://calendar.ufl.edu/ai/event/55256-ai-days-student-competitions-day"
+    }
+   ],
+   "first_seen": "2026-10-25T00:06:17.668402-04:00",
+   "blurb": null
+  },
+  {
+   "uid": "e98b1a8c4d15655b",
+   "title": "AI Days: Research and Teaching Discussions",
+   "org": "UF AI Days",
+   "start": "2026-10-27T00:00:00-04:00",
+   "end": null,
+   "all_day": true,
+   "location": "Reitz Union Grand Ballroom",
+   "url": "https://calendar.ufl.edu/ai/event/58026-ai-days-research-and-teaching-discussions",
+   "description": "Research and Teaching Discussions. Keynote speaker: C. Edward Watson.",
+   "image": "",
+   "sources": [
+    {
+     "name": "Added manually",
+     "url": "https://calendar.ufl.edu/ai/event/58026-ai-days-research-and-teaching-discussions"
+    }
+   ],
+   "first_seen": "2026-10-25T00:06:17.668402-04:00",
+   "blurb": null
+  },
+  {
+   "uid": "6927a2d1357b2d87",
+   "title": "Marketing Workshop with Professor Norton",
+   "org": "Florida Women in Business",
+   "start": "2026-10-27T19:00:00-04:00",
+   "end": "2026-10-27T20:00:00-04:00",
+   "all_day": false,
+   "location": "HVNR 220",
+   "url": "https://gatorconnect.ufl.edu/event/12911021",
+   "description": "Come hear from our distinguished guest speaker, Dr.Norton, a UF marketing and retail professor who has worked in amazing. She will be discussing topics like leadership competencies and how to professionally market yourself to others. This is a great opportunity to learn, network, and have a discussion with a fantastic and successful woman in business.",
+   "image": "",
+   "sources": [
+    {
+     "name": "GatorConnect",
+     "url": "https://gatorconnect.ufl.edu/event/12911021"
+    }
+   ],
+   "first_seen": "2026-10-25T00:06:17.668402-04:00",
+   "blurb": null
+  },
+  {
+   "uid": "775223758bdf1f1a",
+   "title": "AI Days: Student Workforce Readiness",
+   "org": "UF AI Days",
+   "start": "2026-10-28T00:00:00-04:00",
+   "end": null,
+   "all_day": true,
+   "location": "Reitz Union Grand Ballroom/Auditorium",
+   "url": "https://calendar.ufl.edu/ai/event/58028-ai-days-student-workforce-readiness",
+   "description": "Student Workforce Readiness.",
+   "image": "",
+   "sources": [
+    {
+     "name": "Added manually",
+     "url": "https://calendar.ufl.edu/ai/event/58028-ai-days-student-workforce-readiness"
+    }
+   ],
+   "first_seen": "2026-10-25T00:06:17.668402-04:00",
+   "blurb": null
+  },
+  {
    "uid": "d30d7707530fedce",
    "title": "Women in Tech and Entrepreneurship - Gainesville October Happy Hour",
    "org": "Women in Tech & Entrepreneurship",
@@ -223,6 +320,26 @@
    "blurb": null
   },
   {
+   "uid": "effe129dd233e20b",
+   "title": "AI Days: Compute to Discovery – Large-Scale Computing & AI Research Symposium",
+   "org": "UF AI Days",
+   "start": "2026-10-29T00:00:00-04:00",
+   "end": null,
+   "all_day": true,
+   "location": "Reitz Union Auditorium",
+   "url": "https://calendar.ufl.edu/ai/event/58030-uf-ai-days-compute-to-discovery-large-scale-computing-",
+   "description": "Compute to Discovery: Large-Scale Computing & AI Research Symposium.",
+   "image": "",
+   "sources": [
+    {
+     "name": "Added manually",
+     "url": "https://calendar.ufl.edu/ai/event/58030-uf-ai-days-compute-to-discovery-large-scale-computing-"
+    }
+   ],
+   "first_seen": "2026-10-25T00:06:17.668402-04:00",
+   "blurb": null
+  },
+  {
    "uid": "75743f549d8af097",
    "title": "A Practical Guide To HealthTech Fundraising (Lunch & Learn)",
    "org": "UF Innovate",
@@ -231,12 +348,16 @@
    "all_day": false,
    "location": "UF Innovate | The Hub, 747 SW Second Avenue, Gainesville, FL 32607",
    "url": "https://calendar.ufl.edu/innovate/event/58515-a-practical-guide-to-healthtech-fundraising-lunch-lear",
-   "description": "Join Alberto Chan, co-founder of RaiseHealth, for a Lunch & Learn on translating your science into a story investors love. If you are a health tech company looking to raise funds, you won’t want to miss this!\n\n Please register by noon on October 28th.",
+   "description": "About our speaker:Alberto Chan\nAlberto Chan is co-founder of RaiseHealth.co (https://raisehealth.co/), an AI chief of staff for healthtech + medtech fundraising. He has held executive roles across venture capital, healthcare, medtech, hospitality, and entrepreneurship, supporting fundraising efforts exceeding eight figures while in C-level positions. Alberto is also a former entrepreneur-in-residence and entrepreneurship instructor at UTSA, focusing on healthcare commercialization, payer dynamics, and go-to-market strategy. He holds a master’s degree from Carnegie Mellon University.About RaiseHealth:\nHealthcare capital rarely fails because the science is wrong—it fails because the fundraising process is broken. At RaiseHealth, the team runs the operational engine behind healthcare fundraises, taking the administrative heavy lifting off founders. Through high-fit investor matching, pre-meeting intelligence dossiers, pipeline tracking, follow-ups, and more, RaiseHealth enables founders to focus on pitch execution and clinical scale.Thank you to our sponsors:\n\n ———————UF Innovate | Accelerate\nUF Innovate | Accelerate is the University of Florida’s entrepreneurship support program that includes Sid Martin Biotech, the globally recognized biotechnology incubator located in Progress Park in Alachua, Florida, and The Hub, the globally recognized diversified tech incubator located in Gainesville’s Innovation District.",
    "image": "",
    "sources": [
     {
      "name": "UF Innovate",
      "url": "https://calendar.ufl.edu/innovate/event/58515-a-practical-guide-to-healthtech-fundraising-lunch-lear"
+    },
+    {
+     "name": "startGNV",
+     "url": "https://startgnv.com/event/a-practical-guide-to-healthtech-fundraising-lunch-learn/"
     }
    ],
    "first_seen": "2026-10-15T12:01:22.877536-04:00",
@@ -259,7 +380,7 @@
      "url": "https://www.gatorfes.org/events"
     }
    ],
-   "first_seen": "2026-10-25T00:03:15.411686-04:00",
+   "first_seen": "2026-10-24T23:34:00.070716-04:00",
    "blurb": null
   },
   {
@@ -279,7 +400,7 @@
      "url": "https://www.eventbrite.com/e/the-art-of-the-possible-social-innovation-ai-technology-for-impact-tickets-2003697562347"
     }
    ],
-   "first_seen": "2026-10-25T00:03:15.411686-04:00",
+   "first_seen": "2026-10-24T23:34:00.070716-04:00",
    "blurb": null
   },
   {
@@ -295,12 +416,12 @@
    "image": "",
    "sources": [
     {
-     "name": "startGNV",
-     "url": "https://startgnv.com/event/from-bench-to-automation-lunch-learn/"
-    },
-    {
      "name": "UF Innovate",
      "url": "https://calendar.ufl.edu/innovate/event/57594-from-bench-to-automation-lunch-learn"
+    },
+    {
+     "name": "startGNV",
+     "url": "https://startgnv.com/event/from-bench-to-automation-lunch-learn/"
     }
    ],
    "first_seen": "2026-09-23T11:06:28.616018-04:00",
@@ -315,12 +436,16 @@
    "all_day": false,
    "location": "UF Innovate | The Hub, 747 SW Second Avenue, Gainesville, FL 32607",
    "url": "https://calendar.ufl.edu/innovate/event/58247-from-frat-house-to-franchising-seminar",
-   "description": "Join Matt Friedman at UF Innovate | The Hub as he shares the story of turning a $500 investment and a fraternity-house kitchen in Gainesville into the global WING ZONE franchise.\n\n Please register by noon on November 4th.",
+   "description": "During this event, Matt will share the challenges, setbacks, and lessons from his journey, offering an inside look at what it took to grow WING ZONE from a two-man operation into a global franchise system.\nHis story began in 1992, when Matt Friedman was a college student operating an illicit “ghost kitchen” out of his fraternity house at the University of Florida. He didn’t have a business plan, investors, or even a license to operate, just a passion for authentic buffalo wings and a refusal to accept “no” for an answer. What began as a rogue delivery experiment evolved into an international powerhouse with over 140 locations across the U.S. and six countries.\nInterested in reading the book before the event? Find it here! (http://%20https://www.amazon.com/Frat-House-Franchising-WING-Story-ebook/dp/B0H31JF549/)About our speaker:Matt Friedman\nMatt Friedman founded Wing Zone in his fraternity house kitchen in 1992 with a $500 investment. In 1993, Wing Zone opened its first storefront, just steps from the University of Florida campus. Upon graduating, Matt and his partner successfully opened six additional Wing Zone restaurants in major college markets from 1995–2000.\nAs the visionary of Wing Zone and building a global brand, Matt launched the Wing Zone Franchise System in 2001. As CEO of Wing Zone, Matt led a talented team to successfully open over 140 Wing Zone restaurants throughout the U.S. and six countries. In late 2020, Matt and his partner sold a majority interest in Wing Zone.\nStarting in 2021, Matt has served as the managing partner at Friedman Consulting, a franchise incubator that helps support and scale emerging franchisors and provides strategic planning for entrepreneurs. Their Platform Support Services includes Franchise Recruitment, Branding, Marketing, Real Estate and Construction, Operations, and IT Business intelligence.———————This event is worth 15 Hub House points so don’t miss your chance to help your team climb the leaderboard. Select your Hub House when registering and rack up the points. If you’re not in a Hub House or not an Accelerate client, select “Unknown.”———————UF Innovate | Accelerate\nUF Innovate | Accelerate is the University of Florida’s entrepreneurship support program that includes Sid Martin Biotech, the globally recognized biotechnology incubator located in Progress Park in Alachua, Florida, and The Hub, the globally recognized diversified tech incubator located in Gainesville’s Innovation District.",
    "image": "",
    "sources": [
     {
      "name": "UF Innovate",
      "url": "https://calendar.ufl.edu/innovate/event/58247-from-frat-house-to-franchising-seminar"
+    },
+    {
+     "name": "startGNV",
+     "url": "https://startgnv.com/event/from-frat-house-to-franchising-seminar/"
     }
    ],
    "first_seen": "2026-10-01T13:46:39.421094-04:00",
@@ -383,15 +508,35 @@
    "image": "",
    "sources": [
     {
-     "name": "startGNV",
-     "url": "https://startgnv.com/event/off-the-couch-book-tour-fireside-chat/"
-    },
-    {
      "name": "UF Innovate",
      "url": "https://calendar.ufl.edu/innovate/event/57413-off-the-couch-book-tour-fireside-chat"
+    },
+    {
+     "name": "startGNV",
+     "url": "https://startgnv.com/event/off-the-couch-book-tour-fireside-chat/"
     }
    ],
    "first_seen": "2026-09-23T11:06:28.616018-04:00",
+   "blurb": null
+  },
+  {
+   "uid": "6e2e38465765b5ec",
+   "title": "November Eye Opener Discovery Breakfast",
+   "org": "Karen Thomas, UF Community Relations",
+   "start": "2026-11-10T07:30:00-05:00",
+   "end": "2026-11-10T09:00:00-05:00",
+   "all_day": false,
+   "location": "Hilton University of Florida Conference Center Gainesville, 1714 Southwest 34th Street, Gainesville, FL 32607",
+   "url": "https://startgnv.com/event/november-eye-opener-discovery-breakfast/",
+   "description": "Join us as we welcome Michael Holmes to the November Eye Opener Discovery Breakfast .\n\nEye Opener Discovery Breakfast\n\nWednesday | November 10\n\n7:30 AM\n\nUF Hilton | Shula’s Private Dining Room\n\nJoin us for an engaging look at how UF Health is expanding access to world class health care across North Central Florida. Michael Holmes, Senior Vice President and Greater Gainesville Regional President for UF Health, will discuss how patients across the region are gaining greater access to advanced, specialized care close to home. Hear how UF Health’s physicians, services and continued investment are helping meet the health care needs of a growing community and bringing the resources of a leading academic health system to more people.",
+   "image": "https://startgnv.com/wp-content/uploads/2026/09/4208_image.png",
+   "sources": [
+    {
+     "name": "startGNV",
+     "url": "https://startgnv.com/event/november-eye-opener-discovery-breakfast/"
+    }
+   ],
+   "first_seen": "2026-10-24T23:34:00.070716-04:00",
    "blurb": null
   },
   {
@@ -403,15 +548,19 @@
    "all_day": false,
    "location": "Zoom",
    "url": "https://calendar.ufl.edu/innovate/event/58722-beyond-the-safe-in-private-financing-webinar",
-   "description": "Join UF Innovate | Accelerate for a webinar with Noah Levin of Founders Law LLP for a virtual deep dive on SAFEs, warrants, and notes used in private financings!\n\n This event is open to the public.\n\n Please register by noon on November 9.",
+   "description": "About our speaker:Noah Levin\n\nNoah is a corporate and startup attorney in Founders Law’s Startup & Venture Capital group. He drafts and negotiates the agreements early-stage and growth companies rely on, from formations and founder equity to venture financings (pre-seed through Series D), B2B SaaS contracts, and M&A, pairing practical, business-first counsel with fast, organized execution.\nAbout Founders Law LLP:\n\nFounders Law is the law firm built from the ground up to serve founders, builders, and dreamers. From incorporation to exit, Founders Law guides founders with genuine and practical advice.\nThank you to our sponsors:\n\n———————This event is worth 10 Hub House points so don’t miss your chance to help your team climb the leaderboard. Select your Hub House when registering and rack up the points. If you’re not in a Hub House or not an Accelerate client, select “Unknown.”———————UF Innovate | Accelerate\n\nUF Innovate | Accelerate is the University of Florida’s entrepreneurship support program that includes Sid Martin Biotech, the globally recognized biotechnology incubator located in Progress Park in Alachua, Florida, and The Hub, the globally recognized diversified tech incubator located in Gainesville’s Innovation District.",
    "image": "",
    "sources": [
     {
      "name": "UF Innovate",
      "url": "https://calendar.ufl.edu/innovate/event/58722-beyond-the-safe-in-private-financing-webinar"
+    },
+    {
+     "name": "startGNV",
+     "url": "https://startgnv.com/event/beyond-the-safe-in-private-financing-webinar/"
     }
    ],
-   "first_seen": "2026-10-25T00:03:15.411686-04:00",
+   "first_seen": "2026-10-24T23:34:00.070716-04:00",
    "blurb": null
   },
   {
@@ -467,12 +616,16 @@
    "all_day": false,
    "location": "UF Innovate | Sid Martin Biotech, 12085 Research Dr., Alachua, FL 32615",
    "url": "https://calendar.ufl.edu/innovate/event/58453-sartorius-table-show",
-   "description": "Stop by and learn about the latest scientific offerings from Sartorius!\n\n Please register by noon on November 11th.",
+   "description": "Sartorius is pleased to connect with the Sid Martin community to discuss how their expertise, technologies, and application support can help advance stem cell, immune cell, and other advanced-therapy workflows.\nSartorius supports academic innovators and early-stage biotechnology companies as they move promising research toward scalable, reproducible processes. Their portfolio includes solutions for cell culture, cell and gene therapy development, bioprocessing, analytical workflows, and laboratory applications. They work collaboratively with researchers and emerging biotech teams to help address evolving needs from early research and process development through scale-up and manufacturing readiness.About our speaker:Sean Griffin\nSean Griffin is a Technical Sales Specialist in Cell Therapy within the Advanced Therapies Solutions division at Sartorius, supporting innovative technologies and solutions that advance cell therapy development and manufacturing.About Sartorius:\nWe are living in the bio-century, where global medical knowledge is expanding at a rapid pace. However, despite significant breakthroughs, many diseases, including cancer, rheumatism, and Alzheimer’s, remain incurable.\nSartorius is part of the solution, helping ensure that new scientific discoveries can be translated more quickly into effective patient care. Through innovative technologies, platforms, and partnerships, Sartorius works toward a common goal: better health for more people.\n Thank you to our sponsors:\n\n ———————UF Innovate | Accelerate\nUF Innovate | Accelerate is the University of Florida’s entrepreneurship support program that includes Sid Martin Biotech, the globally recognized biotechnology incubator located in Progress Park in Alachua, Florida, and The Hub, the globally recognized diversified tech incubator located in Gainesville’s Innovation District.",
    "image": "",
    "sources": [
     {
      "name": "UF Innovate",
      "url": "https://calendar.ufl.edu/innovate/event/58453-sartorius-table-show"
+    },
+    {
+     "name": "startGNV",
+     "url": "https://startgnv.com/event/sartorius-table-show/"
     }
    ],
    "first_seen": "2026-10-15T12:01:22.877536-04:00",
@@ -495,7 +648,7 @@
      "url": "https://www.gatorfes.org/events"
     }
    ],
-   "first_seen": "2026-10-25T00:03:15.411686-04:00",
+   "first_seen": "2026-10-24T23:34:00.070716-04:00",
    "blurb": null
   },
   {
@@ -596,126 +749,6 @@
     }
    ],
    "first_seen": "2026-09-23T11:06:28.616018-04:00",
-   "blurb": null
-  },
-  {
-   "uid": "0d8be3490aef14cf",
-   "title": "GNV.AI Cowork Session",
-   "org": "aiGNV / GNV.AI",
-   "start": "2027-01-02T12:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "location": "TBD ... Either Zoom or GTEC",
-   "url": "https://gnv.ai/events/the-monthly-weekend-workshop",
-   "description": "Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the first Saturday of each month from 11:30 AM to 3:00 PM for a free, hands-on workshop exploring how to use \"low-code\" AI for creativity, productivity, and everyday life. Open to the public and designed for low-intermediate experience levels, these sessions will help you learn practical tools and techniques for using AI to spark ideas, automate tasks, and simplify your work. Just bring your laptop and curiosity—everything else is provided.\n\nSpecial THANKS to GTEC for hosting!",
-   "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1764259567/gnv-community/events/pnmx1qp9vlrcwbqr3qjo.jpg",
-   "sources": [
-    {
-     "name": "aiGNV / GNV.AI",
-     "url": "https://gnv.ai/events/the-monthly-weekend-workshop"
-    }
-   ],
-   "first_seen": "2026-09-23T11:06:28.616018-04:00",
-   "blurb": null
-  },
-  {
-   "uid": "e9fb0e20891a4eb4",
-   "title": "StartGNV's AI for Business Lunch & Learn",
-   "org": "aiGNV / GNV.AI",
-   "start": "2027-01-13T12:00:00-05:00",
-   "end": "2027-01-13T13:30:00-05:00",
-   "all_day": false,
-   "location": "RSVP for info!",
-   "url": "https://gnv.ai/events/ai-for-business-lunch-and-learn",
-   "description": "BYO Lunch and Learn some cool AI tips and tricks for your business.\n\nEach month our partner StartGNV hosts and a lunch time event at Las Carretas, full of AI updates and tips and tricks for how you can implement AI into your business. \n\nRSVP for the taco bar and if you'd like to sponsor the event get get in touch!",
-   "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1785090515/gnv-community/events/tw4lc9bmdw7hfpkjfjbf.jpg",
-   "sources": [
-    {
-     "name": "aiGNV / GNV.AI",
-     "url": "https://gnv.ai/events/ai-for-business-lunch-and-learn"
-    }
-   ],
-   "first_seen": "2026-09-23T11:06:28.616018-04:00",
-   "blurb": null
-  },
-  {
-   "uid": "6e6d6f3659e43347",
-   "title": "Project \"Show & Tell\" Evening",
-   "org": "aiGNV / GNV.AI",
-   "start": "2027-01-20T17:00:00-05:00",
-   "end": "2027-01-20T18:00:00-05:00",
-   "all_day": false,
-   "location": "https://us06web.zoom.us/j/82993071959?pwd=nktfFGgoUMduLMvBiwwkkzuRCUJyZM.1",
-   "url": "https://gnv.ai/events/project-show-and-tell-evening",
-   "description": "Come on by to share what you've been working on, get feedback and support... And celebrate others :)\n\nJoin GNV.ai on the third Wednesday of each month from 5PM to 6pmPM for an evening of community, creativity, and collaboration. This public event highlights projects built by local innovators using AI for art, business, and everyday problem-solving. Come share your work, get inspired by others, and connect with like-minded creators shaping the future of AI in Gainesville.\n\nWhoever is on the call by 5:05pm gets a slot to present.",
-   "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1785090603/gnv-community/events/i6oaz9ccgsvawrpcp9gf.jpg",
-   "sources": [
-    {
-     "name": "aiGNV / GNV.AI",
-     "url": "https://gnv.ai/events/project-show-and-tell-evening"
-    }
-   ],
-   "first_seen": "2026-09-23T11:06:28.616018-04:00",
-   "blurb": null
-  },
-  {
-   "uid": "818926a2273e8e14",
-   "title": "GNV.AI Cowork Session",
-   "org": "aiGNV / GNV.AI",
-   "start": "2027-02-06T12:00:00-05:00",
-   "end": null,
-   "all_day": false,
-   "location": "TBD ... Either Zoom or GTEC",
-   "url": "https://gnv.ai/events/the-monthly-weekend-workshop",
-   "description": "Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the first Saturday of each month from 11:30 AM to 3:00 PM for a free, hands-on workshop exploring how to use \"low-code\" AI for creativity, productivity, and everyday life. Open to the public and designed for low-intermediate experience levels, these sessions will help you learn practical tools and techniques for using AI to spark ideas, automate tasks, and simplify your work. Just bring your laptop and curiosity—everything else is provided.\n\nSpecial THANKS to GTEC for hosting!",
-   "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1764259567/gnv-community/events/pnmx1qp9vlrcwbqr3qjo.jpg",
-   "sources": [
-    {
-     "name": "aiGNV / GNV.AI",
-     "url": "https://gnv.ai/events/the-monthly-weekend-workshop"
-    }
-   ],
-   "first_seen": "2026-10-15T12:01:22.877536-04:00",
-   "blurb": null
-  },
-  {
-   "uid": "191e3747c795b99b",
-   "title": "StartGNV's AI for Business Lunch & Learn",
-   "org": "aiGNV / GNV.AI",
-   "start": "2027-02-10T12:00:00-05:00",
-   "end": "2027-02-10T13:30:00-05:00",
-   "all_day": false,
-   "location": "RSVP for info!",
-   "url": "https://gnv.ai/events/ai-for-business-lunch-and-learn",
-   "description": "BYO Lunch and Learn some cool AI tips and tricks for your business.\n\nEach month our partner StartGNV hosts and a lunch time event full of AI updates and tips and tricks for how you can implement AI into your business.",
-   "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1785090515/gnv-community/events/tw4lc9bmdw7hfpkjfjbf.jpg",
-   "sources": [
-    {
-     "name": "aiGNV / GNV.AI",
-     "url": "https://gnv.ai/events/ai-for-business-lunch-and-learn"
-    }
-   ],
-   "first_seen": "2026-10-15T12:01:22.877536-04:00",
-   "blurb": null
-  },
-  {
-   "uid": "3fb053839cdd0687",
-   "title": "Project \"Show & Tell\" Evening",
-   "org": "aiGNV / GNV.AI",
-   "start": "2027-02-17T17:00:00-05:00",
-   "end": "2027-02-17T18:00:00-05:00",
-   "all_day": false,
-   "location": "https://us06web.zoom.us/j/82993071959?pwd=nktfFGgoUMduLMvBiwwkkzuRCUJyZM.1",
-   "url": "https://gnv.ai/events/project-show-and-tell-evening",
-   "description": "Come on by to share what you've been working on, get feedback and support... And celebrate others :)\n\nJoin GNV.ai on the third Wednesday of each month from 5PM to 6pmPM for an evening of community, creativity, and collaboration. This public event highlights projects built by local innovators using AI for art, business, and everyday problem-solving. Come share your work, get inspired by others, and connect with like-minded creators shaping the future of AI in Gainesville.\n\nWhoever is on the call by 5:05pm gets a slot to present.",
-   "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1785090603/gnv-community/events/i6oaz9ccgsvawrpcp9gf.jpg",
-   "sources": [
-    {
-     "name": "aiGNV / GNV.AI",
-     "url": "https://gnv.ai/events/project-show-and-tell-evening"
-    }
-   ],
-   "first_seen": "2026-10-25T00:03:15.411686-04:00",
    "blurb": null
   }
  ]

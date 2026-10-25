@@ -9,18 +9,36 @@ from zoneinfo import ZoneInfo
 
 import icalendar
 import recurring_ical_events
+import requests
 
 from .util import TZ, clean_html, get, make_event, parse_utc
 
 
+PROXY = "https://r.jina.ai/"  # free reader proxy; returns the page untouched with X-Return-Format: text
+
+
 def fetch_startgnv(src, start, end):
-    """WordPress 'The Events Calendar' REST API (startgnv.com)."""
+    """WordPress 'The Events Calendar' REST API (startgnv.com). Its Cloudflare blocks
+    GitHub's servers (403), so then the same request goes through PROXY instead."""
+    try:
+        return _startgnv_api(src, start, end)
+    except requests.HTTPError as exc:
+        if exc.response is None or exc.response.status_code != 403:
+            raise
+    return _startgnv_api(src, start, end, proxy=True)
+
+
+def _startgnv_api(src, start, end, proxy=False):
     url = src["url"].rstrip("/") + "/wp-json/tribe/events/v1/events"
     params = {"per_page": 50, "start_date": start.strftime("%Y-%m-%d"),
               "end_date": end.strftime("%Y-%m-%d")}
     events = []
     while url:
-        data = get(url, params=params).json()
+        if proxy:
+            full = requests.Request("GET", url, params=params).prepare().url
+            data = get(PROXY + full, headers={"X-Return-Format": "text"}).json()
+        else:
+            data = get(url, params=params).json()
         params = None  # next_rest_url already carries them
         for e in data.get("events", []):
             venue = e.get("venue") if isinstance(e.get("venue"), dict) else {}
@@ -178,6 +196,8 @@ def fetch_gatorconnect(src, start, end):
                 org=club or src["name"], location=e.get("location") or "",
                 url=f"{base}/event/{e['id']}", description=description, image=image,
             ))
+        if datetime.fromisoformat(batch[-1]["endsOn"]) > end:
+            break  # sorted by end time, so the next pages are all past the window
     return events
 
 
@@ -295,13 +315,15 @@ def fetch_manual(path, start, end):
         return []
     events = []
     for i, e in enumerate(tomllib.loads(Path(path).read_text(encoding="utf-8")).get("event", [])):
-        begins = datetime.strptime(e["start"], "%Y-%m-%d %H:%M").replace(tzinfo=TZ)
-        if not (start <= begins <= end):
+        all_day = len(e["start"]) == 10  # "2026-10-26" (no time) = all-day event
+        fmt = "%Y-%m-%d" if all_day else "%Y-%m-%d %H:%M"
+        begins = datetime.strptime(e["start"], fmt).replace(tzinfo=TZ)
+        if not (start <= begins + timedelta(days=1 if all_day else 0) and begins <= end):
             continue
-        ends = datetime.strptime(e["end"], "%Y-%m-%d %H:%M").replace(tzinfo=TZ) if e.get("end") else None
+        ends = datetime.strptime(e["end"], fmt).replace(tzinfo=TZ) if e.get("end") else None
         events.append(make_event(
             source="Added manually", key=f"manual:{e['title'].lower()}:{e['start']}",
-            title=e["title"], start=begins, end=ends, org=e.get("org", ""),
+            title=e["title"], start=begins, end=ends, all_day=all_day, org=e.get("org", ""),
             location=e.get("location", ""), url=e.get("url", ""),
             description=e.get("description", ""),
         ))

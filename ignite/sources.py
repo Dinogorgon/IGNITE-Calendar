@@ -2,10 +2,13 @@
 import json
 import re
 import tomllib
-from datetime import datetime, timedelta
+from datetime import datetime, time, timedelta
 from pathlib import Path
 from urllib.parse import quote
 from zoneinfo import ZoneInfo
+
+import icalendar
+import recurring_ical_events
 
 from .util import TZ, clean_html, get, make_event, parse_utc
 
@@ -263,6 +266,29 @@ def fetch_gnvai(src, start, end):
     return events
 
 
+def fetch_ical(src, start, end):
+    """Any public .ics feed, e.g. a club's Google Calendar. Expands repeating events."""
+    cal = icalendar.Calendar.from_ical(get(src["url"]).content)
+    events = []
+    for e in recurring_ical_events.of(cal).between(start, end):
+        if str(e.get("STATUS", "")).upper() == "CANCELLED":
+            continue
+        begins = e.decoded("DTSTART")
+        ends = e.decoded("DTEND") if "DTEND" in e else None
+        all_day = not isinstance(begins, datetime)
+        if all_day:  # all-day events are dates; DTEND is the day after
+            ends = datetime.combine(ends, time(), TZ) if ends and (ends - begins).days > 1 else None
+            begins = datetime.combine(begins, time(), TZ)
+        events.append(make_event(
+            source=src["name"], key=f"ical:{e.get('UID', e.get('SUMMARY'))}:{begins:%Y-%m-%d}",
+            title=str(e.get("SUMMARY", "")), start=begins, end=ends, all_day=all_day,
+            org=src.get("org", src["name"]), location=str(e.get("LOCATION", "")),
+            url=str(e.get("URL", "")) or src.get("link", ""),
+            description=clean_html(str(e.get("DESCRIPTION", ""))),
+        ))
+    return events
+
+
 def fetch_manual(path, start, end):
     """Hand-entered events from manual_events.toml."""
     if not Path(path).exists():
@@ -288,4 +314,5 @@ COLLECTORS = {
     "eventbrite": fetch_eventbrite,
     "gatorconnect": fetch_gatorconnect,
     "gnvai": fetch_gnvai,
+    "ical": fetch_ical,
 }

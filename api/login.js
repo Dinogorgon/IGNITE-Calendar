@@ -8,6 +8,22 @@
 //   SITE_URL        optional, e.g. "https://gnvevents.peytondecker.me"
 const { allowedEmails, makeToken, LINK_MINUTES } = require("./_auth");
 
+// Turn a setup problem into a message that says what to fix. These only reach
+// someone typing an allowed address, so they don't help an outsider.
+function explain(status, detail) {
+  const d = String(detail || "");
+  if (/only send testing emails to your own email/i.test(d))
+    return "Resend will only deliver from onboarding@resend.dev to the email you signed up to Resend with. " +
+           "Either sign up to Resend with your @ufl.edu address, or verify your domain in Resend and set MAIL_FROM.";
+  if (/domain is not verified|not verified/i.test(d))
+    return "The domain in MAIL_FROM isn't verified in Resend yet (Resend → Domains). Finish verification, or remove MAIL_FROM to use the test sender.";
+  if (status === 401 || status === 403 && /api key/i.test(d))
+    return "RESEND_API_KEY is missing or invalid. Create a key in Resend → API Keys.";
+  if (/from/i.test(d) && status === 422)
+    return 'MAIL_FROM is malformed. Use the form: IGNITE Events <login@yourdomain.com>';
+  return `Resend rejected the email (${status}): ${d.slice(0, 300)}`;
+}
+
 module.exports = async (req, res) => {
   if (req.method !== "POST") return res.status(405).json({ error: "POST only" });
   const email = String((req.body || {}).email || "").trim().toLowerCase();
@@ -15,8 +31,15 @@ module.exports = async (req, res) => {
   if (!email.endsWith("@ufl.edu")) return res.status(400).json({ error: "Use your @ufl.edu email." });
   if (!allowedEmails().includes(email)) return res.status(200).json(reply);
 
+  if (!process.env.RESEND_API_KEY)
+    return res.status(500).json({ error: "RESEND_API_KEY isn't set. Add it (Vercel → Settings → Environment Variables, or .env locally) and redeploy." });
+  if (!process.env.SESSION_SECRET || process.env.SESSION_SECRET.length < 32)
+    return res.status(500).json({ error: "SESSION_SECRET is missing or shorter than 32 characters." });
+
   try {
-    const site = process.env.SITE_URL || `https://${req.headers.host}`;
+    const host = req.headers.host || "";
+    const proto = req.headers["x-forwarded-proto"] || (/^(localhost|127\.0\.0\.1)(:|$)/.test(host) ? "http" : "https");
+    const site = (process.env.SITE_URL || `${proto}://${host}`).replace(/\/$/, "");
     const link = `${site}/api/verify?t=${encodeURIComponent(makeToken("link", email, LINK_MINUTES * 60e3))}`;
     const r = await fetch("https://api.resend.com/emails", {
       method: "POST",
@@ -35,10 +58,15 @@ module.exports = async (req, res) => {
 </div>`,
       }),
     });
-    if (!r.ok) throw new Error(`Resend ${r.status}: ${await r.text()}`);
+    if (!r.ok) {
+      let detail = await r.text();
+      try { detail = JSON.parse(detail).message || detail; } catch {}
+      console.error("Resend error", r.status, detail);
+      return res.status(502).json({ error: explain(r.status, detail) });
+    }
   } catch (err) {
     console.error(err);
-    return res.status(500).json({ error: "Couldn't send the email. Check RESEND_API_KEY / MAIL_FROM / SESSION_SECRET in Vercel." });
+    return res.status(500).json({ error: `Couldn't reach Resend: ${err.message}` });
   }
   res.status(200).json(reply);
 };

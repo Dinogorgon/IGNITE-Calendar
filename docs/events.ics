@@ -8,26 +8,8 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:d22745d7c572d642@ignite-gnv-events
-DTSTAMP:20261101T172646Z
-SUMMARY:GNV.AI Cowork Session
-DTSTART:20261003T160000Z
-DTEND:20261003T170000Z
-LOCATION:TBD ... Either Zoom or GTEC
-URL:https://gnv.ai/events/the-monthly-weekend-workshop
-DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
- st Saturday of each month from 11:30 AM to 3:00 PM for a free\, hands-on w
- orkshop exploring how to use "low-code" AI for creativity\, productivity\,
-  and everyday life. Open to the public and designed for low-intermediate e
- xperience levels\, these sessions will help you learn practical tools and 
- techniques for using AI to spark ideas\, automate tasks\, and simplify you
- r work. Just bring your laptop and curiosity—everything else is provided
- .\n\nSpecial THANKS to GTEC for hosting!\nHosted by: aiGNV / GNV.AI\naiGNV
-  / GNV.AI: https://gnv.ai/events/the-monthly-weekend-workshop
-END:VEVENT
-BEGIN:VEVENT
 UID:7c4a78870d13972d@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:aiGNV October 2026 Lunch Meetup: Trends\, Tools\, Real Use Cases
 DTSTART:20261014T153000Z
 DTEND:20261014T170000Z
@@ -58,7 +40,7 @@ DESCRIPTION:Join us for a casual lunch meetup to dive into the latest trend
 END:VEVENT
 BEGIN:VEVENT
 UID:10a7e882ad94de4c@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:GBM 4
 DTSTART:20261014T221500Z
 DTEND:20261014T233000Z
@@ -70,7 +52,7 @@ DESCRIPTION:Join us at 6:30pm to hear organizational updates\, a workshop\,
 END:VEVENT
 BEGIN:VEVENT
 UID:d4587ce71c14b451@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:Accelerate Your Research (Seminar)
 DTSTART:20261020T180000Z
 DTEND:20261020T190000Z
@@ -86,7 +68,7 @@ DESCRIPTION:Join us for a seminar to explore human-relevant NAMs\, includin
 END:VEVENT
 BEGIN:VEVENT
 UID:58d973444a726773@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:Hiring A+ Players: Building High-Performance Teams in a Fast-Changi
  ng World
 DTSTART:20261021T163000Z
@@ -102,7 +84,7 @@ DESCRIPTION:Learn how to identify the talent you need\, hire beyond the ré
 END:VEVENT
 BEGIN:VEVENT
 UID:f3041a7512b43b4d@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:The Florida Way Forward
 DTSTART:20261021T180000Z
 DTEND:20261021T193000Z
@@ -137,7 +119,7 @@ DESCRIPTION:Standing InnOvation is UF Innovate | Tech Licensing’s annual
 END:VEVENT
 BEGIN:VEVENT
 UID:8baccdee1854f66b@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:Project "Show & Tell" Evening
 DTSTART:20261021T210000Z
 DTEND:20261021T220000Z
@@ -156,7 +138,7 @@ DESCRIPTION:Come on by to share what you've been working on\, get feedback
 END:VEVENT
 BEGIN:VEVENT
 UID:e0068555625f332b@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:DevFest by Google Developer Group on Campus
 DTSTART:20261024T120000Z
 DTEND:20261025T020000Z
@@ -169,7 +151,7 @@ DESCRIPTION:Join engaging technical workshops\, hear from a Google Develope
 END:VEVENT
 BEGIN:VEVENT
 UID:1057685bbbf736d2@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:AI Days: Student Competitions Day
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
@@ -182,7 +164,7 @@ DESCRIPTION:Student Competitions Day: Gator Tank\, Gator Hack and Gator Cre
 END:VEVENT
 BEGIN:VEVENT
 UID:e98b1a8c4d15655b@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:AI Days: Research and Teaching Discussions
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
@@ -195,7 +177,7 @@ DESCRIPTION:Research and Teaching Discussions. Keynote speaker: C. Edward W
 END:VEVENT
 BEGIN:VEVENT
 UID:6927a2d1357b2d87@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:Marketing Workshop with Professor Norton
 DTSTART:20261027T230000Z
 DTEND:20261028T000000Z
@@ -211,7 +193,7 @@ DESCRIPTION:Come hear from our distinguished guest speaker\, Dr.Norton\, a
 END:VEVENT
 BEGIN:VEVENT
 UID:775223758bdf1f1a@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:AI Days: Student Workforce Readiness
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
@@ -224,7 +206,7 @@ DESCRIPTION:Student Workforce Readiness.\nHosted by: UF AI Days\nAdded manu
 END:VEVENT
 BEGIN:VEVENT
 UID:d30d7707530fedce@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:Women in Tech and Entrepreneurship - Gainesville October Happy Hour
 DTSTART:20261028T213000Z
 DTEND:20261028T233000Z
@@ -239,7 +221,7 @@ DESCRIPTION:A casual gathering of high-performing\, non-conforming women fo
 END:VEVENT
 BEGIN:VEVENT
 UID:effe129dd233e20b@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:AI Days: Compute to Discovery – Large-Scale Computing & AI Resear
  ch Symposium
 DTSTART;VALUE=DATE:20261029
@@ -253,7 +235,7 @@ DESCRIPTION:Compute to Discovery: Large-Scale Computing & AI Research Sympo
 END:VEVENT
 BEGIN:VEVENT
 UID:75743f549d8af097@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:A Practical Guide To HealthTech Fundraising (Lunch & Learn)
 DTSTART:20261029T160000Z
 DTEND:20261029T170000Z
@@ -288,7 +270,7 @@ DESCRIPTION:About our speaker:Alberto Chan\nAlberto Chan is co-founder of R
 END:VEVENT
 BEGIN:VEVENT
 UID:afa0ef37c99b8e8d@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:FES GBM 6: Jones Edmunds
 DTSTART:20261103T230000Z
 DTEND:20261104T000000Z
@@ -301,7 +283,7 @@ DESCRIPTION:Join us at GBM 6 in WERT 370 (not WEIL) to learn about building
 END:VEVENT
 BEGIN:VEVENT
 UID:22c47243e4d291ec@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:Line Dancing Social
 DTSTART:20261103T230000Z
 DTEND:20261104T000000Z
@@ -313,7 +295,7 @@ DESCRIPTION:Get out of your comfort zone and join us for a line dancing soc
 END:VEVENT
 BEGIN:VEVENT
 UID:31ec44a2e910bc42@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:The Art of the Possible: Social Innovation\, AI & Cloud Tech for Im
  pact
 DTSTART:20261104T170000Z
@@ -329,7 +311,7 @@ DESCRIPTION:Explore how AI\, social innovation\, and powerful partnerships
 END:VEVENT
 BEGIN:VEVENT
 UID:33f04de8611eec2e@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:From Bench To Automation (Lunch & Learn)
 DTSTART:20261105T160000Z
 DTEND:20261105T183000Z
@@ -389,7 +371,7 @@ DESCRIPTION:From 11 AM – 1 PM in the Sid Martin main lobby\, attendees ar
 END:VEVENT
 BEGIN:VEVENT
 UID:df16aac6436e2957@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:From Frat House To Franchising (Seminar)
 DTSTART:20261105T190000Z
 DTEND:20261105T200000Z
@@ -438,7 +420,7 @@ DESCRIPTION:During this event\, Matt will share the challenges\, setbacks\,
 END:VEVENT
 BEGIN:VEVENT
 UID:39d6d1f52bcc152c@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:UF Graduate Engineering Info Session
 DTSTART:20261105T220000Z
 DTEND:20261105T230000Z
@@ -450,7 +432,7 @@ DESCRIPTION:CSE-E121\nRSVP here: https://forms.gle/YChQR5QkMXWvvKEQ8\nHoste
 END:VEVENT
 BEGIN:VEVENT
 UID:7c6132ad9435028f@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:celebrateGNV 2026
 DTSTART:20261105T230000Z
 DTEND:20261106T020000Z
@@ -488,7 +470,7 @@ DESCRIPTION:The premier annual celebration of North Central Florida's thriv
 END:VEVENT
 BEGIN:VEVENT
 UID:042123cc61e3a52d@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:GNV.AI Cowork Session
 DTSTART:20261107T170000Z
 DTEND:20261107T180000Z
@@ -506,7 +488,7 @@ DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
 END:VEVENT
 BEGIN:VEVENT
 UID:0e7fe438d3305f56@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:Off The Couch Book Tour + Fireside Chat
 DTSTART:20261109T180000Z
 DTEND:20261109T193000Z
@@ -547,7 +529,7 @@ DESCRIPTION:About the book:\nOff The Couch is the story of what happens whe
 END:VEVENT
 BEGIN:VEVENT
 UID:6e2e38465765b5ec@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:November Eye Opener Discovery Breakfast
 DTSTART:20261110T123000Z
 DTEND:20261110T140000Z
@@ -570,7 +552,7 @@ DESCRIPTION:Join us as we welcome Michael Holmes to the November Eye Opener
 END:VEVENT
 BEGIN:VEVENT
 UID:45064d1806a792b7@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:Beyond The SAFE In Private Financing (Webinar)
 DTSTART:20261110T170000Z
 DTEND:20261110T180000Z
@@ -600,8 +582,17 @@ DESCRIPTION:About our speaker:Noah Levin\n\nNoah is a corporate and startup
  v.com/event/beyond-the-safe-in-private-financing-webinar/
 END:VEVENT
 BEGIN:VEVENT
+UID:24904690f7efe71c@ignite-gnv-events
+DTSTAMP:20261110T165117Z
+SUMMARY:FES Line Dancing Social
+DTSTART:20261110T213000Z
+DTEND:20261110T233000Z
+URL:https://www.gatorfes.org/events
+DESCRIPTION:Hosted by: FES\nFES: https://www.gatorfes.org/events
+END:VEVENT
+BEGIN:VEVENT
 UID:0d543d9488e09a92@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:aiGNV November 2026 Lunch Meetup: Trends\, Tools\, Real Use Cases
 DTSTART:20261111T163000Z
 DTEND:20261111T180000Z
@@ -630,8 +621,19 @@ DESCRIPTION:Join us for a casual lunch meetup to dive into the latest trend
  arn
 END:VEVENT
 BEGIN:VEVENT
+UID:cc1e87d35baf7288@ignite-gnv-events
+DTSTAMP:20261110T165117Z
+SUMMARY:NSC x FES Veterans' Day Picnic
+DTSTART:20261111T170000Z
+DTEND:20261111T203000Z
+LOCATION:UF Lake Wauburg North Shore\, UF Department of Recreational Sports
+ \, 133 Regatta Dr\, Micanopy\, FL 32667\, USA
+URL:https://www.gatorfes.org/events
+DESCRIPTION:Hosted by: FES\nFES: https://www.gatorfes.org/events
+END:VEVENT
+BEGIN:VEVENT
 UID:8eec1f2a511d0486@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:Women in Tech and Entrepreneurship - Gainesville Chapter 2026 Holid
  ay Party
 DTSTART:20261111T223000Z
@@ -647,7 +649,7 @@ DESCRIPTION:Celebrate the season with Gainesville's most ambitious women in
 END:VEVENT
 BEGIN:VEVENT
 UID:2eb1988ed3228a29@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:Sartorius Table Show
 DTSTART:20261112T150000Z
 DTEND:20261112T170000Z
@@ -685,8 +687,51 @@ DESCRIPTION:Sartorius is pleased to connect with the Sid Martin community t
  /sartorius-table-show/
 END:VEVENT
 BEGIN:VEVENT
+UID:137aa071881b9e43@ignite-gnv-events
+DTSTAMP:20261110T165117Z
+SUMMARY:Sandvik Site Tour (RSVP only)
+DTSTART:20261113T140000Z
+DTEND:20261113T170000Z
+LOCATION:Sandvik Mining & Rock Technology\, 13500 NW County Rd 235\, Alachu
+ a\, FL 32615\, USA
+URL:https://www.gatorfes.org/events
+DESCRIPTION:Hosted by: FES\nFES: https://www.gatorfes.org/events
+END:VEVENT
+BEGIN:VEVENT
+UID:51ef5a37dcf4fa5a@ignite-gnv-events
+DTSTAMP:20261110T165117Z
+SUMMARY:Ready to Work! Connecting with UF Engineering Talent (Lunch & Learn
+ )
+DTSTART:20261117T170000Z
+DTEND:20261117T180000Z
+LOCATION:UF Innovate | Sid Martin Biotech\, 12085 Research Dr.\, Alachua\, 
+ FL 32615
+URL:https://calendar.ufl.edu/innovate/event/58924-ready-to-work-connecting-
+ with-uf-engineering-talent-lu
+DESCRIPTION:Bring engineering talent to your startup! Join us for a Lunch &
+  Learn to learn best practices for recruiting top UF Engineering talent an
+ d unique strategies for how the Herbert Wertheim College of Engineering Ce
+ nter for Experiential Learning can support your company. Find out how you 
+ can promote job openings to UF engineering students\, discuss coordinated 
+ recruitment plans\, and more!About our speakers:Sarah Furtney\nDr. Sarah F
+ urtney is the inaugural Director of Experiential Learning at the Herbert W
+ ertheim College of Engineering and an Instructional Associate Professor in
+  the J. Crayton Pruitt Family Department of Biomedical Engineering. She re
+ ceived her B.S. in Biomedical Engineering from the University of Miami and
+  Ph.D. in Bioengineering from Clemson University.Thank you to our sponsors
+ :\n\n ———————UF Innovate | Accelerate\nUF Innovate | Acceler
+ ate is the University of Florida’s entrepreneurship support program that
+  includes Sid Martin Biotech\, the globally recognized biotechnology incub
+ ator located in Progress Park in Alachua\, Florida\, and The Hub\, the glo
+ bally recognized diversified tech incubator located in Gainesville’s Inn
+ ovation District.\nHosted by: UF Innovate\nUF Innovate: https://calendar.u
+ fl.edu/innovate/event/58924-ready-to-work-connecting-with-uf-engineering-t
+ alent-lu\nstartGNV: https://startgnv.com/event/ready-to-work-connecting-wi
+ th-uf-engineering-talent-lunch-learn/
+END:VEVENT
+BEGIN:VEVENT
 UID:4cad14dabafd8c16@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:GBM 7
 DTSTART:20261117T230000Z
 DTEND:20261118T000000Z
@@ -694,13 +739,48 @@ URL:https://www.gatorfes.org/events
 DESCRIPTION:Hosted by: FES\nFES: https://www.gatorfes.org/events
 END:VEVENT
 BEGIN:VEVENT
+UID:4ef552b12d480b5e@ignite-gnv-events
+DTSTAMP:20261110T165117Z
+SUMMARY:Ready to Work! Connecting with UF Engineering Talent (Lunch & Learn
+ )
+DTSTART:20261118T170000Z
+DTEND:20261118T180000Z
+LOCATION:UF Innovate | The Hub\, 747 SW Second Avenue\, Gainesville\, FL 32
+ 607
+URL:https://calendar.ufl.edu/innovate/event/58931-ready-to-work-connecting-
+ with-uf-engineering-talent-lu
+DESCRIPTION:Bring engineering talent to your startup! Join us for a Lunch &
+  Learn to learn best practices for recruiting top UF Engineering talent an
+ d unique strategies for how the Herbert Wertheim College of Engineering Ce
+ nter for Experiential Learning can support your company. Find out how you 
+ can promote job openings to UF engineering students\, discuss coordinated 
+ recruitment plans\, and more!\nAbout our speakers:Sarah Furtney\n\nDr. Sar
+ ah Furtney is the inaugural Director of Experiential Learning at the Herbe
+ rt Wertheim College of Engineering and an Instructional Associate Professo
+ r in the J. Crayton Pruitt Family Department of Biomedical Engineering. Sh
+ e received her B.S. in Biomedical Engineering from the University of Miami
+  and Ph.D. in Bioengineering from Clemson University.\n——————
+ —This event is worth 15 Hub House points so don’t miss your chance to 
+ help your team climb the leaderboard. Select your Hub House when registeri
+ ng and rack up the points. If you’re not in a Hub House or not an Accele
+ rate client\, select “Unknown.”———————Thank you to our s
+ ponsors:\n\n———————UF Innovate | Accelerate\n\nUF Innovate |
+  Accelerate is the University of Florida’s entrepreneurship support prog
+ ram that includes Sid Martin Biotech\, the globally recognized biotechnolo
+ gy incubator located in Progress Park in Alachua\, Florida\, and The Hub\,
+  the globally recognized diversified tech incubator located in Gainesville
+ ’s Innovation District.\nHosted by: UF Innovate\nUF Innovate: https://ca
+ lendar.ufl.edu/innovate/event/58931-ready-to-work-connecting-with-uf-engin
+ eering-talent-lu\nstartGNV: https://startgnv.com/event/ready-to-work-conne
+ cting-with-uf-engineering-talent-lunch-learn-2/
+END:VEVENT
+BEGIN:VEVENT
 UID:d947ee917cafd426@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:Project "Show & Tell" Evening
 DTSTART:20261118T220000Z
 DTEND:20261118T230000Z
-LOCATION:https://us06web.zoom.us/j/82993071959?pwd=nktfFGgoUMduLMvBiwwkkzuR
- CUJyZM.1
+LOCATION:Subscribe to newsletter for updates!
 URL:https://gnv.ai/events/project-show-and-tell-evening
 DESCRIPTION:Come on by to share what you've been working on\, get feedback 
  and support... And celebrate others :)\n\nJoin GNV.ai on the third Wednesd
@@ -714,7 +794,7 @@ DESCRIPTION:Come on by to share what you've been working on\, get feedback
 END:VEVENT
 BEGIN:VEVENT
 UID:8fb6be3b5397a18f@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:Less Artificial\, More Iconic: Competing & Leading in an AI Driven 
  World
 DTSTART:20261204T150000Z
@@ -730,7 +810,7 @@ DESCRIPTION:AI is rewriting the rules of power\, work and business. In this
 END:VEVENT
 BEGIN:VEVENT
 UID:e94735e4189e8a5a@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:GNV.AI Cowork Session
 DTSTART:20261205T170000Z
 DTEND:20261205T180000Z
@@ -748,11 +828,11 @@ DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
 END:VEVENT
 BEGIN:VEVENT
 UID:9d9ff73c51317832@ignite-gnv-events
-DTSTAMP:20261101T172646Z
-SUMMARY:StartGNV's AI for Business Lunch & Learn
+DTSTAMP:20261110T165117Z
+SUMMARY:AI for Business Lunch & Learn
 DTSTART:20261209T170000Z
 DTEND:20261209T183000Z
-LOCATION:RSVP for info!
+LOCATION:Subscribe to newsletter for updates!
 URL:https://gnv.ai/events/ai-for-business-lunch-and-learn
 DESCRIPTION:BYO Lunch and Learn some cool AI tips and tricks for your busin
  ess.\n\nEach month our partner StartGNV hosts and a lunch time event at La
@@ -763,12 +843,11 @@ DESCRIPTION:BYO Lunch and Learn some cool AI tips and tricks for your busin
 END:VEVENT
 BEGIN:VEVENT
 UID:aa05c66a6da7cb02@ignite-gnv-events
-DTSTAMP:20261101T172646Z
+DTSTAMP:20261110T165117Z
 SUMMARY:Project "Show & Tell" Evening
 DTSTART:20261216T220000Z
 DTEND:20261216T230000Z
-LOCATION:https://us06web.zoom.us/j/82993071959?pwd=nktfFGgoUMduLMvBiwwkkzuR
- CUJyZM.1
+LOCATION:Subscribe to newsletter for updates!
 URL:https://gnv.ai/events/project-show-and-tell-evening
 DESCRIPTION:Come on by to share what you've been working on\, get feedback 
  and support... And celebrate others :)\n\nJoin GNV.ai on the third Wednesd
@@ -779,5 +858,23 @@ DESCRIPTION:Come on by to share what you've been working on\, get feedback
  d creators shaping the future of AI in Gainesville.\n\nWhoever is on the c
  all by 5:05pm gets a slot to present.\nHosted by: aiGNV / GNV.AI\naiGNV / 
  GNV.AI: https://gnv.ai/events/project-show-and-tell-evening
+END:VEVENT
+BEGIN:VEVENT
+UID:0d8be3490aef14cf@ignite-gnv-events
+DTSTAMP:20261110T165117Z
+SUMMARY:GNV.AI Cowork Session
+DTSTART:20270102T170000Z
+DTEND:20270102T180000Z
+LOCATION:TBD ... Either Zoom or GTEC
+URL:https://gnv.ai/events/the-monthly-weekend-workshop
+DESCRIPTION:Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the fir
+ st Saturday of each month from 11:30 AM to 3:00 PM for a free\, hands-on w
+ orkshop exploring how to use "low-code" AI for creativity\, productivity\,
+  and everyday life. Open to the public and designed for low-intermediate e
+ xperience levels\, these sessions will help you learn practical tools and 
+ techniques for using AI to spark ideas\, automate tasks\, and simplify you
+ r work. Just bring your laptop and curiosity—everything else is provided
+ .\n\nSpecial THANKS to GTEC for hosting!\nHosted by: aiGNV / GNV.AI\naiGNV
+  / GNV.AI: https://gnv.ai/events/the-monthly-weekend-workshop
 END:VEVENT
 END:VCALENDAR

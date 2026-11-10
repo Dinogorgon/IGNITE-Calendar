@@ -1,32 +1,12 @@
 {
  "meta": {
   "calendar_name": "IGNITE · Gainesville Innovation Events",
-  "updated": "2026-11-01T12:26:40.627447-05:00",
+  "updated": "2026-11-10T11:51:09.692422-05:00",
   "first_run": "2026-09-23T11:06:28.616018-04:00",
   "failed_sources": [],
   "github_actions_url": "https://github.com/Dinogorgon/IGNITE-Calendar/actions/workflows/update.yml"
  },
  "events": [
-  {
-   "uid": "d22745d7c572d642",
-   "title": "GNV.AI Cowork Session",
-   "org": "aiGNV / GNV.AI",
-   "start": "2026-10-03T12:00:00-04:00",
-   "end": null,
-   "all_day": false,
-   "location": "TBD ... Either Zoom or GTEC",
-   "url": "https://gnv.ai/events/the-monthly-weekend-workshop",
-   "description": "Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the first Saturday of each month from 11:30 AM to 3:00 PM for a free, hands-on workshop exploring how to use \"low-code\" AI for creativity, productivity, and everyday life. Open to the public and designed for low-intermediate experience levels, these sessions will help you learn practical tools and techniques for using AI to spark ideas, automate tasks, and simplify your work. Just bring your laptop and curiosity—everything else is provided.\n\nSpecial THANKS to GTEC for hosting!",
-   "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1764259567/gnv-community/events/pnmx1qp9vlrcwbqr3qjo.jpg",
-   "sources": [
-    {
-     "name": "aiGNV / GNV.AI",
-     "url": "https://gnv.ai/events/the-monthly-weekend-workshop"
-    }
-   ],
-   "first_seen": "2026-09-23T11:06:28.616018-04:00",
-   "blurb": null
-  },
   {
    "uid": "7c4a78870d13972d",
    "title": "aiGNV October 2026 Lunch Meetup: Trends, Tools, Real Use Cases",
@@ -564,6 +544,26 @@
    "blurb": null
   },
   {
+   "uid": "24904690f7efe71c",
+   "title": "FES Line Dancing Social",
+   "org": "FES",
+   "start": "2026-11-10T16:30:00-05:00",
+   "end": "2026-11-10T18:30:00-05:00",
+   "all_day": false,
+   "location": "",
+   "url": "https://www.gatorfes.org/events",
+   "description": "",
+   "image": "",
+   "sources": [
+    {
+     "name": "FES",
+     "url": "https://www.gatorfes.org/events"
+    }
+   ],
+   "first_seen": "2026-11-10T11:51:09.692422-05:00",
+   "blurb": null
+  },
+  {
    "uid": "0d543d9488e09a92",
    "title": "aiGNV November 2026 Lunch Meetup: Trends, Tools, Real Use Cases",
    "org": "startGNV",
@@ -585,6 +585,26 @@
     }
    ],
    "first_seen": "2026-09-23T11:06:28.616018-04:00",
+   "blurb": null
+  },
+  {
+   "uid": "cc1e87d35baf7288",
+   "title": "NSC x FES Veterans' Day Picnic",
+   "org": "FES",
+   "start": "2026-11-11T12:00:00-05:00",
+   "end": "2026-11-11T15:30:00-05:00",
+   "all_day": false,
+   "location": "UF Lake Wauburg North Shore, UF Department of Recreational Sports, 133 Regatta Dr, Micanopy, FL 32667, USA",
+   "url": "https://www.gatorfes.org/events",
+   "description": "",
+   "image": "",
+   "sources": [
+    {
+     "name": "FES",
+     "url": "https://www.gatorfes.org/events"
+    }
+   ],
+   "first_seen": "2026-11-10T11:51:09.692422-05:00",
    "blurb": null
   },
   {
@@ -632,6 +652,50 @@
    "blurb": null
   },
   {
+   "uid": "137aa071881b9e43",
+   "title": "Sandvik Site Tour (RSVP only)",
+   "org": "FES",
+   "start": "2026-11-13T09:00:00-05:00",
+   "end": "2026-11-13T12:00:00-05:00",
+   "all_day": false,
+   "location": "Sandvik Mining & Rock Technology, 13500 NW County Rd 235, Alachua, FL 32615, USA",
+   "url": "https://www.gatorfes.org/events",
+   "description": "",
+   "image": "",
+   "sources": [
+    {
+     "name": "FES",
+     "url": "https://www.gatorfes.org/events"
+    }
+   ],
+   "first_seen": "2026-11-10T11:51:09.692422-05:00",
+   "blurb": null
+  },
+  {
+   "uid": "51ef5a37dcf4fa5a",
+   "title": "Ready to Work! Connecting with UF Engineering Talent (Lunch & Learn)",
+   "org": "UF Innovate",
+   "start": "2026-11-17T12:00:00-05:00",
+   "end": "2026-11-17T13:00:00-05:00",
+   "all_day": false,
+   "location": "UF Innovate | Sid Martin Biotech, 12085 Research Dr., Alachua, FL 32615",
+   "url": "https://calendar.ufl.edu/innovate/event/58924-ready-to-work-connecting-with-uf-engineering-talent-lu",
+   "description": "Bring engineering talent to your startup! Join us for a Lunch & Learn to learn best practices for recruiting top UF Engineering talent and unique strategies for how the Herbert Wertheim College of Engineering Center for Experiential Learning can support your company. Find out how you can promote job openings to UF engineering students, discuss coordinated recruitment plans, and more!About our speakers:Sarah Furtney\nDr. Sarah Furtney is the inaugural Director of Experiential Learning at the Herbert Wertheim College of Engineering and an Instructional Associate Professor in the J. Crayton Pruitt Family Department of Biomedical Engineering. She received her B.S. in Biomedical Engineering from the University of Miami and Ph.D. in Bioengineering from Clemson University.Thank you to our sponsors:\n\n ———————UF Innovate | Accelerate\nUF Innovate | Accelerate is the University of Florida’s entrepreneurship support program that includes Sid Martin Biotech, the globally recognized biotechnology incubator located in Progress Park in Alachua, Florida, and The Hub, the globally recognized diversified tech incubator located in Gainesville’s Innovation District.",
+   "image": "",
+   "sources": [
+    {
+     "name": "UF Innovate",
+     "url": "https://calendar.ufl.edu/innovate/event/58924-ready-to-work-connecting-with-uf-engineering-talent-lu"
+    },
+    {
+     "name": "startGNV",
+     "url": "https://startgnv.com/event/ready-to-work-connecting-with-uf-engineering-talent-lunch-learn/"
+    }
+   ],
+   "first_seen": "2026-11-10T11:51:09.692422-05:00",
+   "blurb": null
+  },
+  {
    "uid": "4cad14dabafd8c16",
    "title": "GBM 7",
    "org": "FES",
@@ -652,13 +716,37 @@
    "blurb": null
   },
   {
+   "uid": "4ef552b12d480b5e",
+   "title": "Ready to Work! Connecting with UF Engineering Talent (Lunch & Learn)",
+   "org": "UF Innovate",
+   "start": "2026-11-18T12:00:00-05:00",
+   "end": "2026-11-18T13:00:00-05:00",
+   "all_day": false,
+   "location": "UF Innovate | The Hub, 747 SW Second Avenue, Gainesville, FL 32607",
+   "url": "https://calendar.ufl.edu/innovate/event/58931-ready-to-work-connecting-with-uf-engineering-talent-lu",
+   "description": "Bring engineering talent to your startup! Join us for a Lunch & Learn to learn best practices for recruiting top UF Engineering talent and unique strategies for how the Herbert Wertheim College of Engineering Center for Experiential Learning can support your company. Find out how you can promote job openings to UF engineering students, discuss coordinated recruitment plans, and more!\nAbout our speakers:Sarah Furtney\n\nDr. Sarah Furtney is the inaugural Director of Experiential Learning at the Herbert Wertheim College of Engineering and an Instructional Associate Professor in the J. Crayton Pruitt Family Department of Biomedical Engineering. She received her B.S. in Biomedical Engineering from the University of Miami and Ph.D. in Bioengineering from Clemson University.\n———————This event is worth 15 Hub House points so don’t miss your chance to help your team climb the leaderboard. Select your Hub House when registering and rack up the points. If you’re not in a Hub House or not an Accelerate client, select “Unknown.”———————Thank you to our sponsors:\n\n———————UF Innovate | Accelerate\n\nUF Innovate | Accelerate is the University of Florida’s entrepreneurship support program that includes Sid Martin Biotech, the globally recognized biotechnology incubator located in Progress Park in Alachua, Florida, and The Hub, the globally recognized diversified tech incubator located in Gainesville’s Innovation District.",
+   "image": "",
+   "sources": [
+    {
+     "name": "UF Innovate",
+     "url": "https://calendar.ufl.edu/innovate/event/58931-ready-to-work-connecting-with-uf-engineering-talent-lu"
+    },
+    {
+     "name": "startGNV",
+     "url": "https://startgnv.com/event/ready-to-work-connecting-with-uf-engineering-talent-lunch-learn-2/"
+    }
+   ],
+   "first_seen": "2026-11-10T11:51:09.692422-05:00",
+   "blurb": null
+  },
+  {
    "uid": "d947ee917cafd426",
    "title": "Project \"Show & Tell\" Evening",
    "org": "aiGNV / GNV.AI",
    "start": "2026-11-18T17:00:00-05:00",
    "end": "2026-11-18T18:00:00-05:00",
    "all_day": false,
-   "location": "https://us06web.zoom.us/j/82993071959?pwd=nktfFGgoUMduLMvBiwwkkzuRCUJyZM.1",
+   "location": "Subscribe to newsletter for updates!",
    "url": "https://gnv.ai/events/project-show-and-tell-evening",
    "description": "Come on by to share what you've been working on, get feedback and support... And celebrate others :)\n\nJoin GNV.ai on the third Wednesday of each month from 5PM to 6pmPM for an evening of community, creativity, and collaboration. This public event highlights projects built by local innovators using AI for art, business, and everyday problem-solving. Come share your work, get inspired by others, and connect with like-minded creators shaping the future of AI in Gainesville.\n\nWhoever is on the call by 5:05pm gets a slot to present.",
    "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1785090603/gnv-community/events/i6oaz9ccgsvawrpcp9gf.jpg",
@@ -713,12 +801,12 @@
   },
   {
    "uid": "9d9ff73c51317832",
-   "title": "StartGNV's AI for Business Lunch & Learn",
+   "title": "AI for Business Lunch & Learn",
    "org": "aiGNV / GNV.AI",
    "start": "2026-12-09T12:00:00-05:00",
    "end": "2026-12-09T13:30:00-05:00",
    "all_day": false,
-   "location": "RSVP for info!",
+   "location": "Subscribe to newsletter for updates!",
    "url": "https://gnv.ai/events/ai-for-business-lunch-and-learn",
    "description": "BYO Lunch and Learn some cool AI tips and tricks for your business.\n\nEach month our partner StartGNV hosts and a lunch time event at Las Carretas, full of AI updates and tips and tricks for how you can implement AI into your business. \n\nRSVP for the taco bar and if you'd like to sponsor the event get get in touch!",
    "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1785090515/gnv-community/events/tw4lc9bmdw7hfpkjfjbf.jpg",
@@ -738,7 +826,7 @@
    "start": "2026-12-16T17:00:00-05:00",
    "end": "2026-12-16T18:00:00-05:00",
    "all_day": false,
-   "location": "https://us06web.zoom.us/j/82993071959?pwd=nktfFGgoUMduLMvBiwwkkzuRCUJyZM.1",
+   "location": "Subscribe to newsletter for updates!",
    "url": "https://gnv.ai/events/project-show-and-tell-evening",
    "description": "Come on by to share what you've been working on, get feedback and support... And celebrate others :)\n\nJoin GNV.ai on the third Wednesday of each month from 5PM to 6pmPM for an evening of community, creativity, and collaboration. This public event highlights projects built by local innovators using AI for art, business, and everyday problem-solving. Come share your work, get inspired by others, and connect with like-minded creators shaping the future of AI in Gainesville.\n\nWhoever is on the call by 5:05pm gets a slot to present.",
    "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1785090603/gnv-community/events/i6oaz9ccgsvawrpcp9gf.jpg",
@@ -749,6 +837,26 @@
     }
    ],
    "first_seen": "2026-09-23T11:06:28.616018-04:00",
+   "blurb": null
+  },
+  {
+   "uid": "0d8be3490aef14cf",
+   "title": "GNV.AI Cowork Session",
+   "org": "aiGNV / GNV.AI",
+   "start": "2027-01-02T12:00:00-05:00",
+   "end": null,
+   "all_day": false,
+   "location": "TBD ... Either Zoom or GTEC",
+   "url": "https://gnv.ai/events/the-monthly-weekend-workshop",
+   "description": "Meet people. Learn stuff. Have fun :)\n\nJoin GNV.ai on the first Saturday of each month from 11:30 AM to 3:00 PM for a free, hands-on workshop exploring how to use \"low-code\" AI for creativity, productivity, and everyday life. Open to the public and designed for low-intermediate experience levels, these sessions will help you learn practical tools and techniques for using AI to spark ideas, automate tasks, and simplify your work. Just bring your laptop and curiosity—everything else is provided.\n\nSpecial THANKS to GTEC for hosting!",
+   "image": "https://res.cloudinary.com/da7rpnk1v/image/upload/v1764259567/gnv-community/events/pnmx1qp9vlrcwbqr3qjo.jpg",
+   "sources": [
+    {
+     "name": "aiGNV / GNV.AI",
+     "url": "https://gnv.ai/events/the-monthly-weekend-workshop"
+    }
+   ],
+   "first_seen": "2026-11-10T11:51:09.692422-05:00",
    "blurb": null
   }
  ]
